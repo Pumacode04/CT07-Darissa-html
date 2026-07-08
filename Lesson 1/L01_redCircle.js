@@ -3,7 +3,9 @@ function setup(){
     background(220);
 }
 
-for (let i = 0; i < 5)
+for (let i = 0; i < 5; i++) {
+    console.log(i)
+}
 
 function draw(){
     fill(255, 0, 0);
