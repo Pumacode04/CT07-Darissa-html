@@ -24,6 +24,7 @@ function setup() {
    // write your codes here
    ball = new Sprite(400, 200, 100);
    ball.color = "#00ccff"
+   
 }
 
 function draw() {
