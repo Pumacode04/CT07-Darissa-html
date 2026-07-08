@@ -8,7 +8,7 @@ function draw(){
     ellipse(300,200,200,200);
 
     for (let i = 0; i < 5; i++) {
-        
+        console.log(i)
     }
 }
 
