@@ -23,7 +23,7 @@ function setup() {
    // Create a bouncing ball sprite
    // write your codes here
    ball = new Sprite(400, 200, 100);
-   ball.color = ""
+   ball.color = "lavender"
 }
 
 function draw() {
