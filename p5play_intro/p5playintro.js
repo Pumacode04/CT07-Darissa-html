@@ -11,7 +11,7 @@ function setup() {
   // End Basic shape testing
   fill("#fff700")
   stroke("black")
-
+  strokeWeight()
    // Create a bouncing ball sprite
    // write your codes here
 
