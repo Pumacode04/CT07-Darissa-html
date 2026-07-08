@@ -25,6 +25,7 @@ function setup() {
    ball = new Sprite(400, 200, 100);
    ball.color = "#00ccff"
    ball.stroke = "Black"
+   ball.strokeWeight = 5
 }
 
 function draw() {
