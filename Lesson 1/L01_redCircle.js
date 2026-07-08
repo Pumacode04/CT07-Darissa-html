@@ -3,6 +3,8 @@ function setup(){
     background(220);
 }
 
+for (let i = 0; i < 5)
+
 function draw(){
     fill(255, 0, 0);
     ellipse(300,200,200,200);
