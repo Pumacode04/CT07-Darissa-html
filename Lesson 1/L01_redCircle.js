@@ -8,4 +8,4 @@ function draw(){
     ellipse(300,200,200,200);
 }
 
-// green : 4efc03
+// green : 4efc03. Red : fc0000 
