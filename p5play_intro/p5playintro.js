@@ -14,7 +14,7 @@ function setup() {
   strokeWeight(7) //Outline thickness
 
   circle(400, 200, 100)
-  Rec(600, 300, 100, 100) // x, y, width, hright
+  rect(600, 300, 100, 100) // x, y, width, height
 
    // Create a bouncing ball sprite
    // write your codes here
