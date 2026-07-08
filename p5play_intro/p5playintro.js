@@ -13,16 +13,16 @@ function setup() {
   stroke("black") //Outline
   strokeWeight(7) //Outline thickness
 
-  // circle(400, 200, 100) //x, y, diameter
-  // rect(500, 200, 100, 200) // x, y, width, height
-  // triangle(400, 117.5, 350, 200, 450, 200) // x1, y1, x2, y2, x3, y3
-  // quad(150, 100, 225, 200, 150, 175, 75, 200) // x1, y1, x2, y2, x3, y3, x4, y4 // I'm not doing that.
+  // circle(400, 200, 100); //x, y, diameter
+  // rect(500, 200, 100, 200); // x, y, width, height
+  // triangle(400, 117.5, 350, 200, 450, 200); // x1, y1, x2, y2, x3, y3
+  // quad(150, 100, 225, 200, 150, 175, 75, 200); // x1, y1, x2, y2, x3, y3, x4, y4 // I'm not doing that.
 
   // End Basic shape testing
 
    // Create a bouncing ball sprite
    // write your codes here
-   ball = new Sprite(400, 200, 100)
+   ball = new Sprite(400, 200, 100);
 }
 
 function draw() {
