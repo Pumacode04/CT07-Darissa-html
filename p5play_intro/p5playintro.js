@@ -12,7 +12,8 @@ function setup() {
   fill("#fff700") //Color in shape
   stroke("black") //Outline
   strokeWeight(7) //Outline thickness
-  
+
+  circle()
 
    // Create a bouncing ball sprite
    // write your codes here
