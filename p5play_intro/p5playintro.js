@@ -18,10 +18,10 @@ function setup() {
   // triangle(400, 117.5, 350, 200, 450, 200) // x1, y1, x2, y2, x3, y3
   // quad(150, 100, 225, 200, 150, 175, 75, 200) // x1, y1, x2, y2, x3, y3, x4, y4 // I'm not doing that.
 
+  
+
    // Create a bouncing ball sprite
    // write your codes here
-
-   
 }
 
 function draw() {
