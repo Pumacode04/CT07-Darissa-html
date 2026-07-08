@@ -14,7 +14,7 @@ function setup() {
   strokeWeight(7) //Outline thickness
 
   circle(400, 200, 100)
-  React()
+  React(600, 300, 100, 100) // 
 
    // Create a bouncing ball sprite
    // write your codes here
