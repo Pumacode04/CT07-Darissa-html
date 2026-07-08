@@ -4,8 +4,8 @@ function setup(){
 }
 
 function draw(){
-    fill("#00ccff");
+    fill(255, 0, 0);
     ellipse(300,200,200,200);
 }
 
-// green : 4efc03. Red : fc0000. Yellow : ffcc000. Blue: 
+// green : 4efc03. Red : fc0000. Yellow : ffcc000. Blue: 00ccff
