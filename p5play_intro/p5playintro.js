@@ -15,7 +15,7 @@ function setup() {
 
   circle(400, 200, 100) //x, y, diameter
   rect(500, 200, 100, 200) // x, y, width, height
-  
+  triangle() // x1
 
    // Create a bouncing ball sprite
    // write your codes here
