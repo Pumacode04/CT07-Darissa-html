@@ -4,7 +4,7 @@ function setup() {
   background(250); //background color
 
 
-  
+  ball = new S
   // Basic shape testing
   // write your codes here
  
