@@ -69,4 +69,4 @@ Stays the same, No matter how you try to change the perspective.
 5. Sprite Collision and Game Over
 
 
-Score Tracking and Sounds
+6. Score Tracking and Sounds
