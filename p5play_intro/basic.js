@@ -18,7 +18,7 @@ function setup() {
   console.log(area)
   textSize(25)
   fill("Red")
-  text("Area = " + area, 100, 250)
+  text(" = " + area, 100, 250)
 
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
