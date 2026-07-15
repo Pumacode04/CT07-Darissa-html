@@ -61,6 +61,8 @@ Bird is always moving up and down because of gravity.
 Bird can fly up on click.
 
 3. Pipes or other Obstacles
-Scrolling and Camera Position
+
+
+4. Scrolling and Camera Position
 Sprite Collision and Game Over
 Score Tracking and Sounds
