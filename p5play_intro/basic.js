@@ -66,7 +66,7 @@ function setup() {
   let groceries = ["Cheese Cake", "Bunsun Burner", "Rasberry"]
   groceries.push("Cookies")
   groceries.push("Ice cream")
-  groceries.shift
+  groceries.shift();
 
   console.log(groceries)
 }
