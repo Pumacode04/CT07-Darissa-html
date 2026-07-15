@@ -53,7 +53,7 @@ Coming into contact with green poles.
 By the number at the top centre of the screen.
 
 1. Background and Character Setup
-
+Background moving slowly to the left
 
 Player Movement & Gravity
 Pipes or other Obstacles
