@@ -37,7 +37,7 @@ function setup() {
 
   // --- Exercise: Age category classification ---
   // write your codes here
-  age = 12
+  age = 16
   if (age <= 2) {
     console.log("Baby")
   } else if (age <= 4) {
