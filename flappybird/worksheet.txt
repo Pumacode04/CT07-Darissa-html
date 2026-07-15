@@ -52,4 +52,5 @@ Coming into contact with greeb poles.
 5. How is progress shown?
 By the number at the top centre of the screen.
 
-Background and Character Set-u
+Background and Character Setup
+Play movement 
