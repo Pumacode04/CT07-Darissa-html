@@ -37,7 +37,12 @@ function setup() {
 
   // --- Exercise: Age category classification ---
   // write your codes here
-  
+  let a =1
+  let b = "1"
+
+  if (a == b) {
+    
+  }
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
