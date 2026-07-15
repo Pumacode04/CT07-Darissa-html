@@ -53,4 +53,5 @@ Coming into contact with greeb poles.
 By the number at the top centre of the screen.
 
 Background and Character Setup
-Play movement 
+Play movement & Gravity
+Pipes or other obstacles
