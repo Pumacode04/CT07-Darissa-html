@@ -55,6 +55,6 @@ By the number at the top centre of the screen.
 Background and Character Setup
 Play movement & Gravity
 Pipes or other obstacles
-Scrolling and camera position
-Sprite Collision and Game over
+Scrolling and Camera Position
+Sprite Collision and Game Over
 Score Tracking and Sounds
