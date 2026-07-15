@@ -57,3 +57,4 @@ Play movement & Gravity
 Pipes or other obstacles
 Scrolling and camera position
 Sprite Collision and Game over
+Score Tracking and Sounds
