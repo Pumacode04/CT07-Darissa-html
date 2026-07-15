@@ -15,15 +15,15 @@ function setup() {
   base = 10;
   height = 5;
   area = base * height / 2;
-  console.log(area)
-  textSize(25)
-  fill("Red")
-  text("(" + base + "+" + height + ")" + " = " + area, 100, 250)
+  console.log(area);
+  textSize(25);
+  fill("Red");
+  text("(" + base + "+" + height + ")" + " = " + area, 100, 250);
 
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
   for (let i = 0; i < 10; i++){
-    
+    console.log(i);
   }
   // --- Exercise: Age category classification ---
   // write your codes here
