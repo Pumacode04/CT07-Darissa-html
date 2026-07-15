@@ -22,7 +22,8 @@ function setup() {
 
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
-
+for (let i = 0; i < 10; i++):
+co
   // --- Exercise: Age category classification ---
   // write your codes here
 
