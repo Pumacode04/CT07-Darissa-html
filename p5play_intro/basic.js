@@ -16,8 +16,8 @@ function setup() {
   height = 5;
   area = base * height / 2;
   console.log(area)
-  textSize(100)
-  fill("Navy")
+  textSize(125)
+  fill("Red")
   text("Area : " + area, 350, 250)
 
   // --- Exercise: Sum of first 10 even numbers ---
