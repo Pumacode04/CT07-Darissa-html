@@ -28,6 +28,8 @@ function setup() {
   for (let i = 2; i <= 20; i += 2){
     console.log(i);
     sum = sum + i;
+    text(i, 400, yPos);
+  yPos += 20;
   }
   console.log(sum);
   text(i, 400, yPos);
