@@ -45,8 +45,8 @@ function setup() {
   } else if (age <= 6) {
     console.log("Kindergarten")
   } else if (age <= 9) {
-    
-  }
+    console.log("Lower Primary")
+  } e
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
