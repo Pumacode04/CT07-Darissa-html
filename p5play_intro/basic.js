@@ -68,5 +68,6 @@ function setup() {
   groceries.push("Ice cream")
 
   console.log(groceries)
+  
 }
 
