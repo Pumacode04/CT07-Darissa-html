@@ -66,7 +66,7 @@ function setup() {
   let groceries = ["Cheese Cake", "Burnsun Burner", "Rasberry"];
   groceries.push("Cookies");
   groceries.push("Ice cream");
-  groceries.shift();
+  groceries.shift(); // remove first item
   groceries.pop(); // remove last item
   groceries.splice(1, 1); // (num of items to remove, index of that number)
 
