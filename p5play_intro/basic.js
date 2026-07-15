@@ -67,8 +67,8 @@ function setup() {
   groceries.push("Cookies");
   groceries.push("Ice cream");
   groceries.shift();
-  groceries.pop();
-  groceries.splice(1, 1); // (num of items to remove, )
+  groceries.pop(); // 
+  groceries.splice(1, 1); // (num of items to remove, index of that number)
 
   console.log(groceries);
 }
