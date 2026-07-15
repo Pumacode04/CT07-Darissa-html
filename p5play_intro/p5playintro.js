@@ -33,5 +33,3 @@ function draw() {
   background(250)
   ball.x += 1
 }
-
-//
