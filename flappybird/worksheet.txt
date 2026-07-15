@@ -20,3 +20,13 @@ WASD
 
 What happens when you win or lose?
 The game ends if you win. If you lose, the game ends only for you.
+
+3. Among us
+What is the goal of the game?
+To vote the imposter out if you are a crewmate. If you are the imposter, kill all the crewmates.
+
+How do you interact or control it?
+WASD
+
+What happens when you win or lose?
+The game ends if you win. If you lose, the game ends only for you.
