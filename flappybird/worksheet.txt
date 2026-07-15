@@ -3,3 +3,5 @@ For each one, write down:
 
 What os the goal of the game?
 
+How do you interact or controol it?
+
