@@ -37,22 +37,22 @@ function setup() {
 
   // --- Exercise: Age category classification ---
   // write your codes here
-  age = 16
-  if (age <= 2) {
-    console.log("Baby")
-  } else if (age <= 4) {
-    console.log("Nursery")
-  } else if (age <= 6) {
-    console.log("Kindergarten")
-  } else if (age <= 9) {
-    console.log("Lower Primary")
-  } else if (age <= 12) {
-    console.log("Upper Primary")
-  } else if (age <= 16) {
-    console.log("Secondary")
-  } else {
-    console.log("Out of secondary!")
-  }
+  // age = 16
+  // if (age <= 2) {
+  //   console.log("Baby")
+  // } else if (age <= 4) {
+  //   console.log("Nursery")
+  // } else if (age <= 6) {
+  //   console.log("Kindergarten")
+  // } else if (age <= 9) {
+  //   console.log("Lower Primary")
+  // } else if (age <= 12) {
+  //   console.log("Upper Primary")
+  // } else if (age <= 16) {
+  //   console.log("Secondary")
+  // } else {
+  //   console.log("Out of secondary!")
+  // }
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
