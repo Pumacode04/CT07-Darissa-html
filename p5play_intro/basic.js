@@ -59,7 +59,7 @@ function setup() {
   num = 19
   while (num >= 0) {
     console.log(num)
-    console.log 
+    num = num - 2
   }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
