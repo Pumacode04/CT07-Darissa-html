@@ -5,3 +5,4 @@ What os the goal of the game?
 
 How do you interact or controol it?
 
+What happens when you win or ose?
