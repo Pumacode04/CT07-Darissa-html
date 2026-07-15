@@ -39,9 +39,9 @@ Flappy Bird Analysis Worksheet?
 
 1. What are the objects? 
 
-What are the player’s actions?
+2. What are the player’s actions?
 
-What is the goal?
+3. What is the goal?
 
 What causes game over? 
 
