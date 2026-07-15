@@ -69,7 +69,7 @@ function setup() {
   groceries.shift(); // remove first item
   //groceries.pop(); // remove last item
  // groceries.splice(1, 1); // (index of that number, num of items to remove)
-  groceries.splice(1, 1, "Water"); // ()
+  groceries.splice(1, 1, "Water"); // (index of )
 
   console.log(groceries);
 }
