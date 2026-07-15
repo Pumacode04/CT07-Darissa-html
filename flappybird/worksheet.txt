@@ -43,8 +43,9 @@ Flappy Bird Analysis Worksheet?
 
 3. What is the goal?
 
-4. What causes game over? 
 
+4. What causes game over? 
+Coming into contact with greeb poles.
 
 5. How is progress shown?
 By the number at the top center ofthe screen.
