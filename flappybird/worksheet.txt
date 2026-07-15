@@ -47,7 +47,7 @@ Clicking on the screen and avoid touching the green poles.
 To have the highest "Score".
 
 4. What causes game over? 
-Coming into contact with greeb poles.
+Coming into contact with green poles.
 
 5. How is progress shown?
 By the number at the top centre of the screen.
