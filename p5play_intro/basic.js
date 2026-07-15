@@ -7,6 +7,7 @@ function setup() {
 
   let a = 1;
   let b = 2;
+  let sum = a + b
 
   // --- Exercise: Area of Triangle ---
   // write your codes here
