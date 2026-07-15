@@ -56,4 +56,4 @@ Background and Character Setup
 Play movement & Gravity
 Pipes or other obstacles
 Scrolling and camera position
-Spri
+Sprite Collision and Game over
