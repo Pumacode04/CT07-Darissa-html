@@ -26,10 +26,10 @@ function setup() {
   let sum = 0
   for (let i = 2; i <= 20; i += 2){
     console.log(i);
-    sum =+ i
+    sum =+ i;
   }
   console.log(sum);
-  
+
   // --- Exercise: Age category classification ---
   // write your codes here
 
