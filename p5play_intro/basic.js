@@ -51,7 +51,7 @@ function setup() {
   } else if (age <= 16) {
     console.log("Secondary")
   } else {
-    
+    console.log("Out of secondary!")
   }
 
   // --- Exercise: Display odd numbers backward using while loop ---
