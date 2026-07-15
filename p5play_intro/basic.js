@@ -63,14 +63,14 @@ function setup() {
   // }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-  let groceries = ["Cheese Cake", "Burnsun Burner", "Rasberry"];
-  groceries.push("Cookies");
-  groceries.push("Lolipop");
-  groceries.shift(); // remove first item
-  //groceries.pop(); // remove last item
- // groceries.splice(1, 1); // (index of that number, num of items to remove)
-  groceries.splice(1, 1, "Water"); // (index of item to put, num of item to add, stuff to add)
+//   let groceries = ["Cheese Cake", "Burnsun Burner", "Rasberry"];
+//   groceries.push("Cookies");
+//   groceries.push("Lolipop");
+//   groceries.shift(); // remove first item
+//   //groceries.pop(); // remove last item
+//  // groceries.splice(1, 1); // (index of that number, num of items to remove)
+//   groceries.splice(1, 1, "Water"); // (index of item to put, num of item to add, stuff to add)
 
-  console.log(groceries);
+//   console.log(groceries);
 }
 
