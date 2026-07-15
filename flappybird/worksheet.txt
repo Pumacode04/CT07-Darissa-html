@@ -45,5 +45,6 @@ Flappy Bird Analysis Worksheet?
 
 4. What causes game over? 
 
+
 5. How is progress shown?
-By the number abov
+By the number at the top center ofthe screen.
