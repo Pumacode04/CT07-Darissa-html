@@ -41,7 +41,7 @@ function setup() {
   if (age <= 2) {
     console.log("Baby")
   } else if (age <= 4) {
-    
+    console.log("nursery)
   }
 
   // --- Exercise: Display odd numbers backward using while loop ---
