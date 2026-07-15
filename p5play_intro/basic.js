@@ -68,7 +68,7 @@ function setup() {
   groceries.push("Ice cream");
   groceries.shift();
   groceries.pop();
-  
+  groceries.splice(1.)
 
   console.log(groceries);
 }
