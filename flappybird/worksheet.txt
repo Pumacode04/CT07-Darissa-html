@@ -34,3 +34,5 @@ WASD/Spacebar
 What happens when you win or lose?
 The game ends if you win. If you lose, the game ends only for you.
 
+-------------------------------------------------------------------
+Fla
