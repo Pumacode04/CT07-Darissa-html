@@ -43,6 +43,7 @@ Flappy Bird Analysis Worksheet?
 
 3. What is the goal?
 
-What causes game over? 
+4. What causes game over? 
 
-How is progress shown?
+5. How is progress shown?
+By the number abov
