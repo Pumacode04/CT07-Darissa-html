@@ -50,4 +50,4 @@ To have the highest "Score".
 Coming into contact with greeb poles.
 
 5. How is progress shown?
-By the number at the top center ofthe screen.
+By the number at the top centre of the screen.
