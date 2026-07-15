@@ -57,6 +57,8 @@ Background moving slowly to the left.
 Character is in the middle of the screen and stays there throughout.
 
 Player Movement & Gravity
+
+
 Pipes or other Obstacles
 Scrolling and Camera Position
 Sprite Collision and Game Over
