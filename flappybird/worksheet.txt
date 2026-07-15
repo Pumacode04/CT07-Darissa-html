@@ -38,7 +38,7 @@ The game ends if you win. If you lose, the game ends only for you.
 Flappy Bird Analysis Worksheet?
 
 1. What are the objects? 
-Flappy Bird itself graces us with its presence. Green pole, background 
+Flappy Bird itself graces us with its presence. Green pole, background with 
 
 2. What are the player’s actions?
 Clicking on the screen and avoid touching the green poles.
