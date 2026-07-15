@@ -67,6 +67,7 @@ Serves as a way to lose the game.
 Stays the same, No matter how you try to change the perspective.
 
 5. Sprite Collision and Game Over
-
+You lose.
 
 6. Score Tracking and Sounds
+Cool!
