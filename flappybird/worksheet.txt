@@ -61,8 +61,10 @@ Bird is always moving up and down because of gravity.
 Bird can fly up on click.
 
 3. Pipes or other Obstacles
-
+Serves as a way to lose the game.
 
 4. Scrolling and Camera Position
+Yo
+
 Sprite Collision and Game Over
 Score Tracking and Sounds
