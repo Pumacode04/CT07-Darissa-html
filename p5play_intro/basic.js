@@ -64,5 +64,6 @@ function setup() {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
   let groceries = ["Cheese Cake", "Bunsun Burner", "Rasberry"]
+  groceries.push()
 }
 
