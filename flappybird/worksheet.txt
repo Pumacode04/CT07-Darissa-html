@@ -25,7 +25,7 @@ The game ends if you win. If you lose, the game ends only for you.
 3. Solitary Confinement
 What is the goal of the game?
 To survive longer than the Jack of Hearts if you're a Player. If you are the Jack of Hearts,
-
+lie to Players about their symbols discreetly and survive.
 
 How do you interact or control it?
 WASD
