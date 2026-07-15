@@ -37,7 +37,10 @@ function setup() {
 
   // --- Exercise: Age category classification ---
   // write your codes here
-  age = 
+  age = 3
+  if (age <= 2) {
+    
+  }
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
