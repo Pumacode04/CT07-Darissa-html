@@ -15,7 +15,8 @@ function setup() {
   base = 10;
   height = 5;
   area = base * height / 2;
-  
+  console.log(area)
+  text(area)
 
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
