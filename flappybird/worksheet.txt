@@ -22,14 +22,14 @@ WASD
 What happens when you win or lose?
 The game ends if you win. If you lose, the game ends only for you.
 
-3. Solitary Confinement
+3. Roblox -- Solitary Confinement
 What is the goal of the game?
 To survive longer than the Jack of Hearts if you're a Player. If you are the Jack of Hearts,
 lie to Players about their symbols discreetly and win when there's you and one other
 Player left.
 
 How do you interact or control it?
-WASD/
+WASD/Spacebar
 
 What happens when you win or lose?
 The game ends if you win. If you lose, the game ends only for you.
