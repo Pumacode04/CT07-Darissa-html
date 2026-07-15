@@ -23,7 +23,7 @@ The game ends if you win. If you lose, the game ends only for you.
 
 3. Solitary Confinement
 What is the goal of the game?
-
+To survive if
 
 How do you interact or control it?
 WASD
