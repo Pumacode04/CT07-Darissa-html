@@ -63,12 +63,12 @@ function setup() {
   // }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-  let groceries = ["Cheese Cake", "Bunsun Burner", "Rasberry"]
-  groceries.push("Cookies")
-  groceries.push("Ice cream")
+  let groceries = ["Cheese Cake", "Bunsun Burner", "Rasberry"];
+  groceries.push("Cookies");
+  groceries.push("Ice cream");
   groceries.shift();
   groceries.pop();
 
-  console.log(groceries)
+  console.log(groceries);
 }
 
