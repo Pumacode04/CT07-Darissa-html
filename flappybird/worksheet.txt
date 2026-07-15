@@ -10,3 +10,13 @@ WASD and spacebar
 
 What happens when you win or lose?
 The game ends if you win. If you lose, the game ends only for you.
+
+1. Roblox -- Total Roblox Drama
+What is the goal of the game?
+To beat the other players.
+
+How do you interact or control it?
+WASD and spacebar
+
+What happens when you win or lose?
+The game ends if you win. If you lose, the game ends only for you.
