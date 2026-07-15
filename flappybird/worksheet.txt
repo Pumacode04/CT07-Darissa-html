@@ -37,7 +37,7 @@ The game ends if you win. If you lose, the game ends only for you.
 -------------------------------------------------------------------
 Flappy Bird Analysis Worksheet?
 
-What are the objects? 
+1. What are the objects? 
 
 What are the player’s actions?
 
@@ -45,6 +45,4 @@ What is the goal?
 
 What causes game over? 
 
-How is 
-progress 
-shown?
+How is progress shown?
