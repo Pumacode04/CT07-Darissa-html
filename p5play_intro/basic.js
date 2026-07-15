@@ -65,6 +65,6 @@ function setup() {
   // write your codes here
   let groceries = ["Cheese Cake", "Bunsun Burner", "Rasberry"]
   groceries.push("Cookies")
-  groceries.push()
+  groceries.push("Ice cream")
 }
 
