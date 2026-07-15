@@ -42,7 +42,7 @@ Flappy Bird Analysis Worksheet?
 2. What are the player’s actions?
 
 3. What is the goal?
-
+To have the highest "Score".
 
 4. What causes game over? 
 Coming into contact with greeb poles.
