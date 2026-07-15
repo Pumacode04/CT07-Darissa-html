@@ -55,3 +55,5 @@ By the number at the top centre of the screen.
 Background and Character Setup
 Play movement & Gravity
 Pipes or other obstacles
+Scrolling and camera position
+Spri
