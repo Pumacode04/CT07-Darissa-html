@@ -57,7 +57,7 @@ function setup() {
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
   num = 19
-  while (num >= 0) {
+  while (num >= 1) {
     console.log(num)
     num = num - 2
   }
