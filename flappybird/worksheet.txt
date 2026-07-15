@@ -39,8 +39,9 @@ Flappy Bird Analysis Worksheet?
 
 1. What are the objects? 
 
+
 2. What are the player’s actions?
-Clicking on the screen and t
+Clicking on the screen and avoid touching the green poles.
 
 3. What is the goal?
 To have the highest "Score".
