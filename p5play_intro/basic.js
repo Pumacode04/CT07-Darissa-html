@@ -13,8 +13,8 @@ function setup() {
   // --- Exercise: Area of Triangle ---
   // write your codes here
   base = 10;
-  height = 5
-  area = base 
+  height = 5;
+  area = base * height / 2;
 
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
