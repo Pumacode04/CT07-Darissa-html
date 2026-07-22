@@ -19,7 +19,7 @@ function setup() {
     world.gravity.y = 10;
 
     // Debug text
-    fill("#fcba03") //Text colour
+    fill("#fc0303") //Text colour
     textSize(14);
 
 
