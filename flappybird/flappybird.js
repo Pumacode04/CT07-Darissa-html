@@ -2,10 +2,11 @@
 let bird;
 let floor;
 
-
+//Image assets
+let bird = 
 
 function preload() {
-    
+
 }
 
 function setup() {
