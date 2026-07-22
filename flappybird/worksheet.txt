@@ -64,6 +64,7 @@ Bird can fly up on click.
 Serves as a way to lose the game.
 The pipes appear at fixed distances.
 
+
 4. Scrolling and Camera Position
 Stays the same, No matter how you try to change the perspective.
 
