@@ -70,9 +70,9 @@ Pipes are moving to the left.
 Background and floor is also moving and looping.
 
 5. Sprite Collision and Game Over
-You lose.
 Game ends when bird collides.
 Bird can collide with pipes and floor.
+
 
 6. Score Tracking and Sounds
 Cool!
