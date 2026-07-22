@@ -3,7 +3,8 @@ let bird;
 let floor;
 
 //Image assets
-let bird = loadImage("assets/yellowbird-midfflap - midfalp.png")
+let bird = loadImage("assets/yellowbird-midfflap - midfalp.png");
+
 
 function preload() {
     
