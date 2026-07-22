@@ -62,6 +62,7 @@ Bird can fly up on click.
 
 3. Pipes or other Obstacles
 Serves as a way to lose the game.
+()
 
 4. Scrolling and Camera Position
 Stays the same, No matter how you try to change the perspective.
