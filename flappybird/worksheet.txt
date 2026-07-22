@@ -67,6 +67,7 @@ The pipes change their y position randomly.
 
 4. Scrolling and Camera Position
 Stays the same, No matter how you try to change the perspective.
+Camera is slowly moving to the right.
 
 
 5. Sprite Collision and Game Over
