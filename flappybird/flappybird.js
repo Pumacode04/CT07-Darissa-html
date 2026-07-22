@@ -6,7 +6,7 @@ let floor;
 let bird = loadImage("assets/yellowbird-midfflap - midfalp.png")
 
 function preload() {
-
+    
 }
 
 function setup() {
