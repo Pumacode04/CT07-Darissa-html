@@ -18,6 +18,10 @@ function setup() {
 
     world.gravity.y = 10;
 
+    // Debug text
+    fill("#fcba03") //Text colour
+    textSize(14);
+
 
     // Create bird sprite
     bird = new Sprite();
@@ -45,7 +49,7 @@ function draw() {
 
     if (kb.presses("space" || mouse.presses("left"))) {
         bird.vel.y = -5; // Up velocity
-        
+        bird.sleeping = false; // wake up if sleeping
 
     }
 }
