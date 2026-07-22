@@ -77,4 +77,5 @@ Game ends when bird collides.
 6. Score Tracking and Sounds
 Score increases when the bird goes trhough the pipes.
 Bird flap sound effects.
-Sc
+Score increase sound effect.
+Bord collide sound effects.
