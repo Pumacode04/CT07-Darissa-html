@@ -5,7 +5,7 @@ let floor;
 //Image assets
 let bird = loadImage("assets/yellowbird-midfflap - midfalp.png");
 let background = loadImgae("assets/background-day.png");
-
+let base = loadImage("flappybir")
 
 function preload() {
     
