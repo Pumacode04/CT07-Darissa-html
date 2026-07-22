@@ -26,11 +26,8 @@ function setup() {
     bird.bounciness = 0.5;
     bird.collider = "dynamic";
 
-
-    world.gravity.y = 10;
-
     // Create floor sprite
-    
+    floor = new Sprite()
 
 }
 
