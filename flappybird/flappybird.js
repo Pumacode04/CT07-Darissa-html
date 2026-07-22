@@ -3,7 +3,9 @@ let bird;
 let floor;
 
 //Image assets
-let birdMidM
+let birdMidImg;
+let background;
+let base;
 
 
 function preload() {
