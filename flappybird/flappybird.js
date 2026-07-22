@@ -35,7 +35,8 @@ function setup() {
     floor.width = width;
     floor.height = 125;
     floor.x = width / 2;
-    floor.y = height / 2;
+    floor.y = height - 20;
+    floor.collider = "s"
 
 }
 
