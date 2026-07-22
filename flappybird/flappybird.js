@@ -36,10 +36,14 @@ function setup() {
     floor.height = 125;
     floor.x = width / 2;
     floor.y = height - 20;
-    floor.collider = "static" // Coll
+    floor.collider = "static" // Colliadble but will not move
 
 }
 
 function draw() {
     image(background, 0, 0, width, height); // (image, x, y, width, height)
+
+    if (kb.presses("space")) {
+        
+    }
 }
