@@ -72,7 +72,6 @@ Background and floor is also moving and looping.
 5. Sprite Collision and Game Over
 Game ends when bird collides.
 Bird can collide with pipes and floor.
-
+Game ends when bird collides.
 
 6. Score Tracking and Sounds
-Cool!
