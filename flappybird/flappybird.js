@@ -44,6 +44,7 @@ function draw() {
     image(background, 0, 0, width, height); // (image, x, y, width, height)
 
     if (kb.presses("space")) {
-        bird.vel
+        bird.vel.y = -15;
+        
     }
 }
