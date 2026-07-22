@@ -75,3 +75,5 @@ Bird can collide with pipes and floor.
 Game ends when bird collides.
 
 6. Score Tracking and Sounds
+Score increases when the bird goes trhough the pipes.
+Bird flap sound effects.
