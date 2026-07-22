@@ -44,7 +44,7 @@ function draw() {
     image(background, 0, 0, width, height); // (image, x, y, width, height)
 
     if (kb.presses("space")) {
-        bird.vel.y = -15;
-        
+        bird.vel.y = -15; // Up velocity
+
     }
 }
