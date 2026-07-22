@@ -52,5 +52,5 @@ function draw() {
         bird.sleeping = false; // wake up if sleeping
     }
 
-    text()
+    text("vel.y:" + bird.vel.y.toFixed(2))
 }
