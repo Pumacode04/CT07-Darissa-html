@@ -61,12 +61,10 @@ Bird is always moving up and down because of gravity.
 Bird can fly up on click.
 
 3. Pipes or other Obstacles
-Serves as a way to lose the game.
 The pipes appear at fixed distances.
 The pipes change their y position randomly.
 
 4. Scrolling and Camera Position
-Stays the same, No matter how you try to change the perspective.
 Camera is slowly moving to the right.
 Pipes are moving to the left.
 Background and floor is also moving and looping.
