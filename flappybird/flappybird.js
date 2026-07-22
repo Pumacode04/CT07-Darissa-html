@@ -51,4 +51,6 @@ function draw() {
         bird.vel.y = -5; // Up velocity
         bird.sleeping = false; // wake up if sleeping
     }
+
+    text()
 }
