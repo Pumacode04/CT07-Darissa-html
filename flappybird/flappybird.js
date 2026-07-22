@@ -53,5 +53,6 @@ function draw() {
     }
 
     text("vel.y:" + bird.vel.y.toFixed(2), 10, 20); // (text, x, y)
-    text("isMoving:" + bird.isMoving)
+    text("isMoving:" + bird.isMoving, 10, 40);
+    
 }
