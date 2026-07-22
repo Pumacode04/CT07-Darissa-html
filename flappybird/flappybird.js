@@ -18,7 +18,7 @@ function setup() {
     bird = new Sprite();
     bird.img = birdMidImg;
     bird.width = 30;
-    bird.
+    bird.height = 30;
 }
 
 function draw() {
