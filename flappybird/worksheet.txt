@@ -69,7 +69,7 @@ The pipes change their y position randomly.
 Stays the same, No matter how you try to change the perspective.
 Camera is slowly moving to the right.
 Pipes are moving to the left.
-Background and floor is also moving and repeats.
+Background and floor is also moving and looping.
 
 5. Sprite Collision and Game Over
 You lose.
