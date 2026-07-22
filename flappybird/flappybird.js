@@ -50,6 +50,5 @@ function draw() {
     if (kb.presses("space" || mouse.presses("left"))) {
         bird.vel.y = -5; // Up velocity
         bird.sleeping = false; // wake up if sleeping
-
     }
 }
