@@ -43,7 +43,7 @@ function setup() {
 function draw() {
     image(background, 0, 0, width, height); // (image, x, y, width, height)
 
-    if (kb.presses("space" || button.mouse.presses("left"))) {
+    if (kb.presses("space" || mouse.presses("left"))) {
         bird.vel.y = -5; // Up velocity
 
     }
