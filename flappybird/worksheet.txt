@@ -73,7 +73,7 @@ Background and floor is also moving and looping.
 
 5. Sprite Collision and Game Over
 You lose.
-Bird 
+Bird an collide 
 
 6. Score Tracking and Sounds
 Cool!
