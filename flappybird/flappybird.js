@@ -29,7 +29,8 @@ function setup() {
 
     world.gravity.y = 10;
 
-    // Create f
+    // Create floor sprite
+    
 
 }
 
