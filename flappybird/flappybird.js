@@ -14,6 +14,7 @@ let base = loadImage("flappybird/assets/base.png")
 function setup() {
     new Canvas(400, 600)
     
+    
 }
 
 function draw() {
