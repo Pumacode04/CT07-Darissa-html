@@ -9,9 +9,9 @@ let base;
 
 
 function preload() {
-    let bird = loadImage("assets/yellowbird-midflap-midflap.png");
-    let background = loadImgae("assets/background-day.png");
-    let base = loadImage("assets/base.png");
+    bird = loadImage("assets/yellowbird-midflap-midflap.png");
+    background = loadImgae("assets/background-day.png");
+    base = loadImage("assets/base.png");
 }
 
 function setup() {
