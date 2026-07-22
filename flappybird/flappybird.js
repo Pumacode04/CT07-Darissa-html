@@ -17,7 +17,7 @@ function setup() {
     // Create bird sprite
     bird = new Sprite();
     bird.img = birdMidImg;
-    
+    bird.width 
 }
 
 function draw() {
