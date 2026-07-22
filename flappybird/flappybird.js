@@ -16,6 +16,9 @@ function preload() {
 function setup() {
     new Canvas(400, 600);
 
+    world.gravity.y = 10;
+
+
     // Create bird sprite
     bird = new Sprite();
     bird.img = birdMidImg;
@@ -28,6 +31,7 @@ function setup() {
 
     // Create floor sprite
     floor = new Sprite()
+    
 
 }
 
