@@ -57,7 +57,7 @@ function draw() {
     }
 
     if (bird.vel.y < -1) {
-        bird.vel.y = -5; // Up velocity
+        bird // Up velocity
         bird.sleeping = false; // Make sure no sprite is idle
     }
 
