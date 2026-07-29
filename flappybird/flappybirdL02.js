@@ -2,7 +2,7 @@
 let bird;
 let floor;
 let pipeGroup;
-let bottomPipe;
+let topPipe, bottomPipe;
 
 // Image assets
 let birdMidImg;
