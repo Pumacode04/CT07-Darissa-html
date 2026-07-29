@@ -88,5 +88,5 @@ function spawnPipePair() {
   let midY = height / 2;
 
   // create the bottom pipe sprite
-  
+  bottomPipe = new Sprite
 }
