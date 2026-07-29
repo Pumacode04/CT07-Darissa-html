@@ -18,7 +18,7 @@ function preload() {
     birdDownImg = loadImage("assets/yellowbird-downflap.png");
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
-    pipe = loadImage(ássets/pipe-green.png')
+    pipe = loadImage('assets/pipe-green.png');
 }
 
 function setup() {
