@@ -63,7 +63,9 @@ let startGame = false; // flag is false at the start
 
 function draw() {
     image(background, 0, 0, width, height); // (image, x, y, width, height)
-
+        //set up the start message and display
+    startScreenLabel = new Sprite(width/2, hieght/2, 50, 50, 'none');
+    startScreenLabel.img = startScreenImg; 
     //at start of game, press space or mouse to start
     if (kb.presses("space") || mouse.presses())
         startGame = true;
@@ -124,9 +126,7 @@ function draw() {
     noLoop(); // Take note of the case!
     }
 
-    //set up the start message and display
-    startScreenLabel = new Sprite(width/2, hieght/2, 50, 50, 'none');
-    startScreenLabel.img = startScreenImg; 
+
     }
 
     
