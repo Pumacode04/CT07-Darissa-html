@@ -66,7 +66,7 @@ function draw() {
     }
     else{
         bird.img = flapMidImg; // neutral
-        
+        bird.rotation = 0;
     }
 
     text("vel.y:" + bird.vel.y.toFixed(2), 10, 20); // (text, x, y)
