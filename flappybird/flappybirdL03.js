@@ -99,6 +99,8 @@ function draw() {
     }
 
     //End Game on Collision
+    // note that this is checking collision against the group
+    
 }
 
 function spawnPipePair() {
