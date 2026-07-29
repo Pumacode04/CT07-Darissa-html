@@ -98,7 +98,7 @@ function draw() {
         }
     }
 
-    
+    //End Game on Collision
 }
 
 function spawnPipePair() {
