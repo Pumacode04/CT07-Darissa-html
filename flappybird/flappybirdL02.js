@@ -57,8 +57,8 @@ function draw() {
     }
 
     if (bird.vel.y < -1) {
-        bird // Up velocity
-        bird.sleeping = false; // Make sure no sprite is idle
+        bird.img = flapUpImg // Up velocity
+        bi // Make sure no sprite is idle
     }
 
     text("vel.y:" + bird.vel.y.toFixed(2), 10, 20); // (text, x, y)
