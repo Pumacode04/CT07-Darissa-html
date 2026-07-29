@@ -86,6 +86,10 @@ function draw() {
     bird.x += 3; // make the bird move forward
     camera.x = bird.x; // "lock" the camera pos to the bird.x pos
     floor.x = bird.x; // "locl"the floor pos to the bird.x pos
+
+    if (frame % 90 === 0){
+        
+    }
 }
 
 function spawnPipePair() {
