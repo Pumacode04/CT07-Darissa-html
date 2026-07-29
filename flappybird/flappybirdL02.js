@@ -61,11 +61,11 @@ function draw() {
         bird.rotation = -30; // rotate up
     }
     else if (bird.vel.y < 1) {
-        bird.img = flapDownImg; // falling
+        bird.img = birdDownImg; // falling
         bird.rotation = 30; // rotate down
     }
     else{
-        bird.img = flapMidImg; // neutral
+        bird.img = birdMidImg; // neutral
         bird.rotation = 0;
     }
 
