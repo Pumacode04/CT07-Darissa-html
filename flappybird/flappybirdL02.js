@@ -3,13 +3,13 @@ let bird;
 let floor;
 let pipeGroup;
 
-
 // Image assets
 let birdMidImg;
 let birdUpImg;
 let birdDownImg;
 let background;
 let base;
+
 
 function preload() {
     birdMidImg = loadImage("assets/yellowbird-midflap.png");
