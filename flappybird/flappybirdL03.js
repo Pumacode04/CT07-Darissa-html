@@ -4,7 +4,7 @@ let floor;
 let pipeGroup;
 let topPipe, bottomPipe;
 let gameoverLabel;
-let startsScreen
+let startsScreenLabel;
 
 // Image assets
 let birdMidImg;
@@ -14,6 +14,7 @@ let background;
 let base;
 let pipe;
 let gameoverImg;
+let starts
 
 function preload() {
     birdMidImg = loadImage("assets/yellowbird-midflap.png");
