@@ -12,7 +12,7 @@ let birdDownImg;
 let background;
 let base;
 let pipe;
-let
+let gameOverImg;
 
 function preload() {
     birdMidImg = loadImage("assets/yellowbird-midflap.png");
@@ -21,6 +21,7 @@ function preload() {
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
     pipe = loadImage('assets/pipe-green.png');
+    gameOverImg = loadImage9
 }
 
 function setup() {
