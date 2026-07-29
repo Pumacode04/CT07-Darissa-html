@@ -83,7 +83,7 @@ function draw() {
     }
 
     bird.x += 3; // make the bird move forward
-    camera.x = bird.x; // 'loc
+    camera.x = bird.x; // "lock" 
     floor.x = bird.x;
 }
 
