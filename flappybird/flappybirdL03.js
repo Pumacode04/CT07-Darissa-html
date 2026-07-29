@@ -105,7 +105,8 @@ function draw() {
     // note that this is checking collision against the group
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
     gameOverLabel = new Sprite(width/2, hieght/2, 192, 42, 'none');
-    gameOverLabel.
+    gameOverLabel.img = gameoverImg;
+    
     }
     
 }
