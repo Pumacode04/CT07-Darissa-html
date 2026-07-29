@@ -82,8 +82,8 @@ function draw() {
         spawnPipePair(); // call the function
     }
 
-    bird.x += 3; // mkae the bird move forward
-    camera.x = bird.x;
+    bird.x += 3; // make the bird move forward
+    camera.x = bird.x; // 'loc
     floor.x = bird.x;
 }
 
