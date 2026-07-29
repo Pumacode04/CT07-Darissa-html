@@ -65,7 +65,8 @@ function draw() {
         bird.rotation = 30; // rotate down
     }
     else{
-        bird.img = flapMidImg
+        bird.img = flapMidImg; // neutral
+        
     }
 
     text("vel.y:" + bird.vel.y.toFixed(2), 10, 20); // (text, x, y)
