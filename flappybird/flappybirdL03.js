@@ -88,7 +88,7 @@ function draw() {
     floor.x = bird.x; // "locl"the floor pos to the bird.x pos
 
     if (frame % 90 === 0){
-        spawnPipePair(); 
+        spawnPipePair(); // spawn pipe every 1.5 seconds
     }
 }
 
