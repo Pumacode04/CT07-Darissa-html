@@ -10,7 +10,7 @@ let base;
 function preload() {
     birdMidImg = loadImage("assets/yellowbird-midflap.png");
     birdUpImg = loadImage("assets/yellowbird-upflap.png");
-    birdDownImg = loadImage("assets/yellowbird-upflap.png");
+    birdDownImg = loadImage("assets/yellowbird-downflap.png");
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
 }
