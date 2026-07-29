@@ -93,4 +93,6 @@ function spawnPipePair() {
 
   pipeGroup.add(bottomPipe);
   pipeGroup.layer = 0; // go behind other sprites
+
+  let gap 
 }
