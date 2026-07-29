@@ -2,6 +2,7 @@
 let bird;
 let floor;
 
+
 // Image assets
 let birdMidImg;
 let birdUpImg;
