@@ -97,6 +97,8 @@ function draw() {
             pipe.remove();
         }
     }
+
+    
 }
 
 function spawnPipePair() {
