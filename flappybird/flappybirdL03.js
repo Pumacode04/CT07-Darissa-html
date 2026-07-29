@@ -72,9 +72,9 @@ function draw() {
     //at start of game, press space or mouse to start
     if (kb.presses("space") || mouse.presses()){
         startGame = true;
-    startScreenLabel.visible = false;
+        startScreenLabel.visible = false;
         bird.visible = true;
-        bird.collier = 'dynamic';
+        bird.collider = 'dynamic';
     }
     //of startGame flag is true, then run all the other code
     if (startGame){
