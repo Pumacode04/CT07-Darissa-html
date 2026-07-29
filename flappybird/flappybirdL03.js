@@ -87,7 +87,7 @@ function draw() {
     camera.x = bird.x; // "lock" the camera pos to the bird.x pos
     floor.x = bird.x; // "locl"the floor pos to the bird.x pos
 
-    if (frame % 90 === 0){
+    if (frameCount % 90 === 0){
         spawnPipePair(); // spawn pipe every 1.5 seconds
     }
 
