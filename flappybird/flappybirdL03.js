@@ -70,10 +70,10 @@ function draw() {
   
 
     //at start of game, press space or mouse to start
-    if (kb.presses("space") || mouse.presses())
+    if (kb.presses("space") || mouse.presses()){
         startGame = true;
     startScreenLabel.visible = false;
-
+    }
     //of startGame flag is true, then run all the other code
     if (startGame){
         if (kb.presses("space" || mouse.presses("left"))) {
@@ -132,8 +132,6 @@ function draw() {
 
     }
 
-    
-    
 }
 
 function spawnPipePair() {
