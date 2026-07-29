@@ -104,8 +104,8 @@ function draw() {
     //End Game on Collision
     // note that this is checking collision against the group
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
-    gameOverLabel = new Sprite(width/2, hieght/2, 192, 42, 'none');
-    gameOverLabel.img = gameoverImg;
+    gameoverLabel = new Sprite(width/2, hieght/2, 192, 42, 'none');
+    gameoverLabel.img = gameoverImg;
     gameoverLabel.layer = 100; // make the game over text come to front
     gameoverLabel.x = camera.x;
 
