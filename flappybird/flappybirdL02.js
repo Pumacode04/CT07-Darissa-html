@@ -92,5 +92,5 @@ function spawnPipePair() {
   bottomPipe.img = pipe;
 
   pipeGroup.add(bottomPipe);
-  pipeGroup.la
+  pipeGroup.layer = 0; // go behind other sprites
 }
