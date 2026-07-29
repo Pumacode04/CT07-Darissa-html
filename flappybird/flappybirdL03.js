@@ -4,6 +4,7 @@ let floor;
 let pipeGroup;
 let topPipe, bottomPipe;
 let gameoverLabel;
+let startsScreen
 
 // Image assets
 let birdMidImg;
