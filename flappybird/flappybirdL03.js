@@ -46,7 +46,7 @@ function setup() {
     bird.drag = 0.02; // Air resistance, higher = more resistance
     bird.bounciness = 0.5; // Higher = bouncier
     bird.collider = "static"; // Collidable, movable and affected by physics
-    bird.visible = 
+    bird.visible = false;
     // Create floor sprite
     floor = new Sprite();
     floor.img = base;
@@ -73,6 +73,7 @@ function draw() {
     if (kb.presses("space") || mouse.presses()){
         startGame = true;
     startScreenLabel.visible = false;
+    
     }
     //of startGame flag is true, then run all the other code
     if (startGame){
