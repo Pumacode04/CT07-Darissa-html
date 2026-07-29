@@ -58,7 +58,7 @@ function draw() {
 
     if (bird.vel.y < -1) {
         bird.img = flapUpImg; // flying around
-        bird.rotation = -30; // 
+        bird.rotation = -30; // rotate up
     }
 
     text("vel.y:" + bird.vel.y.toFixed(2), 10, 20); // (text, x, y)
