@@ -1,7 +1,7 @@
 // Game objects
 let bird;
 let floor;
-
+let pipeGroup;
 
 // Image assets
 let birdMidImg;
