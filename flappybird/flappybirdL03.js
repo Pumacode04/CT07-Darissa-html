@@ -74,62 +74,7 @@ function draw() {
         
     }
 
-    if (kb.presses("space" || mouse.presses("left"))) {
-        bird.vel.y = -5; // Up velocity
-        bird.sleeping = false; // Make sure no sprite is idle
-    }
-
-    if (bird.vel.y < -1) {
-        bird.img = birdUpImg; // flying around
-        bird.rotation = -30; // rotate up
-    }
-    else if (bird.vel.y < 1) {
-        bird.img = birdDownImg; // falling
-        bird.rotation = 30; // rotate down
-    }
-    else{
-        bird.img = birdMidImg; // neutral
-        bird.rotation = 0;
-    }
-
-    text("vel.y:" + bird.vel.y.toFixed(2), 10, 20); // (text, x, y)
-    text("isMoving:" + bird.isMoving, 10, 40);
-    text("sleeping:"+ bird.sleeping, 10, 60);
-
-    if (frameCount === 1) {
-        spawnPipePair(); // call the function
-    }
-
-    // make the bird move "forward"
-    bird.x += 3; // make the bird move forward
-    camera.x = bird.x; // "lock" the camera pos to the bird.x pos
-    floor.x = bird.x; // "locl"the floor pos to the bird.x pos
-
-    if (frameCount % 90 === 0){
-        spawnPipePair(); // spawn pipe every 1.5 seconds
-    }
-
-    //remove off the screen pipes
-    for (let pipe of pipeGroup){
-        if (pipe.x < -50){
-            pipe.remove();
-        }
-    }
-
-    //End Game on Collision
-    // note that this is checking collision against the group
-    if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y < -30) {
-    gameoverLabel = new Sprite(width/2, height/2, 192, 42, 'none');
-    gameoverLabel.img = gameoverImg;
-    gameoverLabel.layer = 100; // make the game over text come to front
-    gameoverLabel.x = camera.x;
-
-    noLoop(); // Take note of the case!
-    }
-
-    //set up the start message and display
-    startScreenLabel = new Sprite(width/2, hieght/2, 50, 50, 'none');
-    startScreenLabel.img = startScreenImg; 
+    
     
 }
 
