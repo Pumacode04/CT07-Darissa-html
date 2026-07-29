@@ -59,6 +59,7 @@ function setup() {
     pipeGroup = new Group(); // new group for pipes
 }
 
+let startGame = false;
 
 
 function draw() {
