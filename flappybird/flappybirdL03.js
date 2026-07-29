@@ -90,6 +90,13 @@ function draw() {
     if (frame % 90 === 0){
         spawnPipePair(); // spawn pipe every 1.5 seconds
     }
+
+    //remove off the screen pipes
+    for (let pipe of pipeGroup){
+        if (pipe.x < -50){
+            
+        }
+    }
 }
 
 function spawnPipePair() {
