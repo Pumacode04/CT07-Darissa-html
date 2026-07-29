@@ -104,7 +104,8 @@ function draw() {
     //End Game on Collision
     // note that this is checking collision against the group
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
-    gameOverLabel = new Sprite(width/2, hieght/2, 100, 100, 'none');
+    gameOverLabel = new Sprite(width/2, hieght/2, 192, 42, 'none');
+    
     }
     
 }
