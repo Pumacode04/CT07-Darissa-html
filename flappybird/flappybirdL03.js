@@ -57,9 +57,11 @@ function setup() {
     floor.collider = "static" // Colliadble but will not move
 
     pipeGroup = new Group(); // new group for pipes
+      startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
+    startScreenLabel.img = startScreenImg; 
 }
 
-let startGame = false; // flag is false at the start
+
 
 function draw() {
     image(background, 0, 0, width, height); // (image, x, y, width, height)
