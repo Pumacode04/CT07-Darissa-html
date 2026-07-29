@@ -54,8 +54,6 @@ function setup() {
     floor.collider = "static" // Colliadble but will not move
 
     pipeGroup = new Group(); // new group for pipes
-
-    
 }
 
 function draw() {
@@ -108,6 +106,8 @@ function draw() {
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
 
     }
+
+    
 }
 
 function spawnPipePair() {
