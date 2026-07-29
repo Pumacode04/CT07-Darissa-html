@@ -48,7 +48,6 @@ function setup() {
     floor.collider = "static" // Colliadble but will not move
 
     pipeGroup = new Group(); // new group for pipes
-
 }
 
 function draw() {
@@ -75,4 +74,7 @@ function draw() {
     text("vel.y:" + bird.vel.y.toFixed(2), 10, 20); // (text, x, y)
     text("isMoving:" + bird.isMoving, 10, 40);
     text("sleeping:"+ bird.sleeping, 10, 60);
+
+
+    
 }
