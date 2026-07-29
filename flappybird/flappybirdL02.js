@@ -78,5 +78,8 @@ function draw() {
     if (frameCount === 1) {
         spawnPipePair(); // call the function
     }
+}
 
+function spawnPiePair() {
+    
 }
