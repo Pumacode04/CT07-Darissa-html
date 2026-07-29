@@ -56,6 +56,13 @@ function draw() {
         bird.sleeping = false; // Make sure no sprite is idle
     }
 
+    image(background, 0, 0, width, height); // (image, x, y, width, height)
+
+    if (kb.presses("space" || mouse.presses("left"))) {
+        bird.vel.y = -5; // Up velocity
+        bird.sleeping = false; // Make sure no sprite is idle
+    }
+
     text("vel.y:" + bird.vel.y.toFixed(2), 10, 20); // (text, x, y)
     text("isMoving:" + bird.isMoving, 10, 40);
     text("sleeping:"+ bird.sleeping, 10, 60);
