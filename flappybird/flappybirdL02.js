@@ -56,7 +56,7 @@ function draw() {
         bird.sleeping = false; // Make sure no sprite is idle
     }
 
-    if (kb.presses("space" || mouse.presses("left"))) {
+    if (kb.presses()) {
         bird.vel.y = -5; // Up velocity
         bird.sleeping = false; // Make sure no sprite is idle
     }
