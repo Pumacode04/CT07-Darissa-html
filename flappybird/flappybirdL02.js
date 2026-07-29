@@ -85,5 +85,6 @@ function draw() {
 
 function spawnPipePair() {
   let gap = 50;
-  let mid
+  let midY = height / 2;
+  
 }
