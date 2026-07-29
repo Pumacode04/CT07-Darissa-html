@@ -109,7 +109,7 @@ function draw() {
     gameoverLabel.layer = 100; // make the game over text come to front
     gameoverLabel.x = camera.x;
 
-    
+    noLoop(); // Take note of the case!
     }
     
 }
