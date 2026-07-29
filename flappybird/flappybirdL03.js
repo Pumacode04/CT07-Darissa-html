@@ -114,6 +114,8 @@ function draw() {
 
     noLoop(); // Take note of the case!
     }
+
+    //set u
     
 }
 
