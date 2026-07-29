@@ -9,6 +9,7 @@ let birdUpImg;
 let birdDownImg;
 let background;
 let base;
+let pipe;
 
 
 function preload() {
