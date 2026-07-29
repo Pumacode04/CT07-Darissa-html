@@ -57,7 +57,7 @@ function draw() {
     }
 
     if (bird.vel.y < -1) {
-        bird.img = flapUpImg // Up velocity
+        bird.img = flapUpImg; // flying around
         bird.rotation = -30; // Make sure no sprite is idle
     }
 
