@@ -116,7 +116,8 @@ function draw() {
     }
 
     //set up the start message and display
-    startScreenLabel = new Sprite(width/2.)
+    startScreenLabel = new Sprite(width/2, hieght/2, 50, 50, 'none');
+    
     
 }
 
