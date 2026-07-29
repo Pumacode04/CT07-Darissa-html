@@ -69,7 +69,8 @@ function draw() {
         startGame = true;
     startScreenLabel.visible = false;
 
-    //
+    //of startGame flag is true, then run all the other code
+    if (syaty)
 
     if (kb.presses("space" || mouse.presses("left"))) {
         bird.vel.y = -5; // Up velocity
