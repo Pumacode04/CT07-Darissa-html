@@ -3,6 +3,7 @@ let bird;
 let floor;
 let pipeGroup;
 let topPipe, bottomPipe;
+let
 
 // Image assets
 let birdMidImg;
@@ -101,7 +102,7 @@ function draw() {
     //End Game on Collision
     // note that this is checking collision against the group
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
-        
+
     }
 }
 
