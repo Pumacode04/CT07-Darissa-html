@@ -66,7 +66,8 @@ function draw() {
 
     //at start of game, press space or mouse to start
     if (kb.presses("space") || mouse.presses())
-        
+        startGame = true;
+    startScreenLabel
 
     if (kb.presses("space" || mouse.presses("left"))) {
         bird.vel.y = -5; // Up velocity
