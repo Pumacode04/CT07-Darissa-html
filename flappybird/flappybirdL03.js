@@ -54,6 +54,8 @@ function setup() {
     floor.collider = "static" // Colliadble but will not move
 
     pipeGroup = new Group(); // new group for pipes
+
+    
 }
 
 function draw() {
