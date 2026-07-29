@@ -106,7 +106,8 @@ function draw() {
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
     gameOverLabel = new Sprite(width/2, hieght/2, 192, 42, 'none');
     gameOverLabel.img = gameoverImg;
-    gameoverLabel.layer = 100; //
+    gameoverLabel.layer = 100; // make the game over text come to front
+    
     }
     
 }
