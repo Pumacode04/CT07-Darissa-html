@@ -80,6 +80,6 @@ function draw() {
     }
 }
 
-function spawnPiePair() {
-    
+function spawnPipePair() {
+
 }
