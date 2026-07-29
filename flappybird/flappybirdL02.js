@@ -4,7 +4,8 @@ let floor;
 
 // Image assets
 let birdMidImg;
-let birdUpImg
+let birdUpImg;
+let birdDownImg;
 let background;
 let base;
 
