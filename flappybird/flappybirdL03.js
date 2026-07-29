@@ -107,6 +107,8 @@ function draw() {
     gameOverLabel = new Sprite(width/2, hieght/2, 192, 42, 'none');
     gameOverLabel.img = gameoverImg;
     gameoverLabel.layer = 100; // make the game over text come to front
+    gameoverLabel.x = camera.x;
+
     
     }
     
