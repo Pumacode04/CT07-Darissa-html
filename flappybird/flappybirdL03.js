@@ -107,7 +107,7 @@ function draw() {
 
     }
 
-    
+    gameOverLabel = new S
 }
 
 function spawnPipePair() {
