@@ -94,7 +94,7 @@ function draw() {
     //remove off the screen pipes
     for (let pipe of pipeGroup){
         if (pipe.x < -50){
-            
+            pipe.remove();
         }
     }
 }
