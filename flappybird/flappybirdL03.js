@@ -107,7 +107,7 @@ function draw() {
 
     }
 
-    gameOverLabel = new Sprite(width)
+    gameOverLabel = new Sprite(width/2, hieght/2, 100, 100, 's')
 }
 
 function spawnPipePair() {
