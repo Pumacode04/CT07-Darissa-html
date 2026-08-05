@@ -162,7 +162,10 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     // starting x coordinates
     let startX = x - totalWidth / 2;
 
-    //loop 
+    //loop through each digit
+    for (let i = 0; i < scroeStr.ength; i++) {
+        
+    }
 }
 
 function spawnPipePair() {
