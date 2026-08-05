@@ -181,7 +181,8 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
         digitSprite.img = numberImages[digit];
     }
 
-    // call function to keep score 
+    // call function to keep score centered oon camera
+    moveGroup()
 }
 
 function spawnPipePair() {
