@@ -6,7 +6,7 @@ let topPipe, bottomPipe;
 let gameoverLabel;
 let startScreenLabel;
 let score = 0;
-let numberImages = [];
+let numberImages = []; // store number/score images
 let scoreDigits; // group for storing the different numbers
 
 // Image assets
