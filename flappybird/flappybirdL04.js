@@ -141,7 +141,7 @@ function draw() {
             let pipeRightEdge = pipe.x + pipe.w / 2;
 
             // centre pos - half of bird width = left edge pos
-            
+            let birdLeftEdge = bird.x
         }
 
         //End Game on Collision
