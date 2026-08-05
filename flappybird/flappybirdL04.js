@@ -171,7 +171,8 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
         //x-position of this digit, next character will move to right..
         let xPos = startX + i * digitWidth;
 
-        //
+        // create a sprite the size of the digit image
+        let digitSprite 
     }
 }
 
