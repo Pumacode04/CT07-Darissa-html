@@ -5,6 +5,7 @@ let pipeGroup;
 let topPipe, bottomPipe;
 let gameoverLabel;
 let startScreenLabel;
+
 let score = 0;
 let numberImages = []; // store number/score images
 let scoreDigits; // group for storing the different numbers
@@ -29,7 +30,7 @@ function preload() {
     gameoverImg = loadImage("assets/gameover.png")
     startScreenImg = loadImage("assets/message.png");
 
-    // use a loop
+    // use a loop to load assets into the array
     for (let i = 0; i < 10; i++){
         numberImages[i] = loadImage('assets/'+ i + '.png');
     }
