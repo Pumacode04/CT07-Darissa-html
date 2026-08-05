@@ -7,7 +7,7 @@ let gameoverLabel;
 let startScreenLabel;
 
 // scoring
-let score = 99;
+let score = 999;
 let numberImages = []; // store number/score images
 let scoreDigits; // group for storing the different numbers
 
