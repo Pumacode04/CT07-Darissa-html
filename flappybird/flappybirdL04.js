@@ -190,7 +190,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
         let xPos = startX + i * digitWidth;
 
         // create a sprite the size of the digit image
-        let digitSprite = new scoreDigits.sprite(xPos, y, digitWidth, digitHeight);
+        let digitSprite = new scoreDigitsSprite(xPos, y, digitWidth, digitHeight);
 
         // get the digit image fromthe array based on placement order which corresponds to the digit
         digitSprite.img = numberImages[digit];
