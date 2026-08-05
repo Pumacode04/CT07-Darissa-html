@@ -193,7 +193,7 @@ function moveGroup(group, targetX, spacing) {
     // Shifts the stariing point left, so the entire group has been centered
     let startX = (targetX - totalWidth/2);
 
-    // 
+    // Place each sprite 
 }
 
 function spawnPipePair() {
