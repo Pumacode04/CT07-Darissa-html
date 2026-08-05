@@ -5,7 +5,8 @@ let pipeGroup;
 let topPipe, bottomPipe;
 let gameoverLabel;
 let startScreenLabel;
-let sc
+let score = 0;
+
 
 // Image assets
 let birdMidImg;
