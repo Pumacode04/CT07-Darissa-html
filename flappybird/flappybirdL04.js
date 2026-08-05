@@ -157,7 +157,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     scoreDigits.removeAll();
     // make it a string sp we can get each digits indivisually rather than a value
     let scoreStr = str(score);
-    // 
+    // let totalWidth
 }
 
 function spawnPipePair() {
