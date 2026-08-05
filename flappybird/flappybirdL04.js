@@ -135,6 +135,8 @@ function draw() {
             }
         }
 
+        
+
         //End Game on Collision
         // note that this is checking collision against the group
         if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y < -30) {
