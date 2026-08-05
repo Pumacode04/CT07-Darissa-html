@@ -30,6 +30,7 @@ function preload() {
     startScreenImg = loadImage("assets/message.png");
     // setup ground for score
     scoreDigits = new Group();
+    scoreDigits.collider = 'none'
     
 }
 
