@@ -165,7 +165,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     //loop through each digit
     for (let i = 0; i < scroeStr.ength; i++) {
         
-        //
+        // gets number digit from the score string (e.g. "4")
     }
 }
 
