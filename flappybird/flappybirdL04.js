@@ -69,7 +69,7 @@ function setup() {
     //setup group for score
     scoreDigits = new Group();
     scoreDigits.collider = 'none';
-    
+    scoreDigits.layer = 1000;
 }
 
 
