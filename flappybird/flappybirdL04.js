@@ -190,7 +190,7 @@ function moveGroup(group, targetX, spacing) {
     let totalWidth = (group.length -1) * spacing;
 
     // Find Left-most X position
-    // 
+    // Shifts the stariing point left, so the entire 
 }
 
 function spawnPipePair() {
