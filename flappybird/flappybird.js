@@ -43,7 +43,7 @@ function setup() {
     world.gravity.y = 10;
 
     // Debug text
-    fill("#fc0303") //Text colour
+    fill("#fc0303"); //Text colour
     textSize(14);
 
 
@@ -64,7 +64,7 @@ function setup() {
     floor.height = 125;
     floor.x = width / 2;
     floor.y = height - 20;
-    floor.collider = "static" // Colliadble but will not move
+    floor.collider = "static"; // Colliadble but will not move
 
     pipeGroup = new Group(); // new group for pipes
       startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
