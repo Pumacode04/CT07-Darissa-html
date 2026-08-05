@@ -147,7 +147,8 @@ function draw() {
         }
     }
 
-    // call drawScore 
+    // call drawScore function. scoreWidth = 24, scoreHeight = 46
+    
 
 
 }
