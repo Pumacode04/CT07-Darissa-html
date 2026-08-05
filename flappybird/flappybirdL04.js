@@ -166,7 +166,9 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     for (let i = 0; i < scroeStr.ength; i++) {
         
         // gets number digit from the score string (e.g. "4" or "2")
-        let digit = int(scoreStr[i])
+        let digit = int(scoreStr[i]);
+
+        //x-
     }
 }
 
