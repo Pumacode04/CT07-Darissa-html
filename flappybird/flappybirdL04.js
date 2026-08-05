@@ -28,10 +28,7 @@ function preload() {
     pipe = loadImage("assets/pipe-green.png");
     gameoverImg = loadImage("assets/gameover.png")
     startScreenImg = loadImage("assets/message.png");
-    // setup ground for score
-    scoreDigits = new Group();
-    scoreDigits.collider = 'none'
-    
+    for (let i = 0; i < 10; i++) {}
 }
 
 function setup() {
