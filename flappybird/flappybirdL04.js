@@ -182,8 +182,10 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     }
 
     // call function to keep score centered oon camera
-    moveGroup(scoreD)
+    moveGroup(scoreDigits, camera.x, 24);
 }
+
+function moveGroup(group, targetX, spacing) 
 
 function spawnPipePair() {
   let gap = 50;
