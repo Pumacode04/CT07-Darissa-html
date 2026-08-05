@@ -191,7 +191,9 @@ function moveGroup(group, targetX, spacing) {
 
     // Find Left-most X position
     // Shifts the stariing point left, so the entire group has been centered
-    let startX = (targetX - totasl)
+    let startX = (targetX - totalWidth/2);
+
+    // 
 }
 
 function spawnPipePair() {
