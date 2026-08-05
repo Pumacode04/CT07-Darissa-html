@@ -182,7 +182,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     }
 
     // call function to keep score centered oon camera
-    moveGroup()
+    moveGroup(scoreD)
 }
 
 function spawnPipePair() {
