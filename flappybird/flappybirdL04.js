@@ -195,7 +195,7 @@ function moveGroup(group, targetX, spacing) {
 
     // Place each sprite in the group
     for (let i = 0; i < group.length; i++) {
-        
+        group[i] 
     }
 }
 
