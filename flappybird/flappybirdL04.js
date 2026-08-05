@@ -174,7 +174,8 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
         // create a sprite the size of the digit image
         let digitSprite = new scoreDigits.sprite(xPos, y, digitWidth, digitHeight);
 
-        //
+        // get the digit image fromthe array based on placement order which corresponds to the digit
+        
     }
 }
 
