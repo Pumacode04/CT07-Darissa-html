@@ -150,7 +150,7 @@ function draw() {
     // call drawScore function. scoreWidth = 24, scoreHeight = 46
     drawScore(width/2, 20, score, 24, 36);
 
-    // <
+    // <. . . New
 
 
 }
