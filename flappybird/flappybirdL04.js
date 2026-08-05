@@ -152,6 +152,9 @@ function draw() {
 
 }
 
+function drawScore(x, y, score, digitWidth, digitHeight) {
+    
+}
 
 function spawnPipePair() {
   let gap = 50;
