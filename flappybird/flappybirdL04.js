@@ -219,7 +219,7 @@ function spawnPipePair() {
   let midY = random(250, height - 250); // random(min, max);
 
   // create the bottom pipe sprite
-  bottomPipe = new Sprite(bird.x + 400, midY + gap / 2 + 200, 52, 320, 'static')
+  bottomPipe = new Sprite(bird.x + 400, midY + gap / 2 + 200, 52, 320, 'static');
   bottomPipe.img = pipe;
 
   pipeGroup.add(bottomPipe);
