@@ -172,7 +172,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
         let xPos = startX + i * digitWidth;
 
         // create a sprite the size of the digit image
-        let digitSprite 
+        let digitSprite = new scoreDigits.sprite(xPos, y)
     }
 }
 
