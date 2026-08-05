@@ -143,7 +143,10 @@ function draw() {
             // centre pos - half of bird width = left edge pos
             let birdLeftEdge = bird.x - bird.w / 2;
 
-            // compare x
+            // compare x-coordinates of player and pipes
+            if (pipe.passed == false && pipeRightEdge < birdLeftEdge) {
+                
+            }
         }
 
         //End Game on Collision
