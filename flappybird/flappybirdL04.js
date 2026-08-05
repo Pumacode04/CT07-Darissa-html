@@ -7,7 +7,7 @@ let gameoverLabel;
 let startScreenLabel;
 let score = 0;
 let numberImages = [];
-let scoreDigits;
+let scoreDigits; // group for storing 
 
 // Image assets
 let birdMidImg;
