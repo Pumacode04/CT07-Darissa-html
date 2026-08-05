@@ -161,7 +161,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
 
     // let total width taken up by all digits
     let totalWidth = scoreStr.length * digitWidth;
-    
+
     // starting x coordinates
     let startX = x - totalWidth / 2;
 
@@ -180,6 +180,8 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
         // get the digit image fromthe array based on placement order which corresponds to the digit
         digitSprite.img = numberImages[digit];
     }
+
+    
 }
 
 function spawnPipePair() {
