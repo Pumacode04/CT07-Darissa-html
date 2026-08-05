@@ -67,7 +67,8 @@ function setup() {
     startScreenLabel.img = startScreenImg; 
 
     //setup group for score
-    scoreDigits = new Group()
+    scoreDigits = new Group();
+    
 }
 
 
