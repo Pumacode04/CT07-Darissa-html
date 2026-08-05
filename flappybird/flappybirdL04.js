@@ -215,7 +215,7 @@ function spawnPipePair() {
   topPipe.rotation = 180;
 
   // Add to one pipe per pair (top or bottom)
-  
+  topPipe.passed = false; // Add this property to Top P
 
   pipeGroup.add(topPipe);
 }
