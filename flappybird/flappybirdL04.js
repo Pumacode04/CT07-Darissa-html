@@ -169,7 +169,9 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
         let digit = int(scoreStr[i]);
 
         //x-position of this digit, next character will move to right..
-        let xPos = startX + i * digitWidth
+        let xPos = startX + i * digitWidth;
+
+        //
     }
 }
 
