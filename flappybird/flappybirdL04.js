@@ -6,7 +6,8 @@ let topPipe, bottomPipe;
 let gameoverLabel;
 let startScreenLabel;
 let score = 0;
-
+let numberImages = [];
+let scoreDigits;
 
 // Image assets
 let birdMidImg;
