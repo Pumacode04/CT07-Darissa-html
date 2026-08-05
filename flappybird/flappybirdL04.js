@@ -29,6 +29,7 @@ function preload() {
     gameoverImg = loadImage("assets/gameover.png")
     startScreenImg = loadImage("assets/message.png");
     // setup ground for score
+    scoreDigits = new Group();
     
 }
 
