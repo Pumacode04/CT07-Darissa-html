@@ -185,7 +185,9 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     moveGroup(scoreDigits, camera.x, 24);
 }
 
-function moveGroup(group, targetX, spacing) 
+function moveGroup(group, targetX, spacing) {
+    
+}
 
 function spawnPipePair() {
   let gap = 50;
