@@ -147,7 +147,7 @@ function draw() {
         }
     }
 
-    // c
+    // call drawScore 
 
 
 }
