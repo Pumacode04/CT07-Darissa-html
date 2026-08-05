@@ -137,7 +137,8 @@ function draw() {
 
         // increase score if pipe passed
         for (let pipe of pipeGroup) {
-            
+            // center pos + half pipe width = right edge pos
+            let pipeRight
         }
 
         //End Game on Collision
