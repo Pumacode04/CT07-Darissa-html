@@ -176,7 +176,7 @@ function draw() {
             score = 0;
             startGame = false;
 
-            pipe
+            pipes.removea
 
         },3000)
         }
