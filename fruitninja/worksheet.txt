@@ -1,8 +1,9 @@
 Fruit Ninja Analysis Worksheet
-What are the objects?
+
+1. What are the objects?
 Fruits, scores, time, missed, audio, background, assets
 
-What are the player's actions?
+2. What are the player's actions?
 Drag the cursor/mouse to cut the fruit
 Pressed space to start loading the game
 What is the goal?
