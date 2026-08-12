@@ -176,6 +176,8 @@ function draw() {
             score = 0;
             startGame = false;
 
+            pipe
+
         },3000)
         }
     }
