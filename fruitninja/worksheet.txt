@@ -2,3 +2,4 @@ What are the objects?
 Fruits
 
 What are the player's actions?
+What is the goal?
