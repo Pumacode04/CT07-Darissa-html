@@ -13,3 +13,4 @@ Cut all the fruits as much as possible within the time --> scoring as many point
 4. What causes game over?
 If the time ends
 
+5. How is progress shown?
