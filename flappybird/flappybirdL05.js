@@ -175,6 +175,7 @@ function draw() {
         setTimeout(() => {
             score = 0;
             startGame = false;
+            score = 0;
 
             pipeGroup.removeAll();
             bird.vel.x = 0;
