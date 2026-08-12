@@ -22,6 +22,9 @@ let gameoverImg;
 let startScreenImg;
 let startGame = false; // flag is false at the start
 
+// Sound assets
+let flapSound, pointSound, failSound; // Declare audio assets
+
 function preload() {
     birdMidImg = loadImage("assets/yellowbird-midflap.png");
     birdUpImg = loadImage("assets/yellowbird-upflap.png");
@@ -35,6 +38,10 @@ function preload() {
     // use a loop to load assets into the array
     for (let i = 0; i < 10; i++){
         numberImages[i] = loadImage('assets/'+ i + '.png');
+
+    flapSound = createAudio("assets/sfx_wing.mp3");
+    pointSound = createAudio("assets/sfx_point.mp3");
+    failSound = createAudio("assets/sfx_die.mp3");
     }
 }
 
@@ -44,7 +51,7 @@ function setup() {
     world.gravity.y = 10;
 
     // Debug text
-    fill("#fc0303"); //Text colour
+    fill("#fc0303") //Text colour
     textSize(14);
 
 
@@ -65,7 +72,7 @@ function setup() {
     floor.height = 125;
     floor.x = width / 2;
     floor.y = height - 20;
-    floor.collider = "static"; // Colliadble but will not move
+    floor.collider = "static" // Colliadble but will not move
 
     pipeGroup = new Group(); // new group for pipes
       startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
@@ -94,9 +101,10 @@ function draw() {
     }
     //of startGame flag is true, then run all the other code
     if (startGame){
-        if (kb.presses("space" || mouse.presses("left"))) {
+        if (kb.presses("space") || mouse.presses("left")) {
         bird.vel.y = -5; // Up velocity
         bird.sleeping = false; // Make sure no sprite is idle
+        flapSound.play();
         }
 
         if (bird.vel.y < -1) {
@@ -147,6 +155,7 @@ function draw() {
             // compare x-coordinates of player and pipes
             if (pipe.passed == false && pipeRightEdge < birdLeftEdge) {
                 pipe.passed = true;
+                pointSound.play();
                 score++;
             }
         }
@@ -154,12 +163,36 @@ function draw() {
         //End Game on Collision
         // note that this is checking collision against the group
         if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y < -30) {
+        failSound.play();
         gameoverLabel = new Sprite(width/2, height/2, 192, 42, 'none');
         gameoverLabel.img = gameoverImg;
         gameoverLabel.layer = 100; // make the game over text come to front
         gameoverLabel.x = camera.x;
 
         noLoop(); // Take note of the case!
+
+        //Use setTimeout to wait 3 seconds before restarting
+        setTimeout(() => {
+            startGame = false;
+
+            pipeGroup.removeAll();
+            bird.vel.x = 0;
+            bird.vel.y = 0;
+            bird.rotation = 0;
+            bird.collider = 'static';
+            bird.y = 200;
+            bird.visible = false;
+
+            gameoverLabel.remove();
+            startScreenLabel.visible = true;
+            startScreenLabel.x = bird.x;
+            startScreenLabel.y = height/2-50;
+
+            loop()
+            score = 0;
+
+
+        },3000)
         }
     }
 
