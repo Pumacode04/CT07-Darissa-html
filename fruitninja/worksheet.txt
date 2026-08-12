@@ -11,3 +11,5 @@ Pressed space to start loading the game
 Cut all the fruits as much as possible within the time --> scoring as many points
 
 4. What causes game over?
+If the time ends
+
