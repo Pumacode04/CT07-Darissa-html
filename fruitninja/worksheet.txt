@@ -8,3 +8,4 @@ Drag the cursor/mouse to cut the fruit
 Pressed space to start loading the game
 
 3. What is the goal?
+Cut all the fruits as much as possible within the time __
