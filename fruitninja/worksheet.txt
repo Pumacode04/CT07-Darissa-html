@@ -1,5 +1,5 @@
 What are the objects?
-Fruits, scores, t
+Fruits, scores, time, missed, audio, background, assets
 
 What are the player's actions?
 What is the goal?
