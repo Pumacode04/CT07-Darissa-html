@@ -174,7 +174,7 @@ function draw() {
         //Use setTimeout to wait 3 seconds before restarting
         setTimeout(() => {
             startGame = false;
-            score = 
+            score = 0;
 
             pipeGroup.removeAll();
             bird.vel.x = 0;
