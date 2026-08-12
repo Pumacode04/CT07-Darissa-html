@@ -172,7 +172,11 @@ function draw() {
         noLoop(); // Take note of the case!
 
         //Use setTimeout to wait 3 seconds before restarting
-        setTimeout
+        setTimeout(()=> {
+            score = 0;
+            startGame = false;
+
+        },3000)
         }
     }
 
