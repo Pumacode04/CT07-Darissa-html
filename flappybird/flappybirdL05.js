@@ -170,6 +170,8 @@ function draw() {
         gameoverLabel.x = camera.x;
 
         noLoop(); // Take note of the case!
+
+        //Use
         }
     }
 
