@@ -3,4 +3,5 @@ What are the objects?
 Fruits, scores, time, missed, audio, background, assets
 
 What are the player's actions?
+Drag the cursor
 What is the goal?
