@@ -174,6 +174,7 @@ function draw() {
         //Use setTimeout to wait 3 seconds before restarting
         setTimeout(() => {
             startGame = false;
+            score = 
 
             pipeGroup.removeAll();
             bird.vel.x = 0;
@@ -188,7 +189,6 @@ function draw() {
             startScreenLabel.y = hieght/2-50;
 
             loop()
-            score = 0;
 
 
         },3000)
