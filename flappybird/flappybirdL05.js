@@ -180,7 +180,8 @@ function draw() {
             bird.vel.x = 0;
             bird.vel.y = 0;
             bird.rotation = 0;
-            bird.collirder = 'static'
+            bird.collirder = 'static';
+            bird.y = 200;
 
         },3000)
         }
