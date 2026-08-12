@@ -104,6 +104,7 @@ function draw() {
         if (kb.presses("space" || mouse.presses("left"))) {
         bird.vel.y = -5; // Up velocity
         bird.sleeping = false; // Make sure no sprite is idle
+        falpSound.play();
         }
 
         if (bird.vel.y < -1) {
