@@ -38,6 +38,8 @@ function preload() {
     // use a loop to load assets into the array
     for (let i = 0; i < 10; i++){
         numberImages[i] = loadImage('assets/'+ i + '.png');
+
+    
     }
 }
 
