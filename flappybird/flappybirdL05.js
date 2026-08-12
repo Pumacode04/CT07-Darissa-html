@@ -183,7 +183,7 @@ function draw() {
             bird.collider = 'static';
             bird.y = 200;
 
-            gameoverLabel
+            gameoverLabel.remove();
 
         },3000)
         }
