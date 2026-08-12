@@ -155,6 +155,7 @@ function draw() {
             // compare x-coordinates of player and pipes
             if (pipe.passed == false && pipeRightEdge < birdLeftEdge) {
                 pipe.passed = true;
+                pointSound.play();
                 score++;
             }
         }
