@@ -14,3 +14,4 @@ Cut all the fruits as much as possible within the time --> scoring as many point
 If the time ends
 
 5. How is progress shown?
+Progess is shown through the scores text on screen, missed and the time shown on the screen
