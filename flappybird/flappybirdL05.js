@@ -183,6 +183,8 @@ function draw() {
             bird.collirder = 'static';
             bird.y = 200;
 
+            
+
         },3000)
         }
     }
