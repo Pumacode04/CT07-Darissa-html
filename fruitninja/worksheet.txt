@@ -9,3 +9,5 @@ Pressed space to start loading the game
 
 3. What is the goal?
 Cut all the fruits as much as possible within the time --> scoring as many points
+
+4. What causes game over?
