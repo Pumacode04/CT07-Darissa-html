@@ -101,7 +101,7 @@ function draw() {
     }
     //of startGame flag is true, then run all the other code
     if (startGame){
-        if (kb.presses("space" || mouse.presses("left"))) {
+        if (kb.presses("space") || mouse.presses("left")) {
         bird.vel.y = -5; // Up velocity
         bird.sleeping = false; // Make sure no sprite is idle
         flapSound.play();
