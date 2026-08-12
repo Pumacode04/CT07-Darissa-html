@@ -178,7 +178,8 @@ function draw() {
 
             pipes.removeAll();
             bird.vel.x = 0;
-            bird.vel.
+            bird.vel.y = 0;
+            bird.rotation = 0
 
         },3000)
         }
