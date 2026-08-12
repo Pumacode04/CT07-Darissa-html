@@ -23,7 +23,7 @@ let startScreenImg;
 let startGame = false; // flag is false at the start
 
 // Sound assets
-let flapSound. pointSound
+let flapSound, pointSound, 
 
 function preload() {
     birdMidImg = loadImage("assets/yellowbird-midflap.png");
