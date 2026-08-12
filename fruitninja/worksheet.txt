@@ -3,5 +3,6 @@ What are the objects?
 Fruits, scores, time, missed, audio, background, assets
 
 What are the player's actions?
-Drag the cursor
+Drag the cursor/mouse to cut the fruit
+
 What is the goal?
