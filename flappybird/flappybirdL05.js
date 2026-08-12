@@ -163,7 +163,7 @@ function draw() {
         //End Game on Collision
         // note that this is checking collision against the group
         if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y < -30) {
-        
+        failSound.play();
         gameoverLabel = new Sprite(width/2, height/2, 192, 42, 'none');
         gameoverLabel.img = gameoverImg;
         gameoverLabel.layer = 100; // make the game over text come to front
