@@ -188,6 +188,7 @@ function draw() {
             startScreenLabel.y = hieght/2-50;
 
             loop()
+            score = 0;
 
 
         },3000)
