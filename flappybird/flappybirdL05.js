@@ -177,7 +177,8 @@ function draw() {
             startGame = false;
 
             pipes.removeAll();
-            
+            bird.vel.x = 0;
+            bird.vel.
 
         },3000)
         }
