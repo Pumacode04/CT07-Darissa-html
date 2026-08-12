@@ -171,7 +171,7 @@ function draw() {
 
         noLoop(); // Take note of the case!
 
-        //Use
+        //Use setTimeout to wait 
         }
     }
 
