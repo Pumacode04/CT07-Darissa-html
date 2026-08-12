@@ -21,6 +21,7 @@ let pipe;
 let gameoverImg;
 let startScreenImg;
 let startGame = false; // flag is false at the start
+
 function preload() {
     birdMidImg = loadImage("assets/yellowbird-midflap.png");
     birdUpImg = loadImage("assets/yellowbird-upflap.png");
