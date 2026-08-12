@@ -181,7 +181,7 @@ function draw() {
             bird.rotation = 0;
             bird.collider = 'static';
             bird.y = 200;
-            bird.visible = true;
+            bird.visible = false;
 
             gameoverLabel.remove();
             startScreenLabel.visible = true;
