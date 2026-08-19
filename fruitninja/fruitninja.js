@@ -7,7 +7,7 @@ let peach;
 function preload() {
     // Load image
     background = loadImage("assets/dojobackground.png");
-    watermelon = loadImage("assets/peachwhole.png")
+    watermelon = loadImage("assets/watermelonwhole.png")
 }
 
 function setup() {
