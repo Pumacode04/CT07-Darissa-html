@@ -4,3 +4,5 @@
 function preload() {
     // load image
 }
+
+
