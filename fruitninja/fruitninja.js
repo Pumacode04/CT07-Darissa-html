@@ -20,7 +20,8 @@ function setup() {
     world.gravity.y = 10;
 
     // Sprites
-
+    peach = new Sprite;
+    
 }
 
 function draw() {
