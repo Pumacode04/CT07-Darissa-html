@@ -40,6 +40,7 @@ function draw() {
     textSize(50);
     text("Framecount:"+ frameCount, 10, 40);
 
+    if (frameCount)
     spawnPeach();
 }
 
