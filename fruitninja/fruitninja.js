@@ -1,5 +1,5 @@
 // variables
-
+let 
 
 function preload() {
     // load image
@@ -12,5 +12,5 @@ function setup() {
 }
 
 function draw() {
-    
+
 }
