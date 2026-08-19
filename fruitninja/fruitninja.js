@@ -2,6 +2,7 @@
 let background;
 
 
+
 function preload() {
     // Load image
     background = loadImage("assets/dojobackground.png");
