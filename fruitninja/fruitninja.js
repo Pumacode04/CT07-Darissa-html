@@ -4,8 +4,8 @@ let background;
 
 function preload() {
     // Load image
-}
 
+}
 
 function setup() {
     // Create canvas
