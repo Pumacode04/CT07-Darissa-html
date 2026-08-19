@@ -29,7 +29,7 @@ function setup() {
     peach.drag = 0.02; // Air resistance, higher = more resistance
     peach.collider = "dynamic"; // Collidable, movable and affected by physics
 
-    peach = new Sprite;
+    watermelon = new Sprite;
     peach.img = peachWhole;
     peach.width = 50;
     peach.height = 50;
