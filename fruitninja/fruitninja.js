@@ -1,1 +1,6 @@
-// 
+// variables
+
+
+function preload() {
+    
+}
