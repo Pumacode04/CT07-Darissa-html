@@ -24,7 +24,7 @@ function setup() {
     peach.img = peachWhole;
     peach.width = 50;
     peach.height = 50;
-    peach.s
+    peach.scale = 1
     peach.mass = 2; // How heavy, heavier = affected by gravity more
     peach.drag = 0.02; // Air resistance, higher = more resistance
     peach.collider = "dynamic"; // Collidable, movable and affected by physics
