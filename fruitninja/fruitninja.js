@@ -19,6 +19,7 @@ function setup() {
     world.gravity.y = 10;
 
     // Sprites
+    
     watermelon = new Sprite;
     watermelon.img = watermelonWhole;
     watermelon.width = 65;
