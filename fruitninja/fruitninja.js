@@ -2,7 +2,7 @@
 let 
 
 function preload() {
-    // load image
+    // Load image
 }
 
 
