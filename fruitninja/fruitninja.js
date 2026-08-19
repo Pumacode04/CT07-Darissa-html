@@ -1,6 +1,7 @@
 // Variables
 let background;
-
+let watermelon
+let peach
 
 
 function preload() {
