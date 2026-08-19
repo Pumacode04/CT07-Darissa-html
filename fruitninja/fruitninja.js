@@ -49,8 +49,8 @@ function spawnPeach() {
     // Create peach sprite
     peach =  new peachGroup.Sprite();
     peach.img = peachWhole;
-    peach.width = 50;
-    peach.height = 50;
+    peach.width = 100;
+    peach.height = 100;
     peach.scale = peach.width / peachWhole.width;
     peach.mass = 2; // How heavy, heavier = affected by gravity more
     peach.drag = 0.02; // Air resistance, higher = more resistance
