@@ -24,6 +24,7 @@ function setup() {
     peach.img = peachWhole;
     peach.width = 50;
     peach.ehight = 50
+    peach.mass = 2;
     
 }
 
