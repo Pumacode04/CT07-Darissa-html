@@ -34,6 +34,8 @@ function setup() {
 
 function draw() {
     image(background, 0, 0, width, height); // image(image, x, y, width, height)
+
+    
 }
 
 function spawnPeach() {
