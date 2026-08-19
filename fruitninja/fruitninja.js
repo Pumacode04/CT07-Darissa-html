@@ -35,7 +35,7 @@ function setup() {
 function draw() {
     image(background, 0, 0, width, height); // image(image, x, y, width, height)
 
-    fill("#ba0000") // Text colour
+    fill("#dadada") // Text colour
     textSize(50);
     text("Framecount:"+ framecount, 10, 40);
     spawnPeach();
