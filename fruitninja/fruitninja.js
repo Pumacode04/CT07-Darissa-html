@@ -30,8 +30,8 @@ function setup() {
     peach.collider = "dynamic"; // Collidable, movable and affected by physics
 
     watermelon = new Sprite;
-    watermelon.img = peachWhole;
-    peach.width = 50;
+    watermelon.img = watermelonWhole;
+    watermelon.width = 50;
     peach.height = 50;
     peach.scale = peach.width / peachWhole.width;
     peach.mass = 2; // How heavy, heavier = affected by gravity more
