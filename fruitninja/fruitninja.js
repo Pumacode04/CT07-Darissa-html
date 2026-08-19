@@ -36,7 +36,8 @@ function draw() {
     image(background, 0, 0, width, height); // image(image, x, y, width, height)
 
     fill("#ba0000") // Text colour
-    
+    textSize(50);
+    text("Fram")
     spawnPeach();
 }
 
