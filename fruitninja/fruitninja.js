@@ -41,9 +41,8 @@ function draw() {
     text("frameCount:"+ frameCount, 10, 40);
 
     if (frameCount ) {
-        
+        spawnPeach();
     }
-    spawnPeach();
 }
 
 function spawnPeach() {
