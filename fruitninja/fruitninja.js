@@ -37,6 +37,8 @@ function setup() {
     watermelon.mass = 2; // How heavy, heavier = affected by gravity more
     watermelon.drag = 0.02; // Air resistance, higher = more resistance
     watermelon.collider = "dynamic"; // Collidable, movable and affected by physics
+
+    
 }
 
 function draw() {
