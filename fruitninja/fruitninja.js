@@ -1,4 +1,4 @@
-// variables
+// Variables
 let 
 
 function preload() {
@@ -7,7 +7,7 @@ function preload() {
 
 
 function setup() {
-    // create canvas
+    // Create canvas
     new.Canvas(800, 600);
 }
 
