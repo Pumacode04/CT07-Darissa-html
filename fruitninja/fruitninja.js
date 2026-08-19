@@ -4,7 +4,7 @@ let background;
 
 function preload() {
     // Load image
-    background = loadImage("assets/background-day.png");
+    background = loadImage("assets/do");
 }
 
 function setup() {
