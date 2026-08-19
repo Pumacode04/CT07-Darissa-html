@@ -25,7 +25,8 @@ function setup() {
     peach.width = 50;
     peach.ehight = 50
     peach.mass = 2;
-    
+    peach.drag = 0.02;
+    peach.collider = 
 }
 
 function draw() {
