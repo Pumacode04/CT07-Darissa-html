@@ -47,5 +47,6 @@ function draw() {
 }
 
 function spawnPeach() {
+    // Create peach sprite
     
 }
