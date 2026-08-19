@@ -33,9 +33,9 @@ function setup() {
     watermelon.img = watermelonWhole;
     watermelon.width = 50;
     watermelon.height = 50;
-    waterleon.scale = watermelon.width / peachWhole.width;
-    peach.mass = 2; // How heavy, heavier = affected by gravity more
-    peach.drag = 0.02; // Air resistance, higher = more resistance
+    waterleon.scale = watermelon.width / watermelon.width;
+    watermelon.mass = 2; // How heavy, heavier = affected by gravity more
+    wa.drag = 0.02; // Air resistance, higher = more resistance
     peach.collider = "dynamic"; // Collidable, movable and affected by physics
 }
 
