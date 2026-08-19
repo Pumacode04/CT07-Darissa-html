@@ -21,8 +21,8 @@ function setup() {
     // Sprites
     watermelon = new Sprite;
     watermelon.img = watermelonWhole;
-    watermelon.width = 65;
-    watermelon.height = 65;
+    watermelon.width = 115;
+    watermelon.height = 115;
     watermelon.scale = watermelon.width / watermelon.width;
     watermelon.mass = 2; // How heavy, heavier = affected by gravity more
     watermelon.drag = 0.02; // Air resistance, higher = more resistance
