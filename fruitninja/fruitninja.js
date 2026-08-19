@@ -39,7 +39,8 @@ function setup() {
     watermelon.collider = "dynamic"; // Collidable, movable and affected by physics
 
     // Group
-    peachGroup 
+    peachGroup = new Group;
+    
 }
 
 function draw() {
