@@ -38,7 +38,8 @@ function setup() {
     watermelon.drag = 0.02; // Air resistance, higher = more resistance
     watermelon.collider = "dynamic"; // Collidable, movable and affected by physics
 
-    
+    // Group
+    peachGroup 
 }
 
 function draw() {
