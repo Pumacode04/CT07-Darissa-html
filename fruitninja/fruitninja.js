@@ -1,5 +1,8 @@
 // Variables
 let background;
+let peace;
+let watermeleon;
+
 let peachWhole;
 let watermelonWhole;
 
