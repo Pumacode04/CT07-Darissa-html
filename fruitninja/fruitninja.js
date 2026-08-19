@@ -1,12 +1,13 @@
 // Variables
 let background;
-let watermelon
-let peach
+let watermelon;
+let peach;
 
 
 function preload() {
     // Load image
     background = loadImage("assets/dojobackground.png");
+
 }
 
 function setup() {
