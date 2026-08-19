@@ -1,6 +1,6 @@
 // Variables
 let background;
-let peach;
+let peachWjole;
 let watermelon;
 
 
@@ -17,7 +17,7 @@ function setup() {
     world.gravity.y = 10;
 
     // Sprites
-    
+
 }
 
 function draw() {
