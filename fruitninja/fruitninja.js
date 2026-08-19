@@ -6,7 +6,6 @@ let watermeleon;
 let peachWhole;
 let watermelonWhole;
 
-
 function preload() {
     // Load image
     background = loadImage("assets/dojobackground.png");
