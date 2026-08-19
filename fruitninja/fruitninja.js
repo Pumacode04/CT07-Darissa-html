@@ -2,5 +2,5 @@
 
 
 function preload() {
-    
+    // load image
 }
