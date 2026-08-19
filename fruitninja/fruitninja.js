@@ -37,7 +37,7 @@ function draw() {
 
     fill("#ba0000") // Text colour
     textSize(50);
-    text("Frame")
+    text("Framecount:")
     spawnPeach();
 }
 
