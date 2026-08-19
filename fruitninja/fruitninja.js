@@ -38,8 +38,8 @@ function draw() {
     // Debug text
     fill("#dadada") // Text colour
     textSize(50);
-    text("Framecount:"+ framecount, 10, 40);
-    
+    text("Framecount:"+ frameCount, 10, 40);
+
     spawnPeach();
 }
 
