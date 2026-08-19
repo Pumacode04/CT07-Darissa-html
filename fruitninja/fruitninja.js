@@ -33,7 +33,7 @@ function setup() {
     watermelon.img = watermelonWhole;
     watermelon.width = 65;
     watermelon.height = 65;
-    waterleon.scale = watermelon.width / watermelon.width;
+    watermelon.scale = watermelon.width / watermelon.width;
     watermelon.mass = 2; // How heavy, heavier = affected by gravity more
     watermelon.drag = 0.02; // Air resistance, higher = more resistance
     watermelon.collider = "dynamic"; // Collidable, movable and affected by physics
