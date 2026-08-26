@@ -73,12 +73,12 @@ function draw() {
             if (d < ((fruit.d / 2) + 5)) {
                 fruit.sliced = true; // prevent repeat slicing
 
-                const fx = fruit.x;
+                const fx = fruit.x; // x
                 const fy = fruit.y;
 
                 fruit.remove(); // remove whole fruit
 
-                splitFruit(fx, fy, fruit.type);
+                splitFruit(fx, fy, fruit.type); // spawn halves
 
                 break; // only slice one fruit per frame
             }
