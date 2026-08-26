@@ -9,6 +9,7 @@ let fruitTypes  = []; // store fruit image objects
 function preload() {
     // Load image
     background = loadImage("assets/dojobackground.png");
+    //
    
 }
 
