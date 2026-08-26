@@ -107,5 +107,6 @@ function spawnFruit(){
         left.life = 30; // remove after 30 frames
 
         // create right half
-        let right = new fruitHalves.Sprite(x + 10)
+        let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
+        
     }
