@@ -74,7 +74,7 @@ function draw() {
                 fruit.sliced = true; // prevent repeat slicing
 
                 const fx = fruit.x; // x coordinate for the sliced food
-                const fy = fruit.y; 
+                const fy = fruit.y; // y coordinate for the sliced food
 
                 fruit.remove(); // remove whole fruit
 
