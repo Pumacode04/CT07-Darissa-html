@@ -61,7 +61,7 @@ function draw() {
                 continue; // skip already sliced fruits
             }
 
-            
+            // calculate distance between mouse and fri
         }
     }
 }
