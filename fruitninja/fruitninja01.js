@@ -52,7 +52,8 @@ function draw() {
         trail.life = 10;
     }
 
-    sliceFruit
+    sliceFruit(); // add this line to call function
+    
 }
 
 function spawnFruit(){
