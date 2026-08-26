@@ -11,7 +11,7 @@ function preload() {
     background = loadImage("assets/dojobackground.png");
     // decalre the peach object
     let peach = {
-        whole : loadImage("")
+        whole : loadImage("assets/peachwho")
     }
    
 }
