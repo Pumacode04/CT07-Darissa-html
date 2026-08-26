@@ -55,7 +55,9 @@ function draw() {
     sliceFruit(); // add this line to call function
 
     // check if any fruit is sliced by the mouse
-    
+    function sliceFruit(){
+        for (let fruit of fruitGroup)
+    }
 }
 
 function spawnFruit(){
