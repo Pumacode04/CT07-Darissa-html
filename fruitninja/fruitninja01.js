@@ -104,5 +104,8 @@ function spawnFruit(){
         left.vel.x = -3; // veer left
         left.vel.y = random(-5, -2);
         left.rotationSpeed = -5;
-        left.life = 30; 
+        left.life = 30; // remove after 30 frames
+
+        // create right half
+        
     }
