@@ -100,6 +100,7 @@ function spawnFruit(){
     // split a fruit into two halves and animate them
     function splitFruit(x, y, fruitData) {
         // create left half
+         let left = new fruitHalves.Sprite(x + 10, y, 40, 40);
         left.img  = fruitData.half1;
         left.vel.x = -3; // veer left
         left.vel.y = random(-5, -2);
