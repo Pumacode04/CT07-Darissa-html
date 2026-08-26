@@ -109,5 +109,6 @@ function spawnFruit(){
         // create right half
         let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
         right.img = fruitData.half2;
-        right.vel.x 
+        right.vel.x = 3; // veer right
+        
     }
