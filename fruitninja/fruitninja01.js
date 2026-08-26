@@ -69,7 +69,7 @@ function draw() {
 
                 fruit.remove(); // remove whole fruit
 
-                break;
+                break; // only slice one fruit per frame
             }
         }
     }
