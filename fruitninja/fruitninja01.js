@@ -1,8 +1,5 @@
 // Variables
 let background;
-let peace;
-let watermelon;
-
 let fruitGroup; // group for whole fruits
 let fruitTypes  = []; // store fruit image objects
 
@@ -11,16 +8,24 @@ function preload() {
     background = loadImage("assets/dojobackground.png");
     // decalre the peach object
     let peach = {
-        whole : loadImage("assets/peachwho")
+        whole: loadImage("assets/peachwhole.png")
+    }
+
+    // declare the watermelon object
+    let watermelon = {
+        whole: loadImage("assets/watermelon.png")
     }
    
+    // store the fruit objects into an array
+    fruitTypes = [peach, watermelon];
+
 }
 
 function setup() {
     // Create canvas
     new Canvas(800, 600);
     world.gravity.y = 10;
-
+    fruitGroup = new Group();
   
 }
 
@@ -33,8 +38,20 @@ function draw() {
     textSize(50);
     text("frameCount:"+ frameCount, 10, 40);
 
-    if (frameCount % 60 == 0) {
-        spawnPeach();
+    // call spawnFruit function
+    if (frameCount % 120 == 0) {
+        spawnFruit();
     }
 }
+
+function spawnFruit(){
+        let fruitData = random(fruitTypes); // pick one at random
+        let randomX = random(300, 500); // random X to spawn. Rem that canvas width is 800
+        let fruit = new fruitGroup.Sprite(randomX, height+20, 40); // spawn at bottom
+        fruit.image = fruitData.whole; // load image for whole
+        fruit.type = fruitData; // store reference to its type i.e. peach or watermelon
+        fruit.vel.y = random(-10, -14); // shoot upward at random velocity. Adjust to try!
+        fruit.vel.x = random(-2, 2); // sideways curve. Adjust to try!
+        fruit.friction = 0; // no friction
+    }
 
