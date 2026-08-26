@@ -9,7 +9,8 @@ function preload() {
     background = loadImage("assets/dojobackground.png");
     // decalre the peach object
     let peach = {
-        whole: loadImage("assets/peachwhole.png")
+        whole: loadImage("assets/peachwhole.png"),
+        half1: lao
     }
 
     // declare the watermelon object
