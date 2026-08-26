@@ -2,7 +2,8 @@
 let background;
 let fruitGroup; // group for whole fruits
 let fruitTypes  = []; // store fruit image objects
-let trail
+let trail;
+let fruitHalves
 
 function preload() {
     // Load image
