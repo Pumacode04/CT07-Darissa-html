@@ -3,8 +3,7 @@ let background;
 let peace;
 let watermelon;
 
-let peachWhole;
-let watermelonWhole;
+
 
 function preload() {
     // Load image
