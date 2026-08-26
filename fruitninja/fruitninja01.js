@@ -67,7 +67,9 @@ function draw() {
             if (d < ((fruit.d / 2) + 5)) {
                 fruit.sliced = true; // prevent repeat slicing
 
-                fruit.remove(); // r
+                fruit.remove(); // remove whole fruit
+
+                breal
             }
         }
     }
