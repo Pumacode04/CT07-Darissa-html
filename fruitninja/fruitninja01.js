@@ -33,7 +33,7 @@ function setup() {
     world.gravity.y = 10;
     fruitGroup = new Group();
   
-    fruitHalves = new Group();
+    fruitHalves = new Group(); // group for fruit halves
 }
 
 function draw() {
@@ -72,6 +72,8 @@ function draw() {
 
             if (d < ((fruit.d / 2) + 5)) {
                 fruit.sliced = true; // prevent repeat slicing
+
+                
 
                 fruit.remove(); // remove whole fruit
 
