@@ -4,7 +4,7 @@ let peace;
 let watermelon;
 
 let fruitGroup; // group for whole fruits
-
+let fruitTypes  = [];
 
 function preload() {
     // Load image
