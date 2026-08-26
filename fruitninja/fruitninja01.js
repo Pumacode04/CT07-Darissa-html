@@ -43,7 +43,7 @@ function draw() {
         spawnFruit();
     }
 
-    
+    // handle slicing 
 }
 
 function spawnFruit(){
