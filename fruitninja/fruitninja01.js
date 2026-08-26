@@ -10,7 +10,7 @@ function preload() {
     // decalre the peach object
     let peach = {
         whole: loadImage("assets/peachwhole.png"),
-        half1: lao
+        half1: loadImage("")
     }
 
     // declare the watermelon object
