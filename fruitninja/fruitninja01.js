@@ -47,7 +47,7 @@ function draw() {
     if (mouse.pressing()){
         trail = new Sprite(mouse.x, mouse.y, 7);
         trail.collider = 'none';
-        
+        trail.color = 'red'
     }
 }
 
