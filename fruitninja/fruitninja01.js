@@ -108,5 +108,6 @@ function spawnFruit(){
 
         // create right half
         let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
-        right.img
+        right.img = fruitData.half2;
+        right.vel.x 
     }
