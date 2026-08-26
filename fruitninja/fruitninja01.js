@@ -3,7 +3,8 @@ let background;
 let peace;
 let watermelon;
 
-let fruitGroup; // group for whole foood
+let fruitGroup; // group for whole fruits
+
 
 function preload() {
     // Load image
