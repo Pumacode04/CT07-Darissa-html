@@ -101,7 +101,7 @@ function spawnFruit(){
     function splitFruit(x, y, fruitData) {
         // create left half
         left.img  = fruitData.half1;
-        left.vel.x = -3, // veer left
+        left.vel.x = -3; // veer left
         left.vel.y = random(-5, -2);
-        
+        left.
     }
