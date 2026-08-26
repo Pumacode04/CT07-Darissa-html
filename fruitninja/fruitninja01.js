@@ -69,7 +69,7 @@ function draw() {
 
                 fruit.remove(); // remove whole fruit
 
-                breal
+                break;
             }
         }
     }
