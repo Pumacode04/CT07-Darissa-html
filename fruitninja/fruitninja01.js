@@ -16,8 +16,8 @@ function preload() {
 
     // declare the watermelon object
     let watermelon = {
-        whole: loadImage("assets/watermelonwhole.png")
-        
+        whole: loadImage("assets/watermelonwhole.png"),
+        half1: loadImage("assets/watermelonhalf.png"),
     }
    
     // store the fruit objects into an array
