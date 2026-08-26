@@ -62,7 +62,7 @@ function draw() {
             }
 
             // calculate distance between mouse and fruit
-            let d
+            let d = dist(mouse.x, mouse.y)
         }
     }
 }
