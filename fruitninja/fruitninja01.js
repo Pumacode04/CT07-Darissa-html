@@ -56,37 +56,36 @@ function draw() {
         trail.collider = 'none';
         trail.color = 'red';
         trail.life = 10;
-          sliceFruit(); // add this line to call function
+        sliceFruit(); // add this line to call function
     }
 
-  
-
-    
+   
 }
 // check if any fruit is sliced by the mouse
-    function sliceFruit(){
-        for (let fruit of fruitGroup) {
-            if (fruit.sliced){
-                continue; // skip already sliced fruits
-            }
+function sliceFruit(){
+    for (let fruit of fruitGroup) {
+        if (fruit.sliced){
+            continue; // skip already sliced fruits
+        }
 
-            // calculate distance between mouse and fruit
-            let d = dist(mouse.x, mouse.y, fruit.x, fruit.y);
+        // calculate distance between mouse and fruit
+        let d = dist(mouse.x, mouse.y, fruit.x, fruit.y);
 
-            if (d < ((fruit.d / 2) + 5)) {
-                fruit.sliced = true; // prevent repeat slicing
+        if (d < ((fruit.d / 2) + 5)) {
+            fruit.sliced = true; // prevent repeat slicing
 
-                const fx = fruit.x; // x coordinate for the sliced food
-                const fy = fruit.y; // y coordinate for the sliced food
+            const fx = fruit.x; // x coordinate for the sliced food
+            const fy = fruit.y; // y coordinate for the sliced food
 
-                fruit.remove(); // remove whole fruit
+            fruit.remove(); // remove whole fruit
 
-                splitFruit(fx, fy, fruit.type); // spawn halves
+            splitFruit(fx, fy, fruit.type); // spawn halves
 
-                break; // only slice one fruit per frame
-            }
+            break; // only slice one fruit per frame
         }
     }
+}
+
 function spawnFruit(){
         let fruitData = random(fruitTypes); // pick one at random
         let randomX = random(300, 500); // random X to spawn. Rem that canvas width is 800
@@ -115,4 +114,4 @@ function spawnFruit(){
         right.vel.y = random(-5, -2);
         right.rotationSpeed = 5;
         right.life = 60; // remove after 30 frames
-    }
+        }
