@@ -74,9 +74,11 @@ function draw() {
                 fruit.sliced = true; // prevent repeat slicing
 
                 const fx = fruit.x;
-                
+                const fy = fruit.y;
 
                 fruit.remove(); // remove whole fruit
+
+                spli
 
                 break; // only slice one fruit per frame
             }
