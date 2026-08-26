@@ -78,7 +78,7 @@ function draw() {
 
                 fruit.remove(); // remove whole fruit
 
-                spli
+                splitFruit(fx, fy, fruit.types)
 
                 break; // only slice one fruit per frame
             }
