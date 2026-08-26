@@ -58,7 +58,7 @@ function draw() {
     function sliceFruit(){
         for (let fruit of fruitGroup) {
             if (fruit.sliced){
-                co
+                continue; // skip already sliced fruits
             }
         }
     }
