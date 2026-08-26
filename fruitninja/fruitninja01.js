@@ -100,5 +100,5 @@ function spawnFruit(){
     // split a fruit into two halves and animate them
     function splitFruit(x, y, fruitData) {
         // create left half
-        
+        left.img  = fruit.data
     }
