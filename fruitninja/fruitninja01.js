@@ -56,34 +56,12 @@ function draw() {
         trail.collider = 'none';
         trail.color = 'red';
         trail.life = 10;
+          sliceFruit(); // add this line to call function
     }
 
   
 
-    // check if any fruit is sliced by the mouse
-    function sliceFruit(){
-        for (let fruit of fruitGroup) {
-            if (fruit.sliced){
-                continue; // skip already sliced fruits
-            }
-
-            // calculate distance between mouse and fruit
-            let d = dist(mouse.x, mouse.y, fruit.x, fruit.y);
-
-            if (d < ((fruit.d / 2) + 5)) {
-                fruit.sliced = true; // prevent repeat slicing
-
-                const fx = fruit.x; // x coordinate for the sliced food
-                const fy = fruit.y; // y coordinate for the sliced food
-
-                fruit.remove(); // remove whole fruit
-
-                splitFruit(fx, fy, fruit.type); // spawn halves
-
-                break; // only slice one fruit per frame
-            }
-        }
-    }
+    
 }
 
 function spawnFruit(){
