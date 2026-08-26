@@ -97,3 +97,4 @@ function spawnFruit(){
         fruit.friction = 0; // no friction
     }
 
+    // s
