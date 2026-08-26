@@ -97,4 +97,7 @@ function spawnFruit(){
         fruit.friction = 0; // no friction
     }
 
-    // s
+    // split a fruit into two halves and animate them
+    function splitFruit(x, y, fruitData) {
+        
+    }
