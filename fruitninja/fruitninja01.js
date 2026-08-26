@@ -56,7 +56,11 @@ function draw() {
 
     // check if any fruit is sliced by the mouse
     function sliceFruit(){
-        for (let fruit of fruitGroup)
+        for (let fruit of fruitGroup) {
+            if (fruit.sliced){
+                co
+            }
+        }
     }
 }
 
