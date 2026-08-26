@@ -111,5 +111,6 @@ function spawnFruit(){
         right.img = fruitData.half2;
         right.vel.x = 3; // veer right
         right.vel.y = random(-5, -2);
-        
+        right.rotationSpeed = 5;
+        right.life = 30; // re
     }
