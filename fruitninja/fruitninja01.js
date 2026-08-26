@@ -60,6 +60,8 @@ function draw() {
             if (fruit.sliced){
                 continue; // skip already sliced fruits
             }
+
+            
         }
     }
 }
