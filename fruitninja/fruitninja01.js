@@ -23,8 +23,8 @@ function preload() {
     }
 
     let kiwi = {
-        whole: loadImage("assets/.png"),
-        half1: loadImage("assets/watermelonhalf.png"),
+        whole: loadImage("assets/kiwi1.png"),
+        half1: loadImage("assets/kiwi4.png"),
         half2: loadImage("assets/watermelonhalf.png"),
     }
     
