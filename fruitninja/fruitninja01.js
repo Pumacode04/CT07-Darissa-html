@@ -30,7 +30,7 @@ function preload() {
     }
 
     // declare the kiwi object
-    let  = {
+    let orange = {
         whole: loadImage("assets/kiwi1.png"),
         half1: loadImage("assets/kiwi4.png"),
         half2: loadImage("assets/kiwi4.png"),
