@@ -116,4 +116,6 @@ function spawnFruit(){
         right.vel.y = random(-5, -2);
         right.rotationSpeed = 5;
         right.life = 60; // remove after 30 frames
+        right.collider = "dynamic"; //dynamic - affected by gravity and has collision / static - not affected by gravity and has collsion / none - not affected by gravity and no collision
+        right.overlaps(allSprites);
         }
