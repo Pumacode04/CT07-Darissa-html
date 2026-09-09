@@ -95,7 +95,7 @@ function spawnFruit(){
         fruit.vel.y = random(-10, -14); // shoot upward at random velocity. Adjust to try!
         fruit.vel.x = random(-2, 2); // sideways curve. Adjust to try!
         fruit.friction = 0; // no friction
-        fruit.overlaps(allSprites)
+        fruit.overlaps(allSprites); // disable collision
     }
 
     // split a fruit into two halves and animate them
