@@ -106,7 +106,7 @@ function spawnFruit(){
         left.vel.y = random(-5, -2);
         left.rotationSpeed = -5;
         left.life = 60; // remove after 30 frames
-        left.collider = ""; //dynamic - a
+        left.collider = ""; //dynamic - 
 
         // create right half
         let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
