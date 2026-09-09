@@ -108,7 +108,7 @@ function spawnFruit(){
         left.rotationSpeed = -5;
         left.life = 60; // remove after 30 frames
         left.collider = "dynamic"; //dynamic - affected by gravity and has collision / static - not affected by gravity and has collsion / none - not affected by gravity and no collision
-        left.overlaps(allSprites);
+        left.overlaps(allSprites); // disable collision
 
         // create right half
         let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
@@ -118,5 +118,5 @@ function spawnFruit(){
         right.rotationSpeed = 5;
         right.life = 60; // remove after 30 frames
         right.collider = "dynamic"; //dynamic - affected by gravity and has collision / static - not affected by gravity and has collsion / none - not affected by gravity and no collision
-        right.overlaps(allSprites);
+        right.overlaps(allSprites); // disable collision
         }
