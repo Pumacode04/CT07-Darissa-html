@@ -81,7 +81,7 @@ function draw() {
     // Draw depending on gameState\
     if (gameState === "start") {
         // Start Menu
-        fill("#00124d"); // Text colour
+        fill("#26bd00"); // Text colour
         stroke("");
         strokeWeight(20);
         textSize(50);
