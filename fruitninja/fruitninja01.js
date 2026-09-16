@@ -100,8 +100,7 @@ function draw() {
     }
 
    // Check if fruits fall
-   missedFruit
-
+   missedFruit();
 }
 // check if any fruit is sliced by the mouse
 function sliceFruit(){
