@@ -80,11 +80,12 @@ function draw() {
 
     // Draw depending on gameState\
     if (gameState === "start") {
+        // Start Menu
 
     } else if (gameState === "playing") {
 
     } else if (gameState === "gameOver") {
-        // Game 
+        // Game Over Screen
     }
 
     // Debug text
