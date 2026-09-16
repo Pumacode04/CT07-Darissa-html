@@ -96,7 +96,7 @@ function draw() {
         // Debug text
         fill("#dadada") // Text colour
         textSize(50);
-        textAlign
+        textAlign(LEFT, BOTTOM);
         // text("frameCount:"+ frameCount, 10, 40);
         text("score: " + score, 10, 40);
         fill("#fd0000");
