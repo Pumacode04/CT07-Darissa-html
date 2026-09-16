@@ -79,7 +79,9 @@ function draw() {
     image(background, 0, 0, width, height); // image(image, x, y, width, height)
 
     // Draw depending on gameState\
-    
+    if (gameState === "start") {
+        
+    }
 
     // Debug text
     fill("#dadada") // Text colour
