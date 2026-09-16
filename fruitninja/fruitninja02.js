@@ -98,7 +98,7 @@ function draw() {
         fill("#dadada") // Text colour
         textSize(50);
         textAlign(LEFT, CENTER);
-        noStroke()
+        noStroke(); // remove outline
         // text("frameCount:"+ frameCount, 10, 40);
         text("score: " + score, 10, 40);
         fill("#fd0000");
