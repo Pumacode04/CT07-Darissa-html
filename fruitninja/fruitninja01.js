@@ -145,7 +145,7 @@ function spawnFruit(){
         fruit.layer = 2; // appear on top of split halves
     }
 
-    // split a fruit into two halves and animate them
+// split a fruit into two halves and animate them
     function splitFruit(x, y, fruitData) {
         // create left half
         let left = new fruitHalves.Sprite(x - 10, y, 40, 40);
@@ -177,5 +177,5 @@ function spawnFruit(){
         }
 
 function missedFruit() {
-    
+
 }
