@@ -83,7 +83,7 @@ function draw() {
 //    text("frameCount:"+ frameCount, 10, 40);
     text("score: " + score, 10, 40);
     fill("fd0000");
-    
+    text("Missed: ")
 
     // call spawnFruit function
     if (frameCount % 120 == 0) {
