@@ -95,7 +95,8 @@ function draw() {
     } else if (gameState === "playing") {
         // Gameplay
         // Debug text
-        fill("#dadada") // Text colour
+        // fill("#dadada") // Text colour
+        fill
         textSize(50);
         textAlign(LEFT, CENTER);
         noStroke(); // remove outline
