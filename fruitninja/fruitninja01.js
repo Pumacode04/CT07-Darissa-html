@@ -127,7 +127,8 @@ function spawnFruit(){
         let fruit = new fruitGroup.Sprite(randomX, height+20, 40); // spawn at bottom
         fruit.image = fruitData.whole; // load image for whole
 
-        
+        // Size fix - scaleMod
+        fruit.scale = scaleMod;
 
         fruit.type = fruitData; // store reference to its type i.e. peach or watermelon
         fruit.vel.y = random(-10, -14); // shoot upward at random velocity. Adjust to try!
