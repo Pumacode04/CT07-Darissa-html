@@ -85,7 +85,7 @@ function draw() {
         return;
     } else if (gameState === "playing") {
         // Gameplay
-                // Debug text
+        // Debug text
         fill("#dadada") // Text colour
         textSize(50);
         // text("frameCount:"+ frameCount, 10, 40);
