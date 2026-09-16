@@ -176,3 +176,4 @@ function spawnFruit(){
         right.scale = fruitData.scaleMod;
         }
 
+function missedFruit() {}
