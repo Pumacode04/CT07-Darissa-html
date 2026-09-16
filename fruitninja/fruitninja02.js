@@ -81,7 +81,7 @@ function draw() {
     // Draw depending on gameState\
     if (gameState === "start") {
         // Start Menu
-        fill("#003bfd") // Text colour
+        fill("#00124d") // Text colour
         textSize(50);
         textAlign(CENTER, CENTER); // horizontal, vertical
         text("Fruit Ninja", width / 2, height / 2);
