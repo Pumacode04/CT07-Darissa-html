@@ -83,7 +83,9 @@ function draw() {
 
     } else if (gameState === "playing") {
 
-    } else if (gameState === "gameOver")
+    } else if (gameState === "gameOver") {
+        // Game 
+    }
 
     // Debug text
     fill("#dadada") // Text colour
