@@ -83,7 +83,7 @@ function draw() {
         // Start Menu
         fill("") // Text colour
         textSize(50);
-        text("")
+        text("Press start to play.",)
         // Change to playingstate
         if (kb.presses(" ") || mouse.presses()) {
             gameState = "playing";
