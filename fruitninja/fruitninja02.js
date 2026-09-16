@@ -83,8 +83,8 @@ function draw() {
         // Start Menu
         fill("") // Text colour
         textSize(50);
-        text("Fruit Ninja", width / 2, height / 2)
-        text("Press start to play.",)
+        text("Fruit Ninja", width / 2, height / 2);
+        text("Press start to play.", width / 2, height)
         // Change to playingstate
         if (kb.presses(" ") || mouse.presses()) {
             gameState = "playing";
