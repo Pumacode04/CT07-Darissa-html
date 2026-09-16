@@ -100,6 +100,7 @@ function draw() {
     }
 
    
+    
 }
 // check if any fruit is sliced by the mouse
 function sliceFruit(){
