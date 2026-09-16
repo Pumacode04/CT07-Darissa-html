@@ -25,7 +25,7 @@ function preload() {
         half2: loadImage("assets/watermelonhalf.png"),
 
         //Add scaleMod
-    scaleMod: 2,
+        scaleMod: 1,
     }
 
     // declare the kiwi object
