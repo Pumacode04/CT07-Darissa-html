@@ -13,6 +13,9 @@ function preload() {
         whole: loadImage("assets/peachwhole.png"),
         half1: loadImage("assets/peachhalf.png"),
         half2: loadImage("assets/peachhalf2.png"),
+
+        //Add scaleMod
+    scaleMod: 2,
     }
 
     // declare the watermelon object
@@ -28,7 +31,8 @@ function preload() {
         half1: loadImage("assets/kiwi4.png"),
         half2: loadImage("assets/kiwi4.png"),
 
-        
+        //Add scaleMod
+        scaleMod: 2,
     }
 
     // declare the kiwi object
