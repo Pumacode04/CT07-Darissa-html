@@ -83,8 +83,8 @@ function draw() {
         // Start Menu
 
     } else if (gameState === "playing") {
+        // Gameplay
 
-        
     } else if (gameState === "gameOver") {
         // Game Over Screen
     }
