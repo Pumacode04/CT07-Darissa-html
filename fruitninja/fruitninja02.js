@@ -92,7 +92,6 @@ function draw() {
 
         return;
     }
-
         // Debug text
     fill("#dadada") // Text colour
     textSize(50);
