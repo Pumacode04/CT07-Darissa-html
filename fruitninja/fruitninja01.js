@@ -129,56 +129,58 @@ function sliceFruit(){
 }
 
 function spawnFruit(){
-        let fruitData = random(fruitTypes); // pick one at random
-        let randomX = random(300, 500); // random X to spawn. Rem that canvas width is 800
-        let fruit = new fruitGroup.Sprite(randomX, height+20, 40); // spawn at bottom
-        fruit.image = fruitData.whole; // load image for whole
+    let fruitData = random(fruitTypes); // pick one at random
+    let randomX = random(300, 500); // random X to spawn. Rem that canvas width is 800
+    let fruit = new fruitGroup.Sprite(randomX, height+20, 40); // spawn at bottom
+    fruit.image = fruitData.whole; // load image for whole
 
-        // Size fix - scaleMod
-        fruit.scale = fruitData.scaleMod;
+    // Size fix - scaleMod
+    fruit.scale = fruitData.scaleMod;
 
-        fruit.type = fruitData; // store reference to its type i.e. peach or watermelon
-        fruit.vel.y = random(-10, -14); // shoot upward at random velocity. Adjust to try!
-        fruit.vel.x = random(-2, 2); // sideways curve. Adjust to try!
-        fruit.friction = 0; // no friction
-        fruit.overlaps(allSprites); // disable collision
-        fruit.layer = 2; // appear on top of split halves
-    }
+    fruit.type = fruitData; // store reference to its type i.e. peach or watermelon
+    fruit.vel.y = random(-10, -14); // shoot upward at random velocity. Adjust to try!
+    fruit.vel.x = random(-2, 2); // sideways curve. Adjust to try!
+    fruit.friction = 0; // no friction
+    fruit.overlaps(allSprites); // disable collision
+    fruit.layer = 2; // appear on top of split halves
+}
 
 // split a fruit into two halves and animate them
-    function splitFruit(x, y, fruitData) {
-        // create left half
-        let left = new fruitHalves.Sprite(x - 10, y, 40, 40);
-        left.img  = fruitData.half1;
-        left.vel.x = -3; // veer left
-        left.vel.y = random(-5, -2);
-        left.rotationSpeed = -5;
-        left.life = 60; // remove after 30 frames
-        left.collider = "dynamic"; // dynamic - affected by gravity and has collision / static - not affected by gravity and has collsion / none - not affected by gravity and no collision
-        left.overlaps(allSprites); // disable collision
-        left.layer = 1;
+function splitFruit(x, y, fruitData) {
+    // create left half
+    let left = new fruitHalves.Sprite(x - 10, y, 40, 40);
+    left.img  = fruitData.half1;
+    left.vel.x = -3; // veer left
+    left.vel.y = random(-5, -2);
+    left.rotationSpeed = -5;
+    left.life = 60; // remove after 30 frames
+    left.collider = "dynamic"; // dynamic - affected by gravity and has collision / static - not affected by gravity and has collsion / none - not affected by gravity and no collision
+    left.overlaps(allSprites); // disable collision
+    left.layer = 1;
 
-        // Size fix - scaleMod
-        left.scale = fruitData.scaleMod;
+    // Size fix - scaleMod
+    left.scale = fruitData.scaleMod;
 
-        // create right half
-        let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
-        right.img = fruitData.half2;
-        right.vel.x = 3; // veer right
-        right.vel.y = random(-5, -2);
-        right.rotationSpeed = 5;
-        right.life = 60; // remove after 30 frames
-        right.collider = "dynamic"; // dynamic - affected by gravity and has collision / static - not affected by gravity and has collsion / none - not affected by gravity and no collision
-        right.overlaps(allSprites); // disable collision
-        right.layer = 1;
+    // create right half
+    let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
+    right.img = fruitData.half2;
+    right.vel.x = 3; // veer right
+    right.vel.y = random(-5, -2);
+    right.rotationSpeed = 5;
+    right.life = 60; // remove after 30 frames
+    right.collider = "dynamic"; // dynamic - affected by gravity and has collision / static - not affected by gravity and has collsion / none - not affected by gravity and no collision
+    right.overlaps(allSprites); // disable collision
+    right.layer = 1;
 
-        // Size fix - scaleMod
-        right.scale = fruitData.scaleMod;
-        }
+    // Size fix - scaleMod
+    right.scale = fruitData.scaleMod;
+}
 
 function missedFruit() {
-    
+    // Loop through spawned fruits
     for (let fruit of fruitGroup) {
-
+        if (fruit.y > height + 50) {
+            
+        }
     }
 }
