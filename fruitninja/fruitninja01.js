@@ -175,3 +175,4 @@ function spawnFruit(){
         // Size fix - scaleMod
         right.scale = fruitData.scaleMod;
         }
+
