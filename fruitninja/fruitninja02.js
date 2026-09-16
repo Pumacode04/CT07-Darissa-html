@@ -81,6 +81,8 @@ function draw() {
     // Draw depending on gameState\
     if (gameState === "start") {
         // Start Menu
+        // Change to playingstate
+        if (kb.)
 
         return;
     } else if (gameState === "playing") {
