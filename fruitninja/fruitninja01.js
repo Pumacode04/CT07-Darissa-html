@@ -128,7 +128,7 @@ function spawnFruit(){
         fruit.image = fruitData.whole; // load image for whole
 
         // Size fix - scaleMod
-        fruit.scale = scaleMod;
+        fruit.scale = fruitData.scaleMod;
 
         fruit.type = fruitData; // store reference to its type i.e. peach or watermelon
         fruit.vel.y = random(-10, -14); // shoot upward at random velocity. Adjust to try!
