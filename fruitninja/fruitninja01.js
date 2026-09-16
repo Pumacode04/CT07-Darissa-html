@@ -34,6 +34,7 @@ function preload() {
         whole: loadImage("assets/orange1.png"),
         half1: loadImage("assets/orange2.png"),
         half2: loadImage("assets/orange2.png"),
+        
     }
 
     // declare the kiwi object
@@ -42,7 +43,8 @@ function preload() {
         half1: loadImage("assets/strawberry3.png"),
         half2: loadImage("assets/strawberry3.png"),
 
-        
+    //Add scaleMod
+    scaleMod: 2,
     }
     
     // store the fruit objects into an array
