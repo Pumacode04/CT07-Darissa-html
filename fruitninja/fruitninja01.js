@@ -79,7 +79,7 @@ function draw() {
     // Debug text
     fill("#dadada") // Text colour
     textSize(50);
-    text("frameCount:"+ frameCount, 10, 40);
+//    text("frameCount:"+ frameCount, 10, 40);
     text("score: " + score, 10, 40);
 
     // call spawnFruit function
