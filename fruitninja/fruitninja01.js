@@ -152,7 +152,7 @@ function spawnFruit(){
         left.layer = 1;
 
         // Size fix - scaleMod
-        fruit.scale = fruitData.scaleMod;
+        left.scale = fruitData.scaleMod;
 
         // create right half
         let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
