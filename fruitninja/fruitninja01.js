@@ -80,8 +80,8 @@ function draw() {
 
     // Draw depending on gameState\
     if (gameState === "start") {
-        
-    }
+
+    } else if (gameState === "playing")
 
     // Debug text
     fill("#dadada") // Text colour
