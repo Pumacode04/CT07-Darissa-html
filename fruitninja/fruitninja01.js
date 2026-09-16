@@ -90,7 +90,7 @@ function draw() {
     } else if (gameState === "gameOver") {
         // Game Over Screen
 
-        
+        return;
     }
 
     // Debug text
