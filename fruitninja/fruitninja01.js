@@ -6,6 +6,7 @@ let trail;
 let fruitHalves; // new group for sliced halves
 let score = 0; // player's score
 let missed = 0;
+l
 
 function preload() {
     // Load image
