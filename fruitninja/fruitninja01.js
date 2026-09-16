@@ -164,4 +164,7 @@ function spawnFruit(){
         right.collider = "dynamic"; // dynamic - affected by gravity and has collision / static - not affected by gravity and has collsion / none - not affected by gravity and no collision
         right.overlaps(allSprites); // disable collision
         right.layer = 1;
+
+        // Size fix - scaleMod
+        right.scale = fruitData.scaleMod;
         }
