@@ -96,7 +96,7 @@ function draw() {
         // Gameplay
         // Debug text
         // fill("#dadada") // Text colour
-        fill
+        fill("#25b800")
         textSize(50);
         textAlign(LEFT, CENTER);
         noStroke(); // remove outline
