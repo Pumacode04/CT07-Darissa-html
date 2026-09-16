@@ -179,8 +179,9 @@ function splitFruit(x, y, fruitData) {
 function missedFruit() {
     // Loop through spawned fruits
     for (let fruit of fruitGroup) {
+        
         if (fruit.y > height + 50) {
-            
+            fruit.remove();
         }
     }
 }
