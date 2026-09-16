@@ -96,10 +96,10 @@ function draw() {
         // Gameplay
         // Debug text
         // fill("#dadada") // Text colour
-        fill("#25b800")
+        fill("#25b800");
         textSize(50);
         textAlign(LEFT, CENTER);
-        noStroke(); // remove outline
+        Stroke(10); // remove outline
         // text("frameCount:"+ frameCount, 10, 40);
         text("score: " + score, 10, 40);
         fill("#fd0000");
