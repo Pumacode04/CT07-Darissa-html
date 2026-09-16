@@ -85,7 +85,7 @@ function draw() {
         textSize(50);
         textAlign(CENTER, CENTER); // (horizontal, vertical) - LEFT, RIGHT, TOP, BOTTOM, CENTER
         text("Fruit Ninja", width / 2, height / 2);
-        text("Press start to play.", width / 2, height / 2 + 100); // (string, xpos, ypos)
+        text("Press space to play.", width / 2, height / 2 + 100); // (string, xpos, ypos)
         // Change to playing state
         if (kb.presses(" ") || mouse.presses()) {
             gameState = "playing";
