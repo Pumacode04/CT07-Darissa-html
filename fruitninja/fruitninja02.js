@@ -82,7 +82,9 @@ function draw() {
     if (gameState === "start") {
         // Start Menu
         // Change to playingstate
-        if (kb.)
+        if (kb.presses("") || mouse.presses()) {
+            gameState = 
+        }
 
         return;
     } else if (gameState === "playing") {
