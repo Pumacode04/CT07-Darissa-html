@@ -82,7 +82,7 @@ function draw() {
     if (gameState === "start") {
         // Start Menu
 
-        return
+        return;
     } else if (gameState === "playing") {
         // Gameplay
 
