@@ -81,6 +81,8 @@ function draw() {
     textSize(50);
     text("frameCount:"+ frameCount, 10, 40);
 
+    
+
     // call spawnFruit function
     if (frameCount % 120 == 0) {
         spawnFruit();
