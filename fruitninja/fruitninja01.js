@@ -47,7 +47,7 @@ function preload() {
     fruitTypes = [peach, watermelon, kiwi, orange, strawberry];
 
     //Add scaleMod
-    
+    scaleMod
 }
 
 function setup() {
