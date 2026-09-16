@@ -151,6 +151,9 @@ function spawnFruit(){
         left.overlaps(allSprites); // disable collision
         left.layer = 1;
 
+        // Size fix - scaleMod
+        fruit.scale = fruitData.scaleMod;
+
         // create right half
         let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
         right.img = fruitData.half2;
