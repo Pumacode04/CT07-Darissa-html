@@ -46,7 +46,8 @@ function preload() {
     // store the fruit objects into an array
     fruitTypes = [peach, watermelon, kiwi, orange, strawberry];
 
-    //add scaleMod
+    //Add scaleMod
+    
 }
 
 function setup() {
