@@ -177,5 +177,8 @@ function spawnFruit(){
         }
 
 function missedFruit() {
+    
+    for (let fruit of fruitGroup) {
 
+    }
 }
