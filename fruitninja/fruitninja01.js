@@ -86,7 +86,7 @@ function draw() {
     text("Missed: " + missed, 10, 100);
 
     // call spawnFruit function
-    if (frameCount % 5 == 0) {
+    if (frameCount % 60 == 0) {
         // 60 frames = 1 second
         spawnFruit();
     }
