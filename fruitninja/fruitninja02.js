@@ -72,8 +72,8 @@ function preload() {
     fruitTypes = [peach, watermelon, kiwi, orange, strawberry];
 
     // Music and sound effects
-    //bgMusic = loadSound("assests/fruit-ninja-bgtrack.mp3");
-    //sliceSound = loadSound("assets/fruit-ninja-combo.mp3");
+    bgMusic = loadSound("assets/fruit-ninja-bgtrack.mp3");
+    sliceSound = loadSound("assets/fruit-ninja-combo.mp3");
 }
 
 function setup() {
