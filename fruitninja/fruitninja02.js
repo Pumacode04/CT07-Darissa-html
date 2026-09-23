@@ -142,9 +142,6 @@ function draw() {
             // Win condition
             gameState = "win";
         }
-        if (score === 20) {
-            gameState = "win";
-        }
 
         // Lose condition
         if (missed === 5) {
