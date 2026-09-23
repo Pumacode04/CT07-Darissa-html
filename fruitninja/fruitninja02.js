@@ -128,6 +128,7 @@ function draw() {
         if (score === 20 || missed === 10) {
             gameState = "win";
         }
+        // lose condition
 
         return;
     } else if (gameState === "gameOver") {
