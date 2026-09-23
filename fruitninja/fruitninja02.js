@@ -143,7 +143,8 @@ function draw() {
         strokeWeight(20);
         textSize(50);
         textAlign(CENTER, CENTER); // (horizontal, vertical) - LEFT, RIGHT, TOP, BOTTOM, CENTER
-        text("Win", width / 2, height * 0.3); // (string, xpos, ypos)
+        text("Win", width / 2, height * 0.5); // (string, xpos, ypos)
+        text("Win", width / 2, height * 0.5); // (string, xpos, ypos)
         return;
     }
     else if (gameState === "lose") {
