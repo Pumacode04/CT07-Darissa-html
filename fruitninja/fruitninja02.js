@@ -11,6 +11,7 @@ let gameStartTime = 0; // Save time when game starts
 let gameTimer = 0; // Tracks seconds elapsed
 let gameDuration = 60; // Round duration
 
+
 function preload() {
     // Load image
     background = loadImage("assets/dojobackground.png");
