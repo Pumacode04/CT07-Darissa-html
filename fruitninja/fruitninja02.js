@@ -7,7 +7,7 @@ let fruitHalves; // new group for sliced halves
 let score = 0; // player's score
 let missed = 0;
 let gameState = "start"; // "start", "playing", "gameOver"
-let gameStartTime = 0;
+let gameStartTime = 0; //
 let gameTimer = 0;
 let gameDuration = 60;
 
