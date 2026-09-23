@@ -134,7 +134,7 @@ function draw() {
         // floor() || .toFixed()
         fill("#ebe711");
         gameTimer = floor((millis() - gameStartTime) / 1000); // Time since game start
-        
+        // Countdown = duration - time elpased
         text("Time: " + (gameDuration - gameTimer), width / 2, 60);
 
         // Win condition
