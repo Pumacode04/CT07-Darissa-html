@@ -94,7 +94,7 @@ function draw() {
         // Change to playing state
         if (kb.presses(" ") || mouse.presses()) {
             gameState = "playing";
-            
+            gameStartTimer
         }
         return;
     } else if (gameState === "playing") {
