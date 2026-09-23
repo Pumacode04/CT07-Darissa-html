@@ -106,7 +106,7 @@ function draw() {
             gameTimer = 0;
 
             if (bgMusic.isPlaying() === false) {
-                //bgMusic.loop();
+                bgMusic.loop();
             }
         }
         return;
@@ -215,7 +215,7 @@ function sliceFruit(){
 
         splitFruit(fx, fy, fruit.type); // spawn halves
 
-        //sliceSound.play();
+        sliceSound.play();
 
         break; // only slice one fruit per frame
         }
