@@ -144,8 +144,8 @@ function draw() {
         textSize(50);
         textAlign(CENTER, CENTER); // (horizontal, vertical) - LEFT, RIGHT, TOP, BOTTOM, CENTER
         text("Win", width / 2, height * 0.5); // (string, xpos, ypos)
-        text("Score:" + score, width / 2, height * 0.5); // (string, xpos, ypos)
-        text("Missed:" + missed, width / 2, height * 0.5); // (string, xpos, ypos)
+        text("Score:" + score, width / 2, height * 0.7); // (string, xpos, ypos)
+        text("Missed:" + missed, width / 2, height * 0.8); // (string, xpos, ypos)
         return;
     }
     else if (gameState === "lose") {
