@@ -131,7 +131,7 @@ function draw() {
         missedFruit();
 
         // Track time
-        gameTimer = millis() - gameStartTime / 1000
+        gameTimer = (millis() - gameStartTime) / 1000
 
         // Win condition
         if (score === 20) {
