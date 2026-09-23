@@ -124,15 +124,17 @@ function draw() {
         // Check if fruits fall
         missedFruit();
 
-        // Win / Lose condition
+        // Wi
         if (score === 20) {
             gameState = "win";
         }
-        // lose condition
+        if (missed === 10) {
+            gameState = "lose";
+        }
 
         return;
     } else if (gameState === "win") {
-        // Game Over Screen
+        // Win screen text
         // Game over text / stats
         fill("#b80000"); // Text colour
         stroke("#000");
@@ -143,7 +145,7 @@ function draw() {
         return;
     }
     else if (gameState === "win") {
-        // Game Over Screen
+        // Lose screen text
         // Game over text / stats
         fill("#b80000"); // Text colour
         stroke("#000");
