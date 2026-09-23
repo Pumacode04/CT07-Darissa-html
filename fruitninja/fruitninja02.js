@@ -132,7 +132,7 @@ function draw() {
 
         // Track time
         fill("#dadada");
-        gameTimer = (millis() - gameStartTime) / 1000;
+        gameTimer = floor((millis() - gameStartTime) / 1000);
         text("Time: " + gameTimer, width / 2, 60);
 
         // Win condition
