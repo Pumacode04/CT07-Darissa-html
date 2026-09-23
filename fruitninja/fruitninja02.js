@@ -131,7 +131,7 @@ function draw() {
         // lose condition
 
         return;
-    } else if (gameState === "gameOver") {
+    } else if (gameState === "win") {
         // Game Over Screen
         // Game over text / stats
         fill("#b80000"); // Text colour
