@@ -215,7 +215,7 @@ function sliceFruit(){
 
         splitFruit(fx, fy, fruit.type); // spawn halves
 
-        
+        sliceSound.play();
 
         break; // only slice one fruit per frame
         }
