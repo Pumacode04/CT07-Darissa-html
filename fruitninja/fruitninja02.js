@@ -95,7 +95,7 @@ function draw() {
         if (kb.presses(" ") || mouse.presses()) {
             gameState = "playing";
             gameStartTime = millis(); // Returns time in ms since program started
-            game
+            gameTimer = 0;
         }
         return;
     } else if (gameState === "playing") {
