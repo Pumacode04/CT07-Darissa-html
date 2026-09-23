@@ -8,7 +8,8 @@ let score = 0; // player's score
 let missed = 0;
 let gameState = "start"; // "start", "playing", "gameOver"
 let gameStartTime;
-let 
+let gameTimer = 0;
+
 
 function preload() {
     // Load image
