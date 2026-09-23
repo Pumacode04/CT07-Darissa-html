@@ -12,7 +12,8 @@ let gameStartTime = 0; // Save time when game starts
 let gameTimer = 0; // Tracks seconds elapsed
 let gameDuration = 60; // Round duration
 
-let bgMusic;
+let bgMusic; // Background Music
+let sliceSound;
 
 function preload() {
     // Load image
