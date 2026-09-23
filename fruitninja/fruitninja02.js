@@ -133,7 +133,7 @@ function draw() {
     } else if (gameState === "gameOver") {
         // Game Over Screen
         // Game over text / stats
-        fill("#b89c00"); // Text colour
+        fill("#b80000"); // Text colour
         stroke("#000");
         strokeWeight(20);
         textSize(50);
