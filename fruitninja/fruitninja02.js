@@ -126,7 +126,7 @@ function draw() {
 
         // Win / Lose condition
         if (score === 100) {
-            gameState = gameOver;
+            gameState = "gameOver";
         }
 
         return;
