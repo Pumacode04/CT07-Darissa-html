@@ -148,7 +148,7 @@ function draw() {
         textAlign(CENTER, CENTER); // (horizontal, vertical) - LEFT, RIGHT, TOP, BOTTOM, CENTER
         text("Game Over", width / 2, height * 0.3); // (string, xpos, ypos)
         text("Win", width / 2, height * 0.5); // (string, xpos, ypos)
-        strokeWeight = 5;
+        //strokeWeight = 5;
         text("Score:" + score, width / 2, height * 0.7); // (string, xpos, ypos)
         text("Missed:" + missed, width / 2, height * 0.8); // (string, xpos, ypos)
         return;
@@ -158,7 +158,7 @@ function draw() {
         // Game over text / stats
         fill("#b80000"); // Text colour
         stroke("#000");
-        strokeWeight(20);
+        //strokeWeight(20);
         textSize(50);
         textAlign(CENTER, CENTER); // (horizontal, vertical) - LEFT, RIGHT, TOP, BOTTOM, CENTER
         text("Game Over", width / 2, height * 0.3); // (string, xpos, ypos)
