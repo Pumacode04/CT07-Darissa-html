@@ -131,7 +131,7 @@ function draw() {
         missedFruit();
 
         // Track time
-        fill("#fd0000");
+        fill("#0083fd");
         gameTimer = (millis() - gameStartTime) / 1000;
         text("Time: " + gameTimer, width / 2, 60);
 
