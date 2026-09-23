@@ -9,7 +9,7 @@ let missed = 0;
 let gameState = "start"; // "start", "playing", "gameOver"
 let gameStartTime;
 let gameTimer = 0;
-
+let gameDuration = 60;
 
 function preload() {
     // Load image
