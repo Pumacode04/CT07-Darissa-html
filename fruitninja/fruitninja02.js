@@ -133,12 +133,12 @@ function draw() {
     } else if (gameState === "gameOver") {
         // Game Over Screen
         // Game over text / stats
-        fill("#25b800"); // Text colour
+        fill("#b89c00"); // Text colour
         stroke("#000");
         strokeWeight(20);
         textSize(50);
         textAlign(CENTER, CENTER); // (horizontal, vertical) - LEFT, RIGHT, TOP, BOTTOM, CENTER
-        text("", width / 2, height / 2); // (string, xpos, ypos)
+        text("Game Over", width / 2, height / 2); // (string, xpos, ypos)
         return;
     }
 }
