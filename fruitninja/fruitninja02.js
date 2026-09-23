@@ -83,7 +83,7 @@ function draw() {
         // Start Menu
         fill("#25b800"); // Text colour
         //stroke("#000");
-        //strokeWeight(20);
+        strokeWeight(20);
         textSize(50);
         textAlign(CENTER, CENTER); // (horizontal, vertical) - LEFT, RIGHT, TOP, BOTTOM, CENTER
         text("Fruit Ninja", width / 2, height / 2); // (string, xpos, ypos)
@@ -99,7 +99,7 @@ function draw() {
         fill("#25b800");
         textSize(50);
         textAlign(LEFT, CENTER);
-        //strokeWeight(10); // remove outline
+        strokeWeight(10); // remove outline
         // text("frameCount:"+ frameCount, 10, 40);
         text("score: " + score, 10, 40);
         fill("#fd0000");
