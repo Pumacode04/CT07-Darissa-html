@@ -140,7 +140,7 @@ function draw() {
         // When time is up
         if ((gameDuration - gameTimer) <= 0) {
             // Win condition
-
+            gameState = 'win'
         }
         if (score === 20) {
             gameState = "win";
