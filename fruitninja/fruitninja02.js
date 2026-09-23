@@ -132,7 +132,7 @@ function draw() {
 
         // Track time
         gameTimer = (millis() - gameStartTime) / 1000;
-        text("Time: " + gameTimer, width / 2, )
+        text("Time: " + gameTimer, width / 2, height)
 
         // Win condition
         if (score === 20) {
