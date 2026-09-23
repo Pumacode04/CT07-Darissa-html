@@ -130,6 +130,9 @@ function draw() {
         // Check if fruits fall
         missedFruit();
 
+        // Track time
+        
+
         // Win condition
         if (score === 20) {
             gameState = "win";
