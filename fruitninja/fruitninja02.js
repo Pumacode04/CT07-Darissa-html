@@ -146,7 +146,7 @@ function draw() {
         text("Win", width / 2, height / 2); // (string, xpos, ypos)
         return;
     }
-    else if (gameState === "win") {
+    else if (gameState === "lose") {
         // Lose screen text
         // Game over text / stats
         fill("#b80000"); // Text colour
