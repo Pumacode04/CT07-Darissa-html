@@ -8,8 +8,8 @@ let score = 0; // player's score
 let missed = 0;
 let gameState = "start"; // "start", "playing", "gameOver"
 let gameStartTime = 0; //Save time when game starts
-let gameTimer = 0;
-let gameDuration = 60;
+let gameTimer = 0; // Tracks seconds elapsed
+let gameDuration = 60; // Round duration
 
 function preload() {
     // Load image
