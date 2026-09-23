@@ -123,6 +123,8 @@ function draw() {
 
         // Check if fruits fall
         missedFruit();
+
+        // Win / lose
         return;
     } else if (gameState === "gameOver") {
         // Game Over Screen
