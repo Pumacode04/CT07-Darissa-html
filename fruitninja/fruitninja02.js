@@ -164,7 +164,7 @@ function draw() {
     else if (gameState === "lose") {
         // Lose screen text
         // Game over text / stats
-        fill("#b80000"); // Text colour
+        fill("#b800a9"); // Text colour
         stroke("#000");
         strokeWeight(20);
         textSize(50);
