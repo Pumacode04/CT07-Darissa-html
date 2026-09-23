@@ -75,7 +75,7 @@ function preload() {
     bgMusic = loadSound("assets/fruit-ninja-bgtrack.mp3");
     sliceSound = loadSound("assets/fruit-ninja-combo.mp3");
 
-    bg
+    bgMusic.volume = 0.3;
 }
 
 function setup() {
