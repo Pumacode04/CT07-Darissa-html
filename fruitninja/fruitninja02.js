@@ -84,7 +84,7 @@ function setup() {
   
     fruitHalves = new Group(); // group for fruit halves
 
-    bgMusic.volume = 0.1;
+    bgMusic.volume();
 }
 
 function draw() {
