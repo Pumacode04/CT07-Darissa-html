@@ -138,8 +138,9 @@ function draw() {
         text("Time: " + (gameDuration - gameTimer), width / 2, 60);
 
         // Win condition
+        // When time is up
         if ((gameDuration - gameTimer) <= 0) {
-            
+
         }
         if (score === 20) {
             gameState = "win";
