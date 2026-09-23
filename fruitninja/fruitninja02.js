@@ -113,7 +113,7 @@ function draw() {
 
         // handle slicing when mouse is pressed
         if (mouse.pressing()){
-            
+            strokeWeight = 0;
             trail = new Sprite(mouse.x, mouse.y, 7);
             trail.collider = 'none';
             trail.color = 'red';
