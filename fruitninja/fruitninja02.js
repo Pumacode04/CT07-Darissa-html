@@ -99,7 +99,7 @@ function draw() {
         fill("#25b800");
         textSize(50);
         textAlign(LEFT, CENTER);
-        strokeWeight(10); // remove outline
+        //strokeWeight(10); // remove outline
         // text("frameCount:"+ frameCount, 10, 40);
         text("score: " + score, 10, 40);
         fill("#fd0000");
