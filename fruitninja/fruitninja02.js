@@ -159,6 +159,7 @@ function draw() {
         textSize(50);
         textAlign(CENTER, CENTER); // (horizontal, vertical) - LEFT, RIGHT, TOP, BOTTOM, CENTER
         text("Lose", width / 2, height / 2); // (string, xpos, ypos)
+        
         return;
     }
 }
