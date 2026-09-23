@@ -133,7 +133,7 @@ function draw() {
         // Track time
         // floor() || .toFixed()
         fill("#ebe711");
-        gameTimer = floor((millis() - gameStartTime) / 1000); // Time since game start
+        gameTimer = floor((millis() - gameStartTime) / 1000); // Time since game start in seconds
         // Countdown = duration - time elpased
         text("Time: " + (gameDuration - gameTimer), width / 2, 60);
 
