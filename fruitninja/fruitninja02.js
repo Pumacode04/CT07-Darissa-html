@@ -124,10 +124,12 @@ function draw() {
         // Check if fruits fall
         missedFruit();
 
-        // Wi
+        // Win condition
         if (score === 20) {
             gameState = "win";
         }
+
+        // Lose condition
         if (missed === 10) {
             gameState = "lose";
         }
