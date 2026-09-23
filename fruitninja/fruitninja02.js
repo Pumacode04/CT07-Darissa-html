@@ -132,7 +132,7 @@ function draw() {
         return;
     } else if (gameState === "gameOver") {
         // Game Over Screen
-        
+        // Game over text / stats
 
         return;
     }
