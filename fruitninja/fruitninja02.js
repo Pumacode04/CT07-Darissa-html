@@ -100,7 +100,6 @@ function draw() {
         textSize(50);
         textAlign(LEFT, CENTER);
         strokeWeight(10); // remove outline
-        noStroke();
         // text("frameCount:"+ frameCount, 10, 40);
         text("score: " + score, 10, 40);
         fill("#fd0000");
