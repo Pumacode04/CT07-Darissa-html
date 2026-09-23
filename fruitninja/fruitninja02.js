@@ -106,7 +106,7 @@ function draw() {
             gameTimer = 0;
 
             if (bgMusic.isPlaying()) {
-                
+                bgMusic.loop();
             }
         }
         return;
