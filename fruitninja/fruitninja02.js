@@ -130,7 +130,7 @@ function draw() {
         }
 
         // Lose condition
-        if (missed === 10) {
+        if (missed === 5) {
             gameState = "lose";
         }
 
