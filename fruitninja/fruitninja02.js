@@ -158,6 +158,8 @@ function draw() {
         // Countdown = duration - time elpased
         text("Time: " + (gameDuration - gameTimer), width / 2, 60);
 
+        
+
         // When time is up
         if ((gameDuration - gameTimer) <= 0) {
             // Win condition
