@@ -160,6 +160,7 @@ function draw() {
         text("Time: " + (gameDuration - gameTimer), width / 2, 60);
 
         console.log(floor(gameTimer));
+        // Increase difficut
         if (floor(gameTimer) > 0 && floor(gameTimer) % 10 === 0) {
             console.log("10 seconds passed");
         }
