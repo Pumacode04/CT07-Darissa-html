@@ -16,7 +16,7 @@ let bgMusic; // Background Music
 let sliceSound;
 
 let difficultyLevel = 1; // 1 - 1 fruit, 2 - fruits...
-let difficultyIncrease
+let difficultyIncrease = false;
 
 function preload() {
     // Load image
