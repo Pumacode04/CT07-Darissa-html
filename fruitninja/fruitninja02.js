@@ -180,9 +180,9 @@ function draw() {
         text("Missed:" + missed, width / 2, height * 0.8); // (string, xpos, ypos)
 
         allSprites.removeAll(); // Delete all fruits
-                    if (bgMusic.isPlaying() === false) {
-                bgMusic.loop();
-            }
+        if (bgMusic.isPlaying() === false) {
+            bgMusic.loop();
+        }
         return;
     }
     else if (gameState === "lose") {
