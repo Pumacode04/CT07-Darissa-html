@@ -163,7 +163,7 @@ function draw() {
 
         console.log(floor(gameTimer));
         // Increase difficulty every x seconds
-        if (floor(gameTimer) > 0 && floor(gameTimer) % 10 === 0) {
+        if (floor(gameTimer) > 0 && floor(gameTimer) % difficultyIncreaseTimer === 0) {
             if (difficultyIncrease === false) {
                 console.log("Difficulty increased: +" + difficultyLevel);
                 difficultyIncrease = true;
