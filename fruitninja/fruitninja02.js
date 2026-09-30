@@ -167,7 +167,7 @@ function draw() {
         return;
     } else if (gameState === "win") {
         // Win screen text
-        allSprites.removeAll();
+        allSprites.removeAll(); // Delete all fruits
         fill("#b800a9"); // Text colour
         stroke("#000");
         strokeWeight(20);
