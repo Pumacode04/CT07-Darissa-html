@@ -162,9 +162,10 @@ function draw() {
         console.log(floor(gameTimer));
         // Increase difficulty every x seconds
         if (floor(gameTimer) > 0 && floor(gameTimer) % 10 === 0) {
-            console.log("Difficulty increased.");
-            difficultyIncrease = true;
-            difficultyLevel =+ 1;
+            if (difficultyIncrease === false) {
+                console.log("Difficulty increased: +" + difficultyLevel);
+                difficultyIncrease = true;
+                difficultyLevel =+ 1;
         } else {
             difficultyIncrease = false;
         }
@@ -221,6 +222,7 @@ function draw() {
         }
         return;
     }
+}
 }
 
 // check if any fruit is sliced by the mouse
