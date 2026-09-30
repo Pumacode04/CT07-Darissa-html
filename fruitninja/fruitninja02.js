@@ -202,7 +202,7 @@ function draw() {
         allSprites.removeAll(); // Delete all fruits
         if (bgMusic.isPlaying() === false) {
             bgMusic.loop();
-                }
+        }
         return;
     }
 }
