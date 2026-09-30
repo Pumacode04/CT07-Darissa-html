@@ -160,7 +160,7 @@ function draw() {
 
         console.log(floor(gameTimer));
         if (floor(gameTimer) % 10 === 0) {
-            console.log("10 seconds passed")
+            console.log("10 seconds passed");
         }
 
         // When time is up
