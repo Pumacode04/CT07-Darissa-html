@@ -158,7 +158,7 @@ function draw() {
         // Countdown = duration - time elpased
         text("Time: " + (gameDuration - gameTimer), width / 2, 60);
 
-        console.log(floor(gameTimer))
+        console.log(floor(gameTimer));
 
         // When time is up
         if ((gameDuration - gameTimer) <= 0) {
