@@ -175,6 +175,7 @@ function draw() {
                 console.log("Spawn rate increased: every " + (spawnRate / 60).toFixed(2))
             }
         } else {
+            // Reset when gameTimer is not multiple of diffiiultyIncreaseTimer
             difficultyIncrease = false;
         }
 
