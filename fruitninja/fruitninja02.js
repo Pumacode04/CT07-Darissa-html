@@ -15,7 +15,7 @@ let gameDuration = 60; // Round duration
 let bgMusic; // Background Music
 let sliceSound;
 
-let 
+let difficultyLevel;
 
 function preload() {
     // Load image
