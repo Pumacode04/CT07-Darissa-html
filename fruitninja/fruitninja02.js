@@ -15,6 +15,8 @@ let gameDuration = 60; // Round duration
 let bgMusic; // Background Music
 let sliceSound;
 
+let 
+
 function preload() {
     // Load image
     background = loadImage("assets/dojobackground.png");
