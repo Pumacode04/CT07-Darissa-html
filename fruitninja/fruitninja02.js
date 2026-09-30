@@ -17,6 +17,8 @@ let sliceSound;
 
 let difficultyLevel = 1; // 1 - 1 fruit, 2 - fruits...
 let difficultyIncrease = false; // Makesure difficulty increases once at a time
+let spawnRate = 120;
+let diificultyIncreaseTimer;
 
 function preload() {
     // Load image
@@ -166,6 +168,12 @@ function draw() {
                 console.log("Difficulty increased: +" + difficultyLevel);
                 difficultyIncrease = true;
                 difficultyLevel =+ 1;
+                if (spawnRate >=40) {
+                    // Decrease interval between spawns (faster)
+                    spawnRate -= 20;
+                }
+                console.log("Spawn rate increased: every " + (spawnRate / 60).toFixed(2))
+            }
         } else {
             difficultyIncrease = false;
         }
@@ -196,7 +204,7 @@ function draw() {
         text("Score:" + score, width / 2, height * 0.7); // (string, xpos, ypos)
         text("Missed:" + missed, width / 2, height * 0.8); // (string, xpos, ypos)
 
-        allSprites.removeAll(); // Delete all fruits
+        allSprites.removeAll();spawnRate // Delete all fruits
         if (bgMusic.isPlaying() === true) {
             bgMusic.stop();
         }
@@ -223,7 +231,7 @@ function draw() {
         return;
     }
 }
-}
+
 
 // check if any fruit is sliced by the mouse
 function sliceFruit(){
