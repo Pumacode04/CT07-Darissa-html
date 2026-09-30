@@ -15,7 +15,7 @@ let gameDuration = 60; // Round duration
 let bgMusic; // Background Music
 let sliceSound;
 
-let difficultyLevel;
+let difficultyLevel; // 1 - 1 fruit, 2 - fruits...
 
 function preload() {
     // Load image
