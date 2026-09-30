@@ -183,7 +183,6 @@ function draw() {
     }
     else if (gameState === "lose") {
         // Lose screen text
-        allSprites.removeAll(); // Delete all fruits
         // Game over text / stats
         fill("#b800a9"); // Text colour
         stroke("#000");
