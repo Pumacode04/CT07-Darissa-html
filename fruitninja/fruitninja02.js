@@ -159,7 +159,7 @@ function draw() {
         text("Time: " + (gameDuration - gameTimer), width / 2, 60);
 
         console.log(floor(gameTimer));
-        if (floor(gameTimer))
+        if (floor(gameTimer) % 10 === 0) {}
 
         // When time is up
         if ((gameDuration - gameTimer) <= 0) {
