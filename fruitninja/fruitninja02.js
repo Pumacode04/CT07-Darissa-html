@@ -167,7 +167,6 @@ function draw() {
         return;
     } else if (gameState === "win") {
         // Win screen text
-        allSprites.removeAll(); // Delete all fruits
         fill("#b800a9"); // Text colour
         stroke("#000");
         strokeWeight(20);
@@ -178,6 +177,8 @@ function draw() {
         strokeWeight(5);
         text("Score:" + score, width / 2, height * 0.7); // (string, xpos, ypos)
         text("Missed:" + missed, width / 2, height * 0.8); // (string, xpos, ypos)
+
+        
         return;
     }
     else if (gameState === "lose") {
