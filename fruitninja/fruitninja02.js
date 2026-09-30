@@ -135,7 +135,6 @@ function draw() {
             for (let i = 0; 1 < 3; i++) {
                 spawnFruit();
             }
-            spawnFruit();
         }
 
         // handle slicing when mouse is pressed
