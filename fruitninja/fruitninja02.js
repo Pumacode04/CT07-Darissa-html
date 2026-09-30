@@ -166,7 +166,7 @@ function draw() {
             difficultyIncrease = true;
             difficultyLevel =+ 1;
         } else {
-            // 
+            difficultyIncrease = false;
         }
 
         // When time is up
