@@ -165,6 +165,8 @@ function draw() {
             console.log("10 seconds passed");
             difficultyIncrease = true;
             difficultyLevel =+ 1;
+        } else {
+            // 
         }
 
         // When time is up
