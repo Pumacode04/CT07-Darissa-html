@@ -132,7 +132,9 @@ function draw() {
         // call spawnFruit function every x number of frames
         if (frameCount % 60 == 0) {
             // 60 frames = 1 second
-            for (let i = 0; 1 < 3)
+            for (let i = 0; 1 < 3; i++) {
+                
+            }
             spawnFruit();
         }
 
