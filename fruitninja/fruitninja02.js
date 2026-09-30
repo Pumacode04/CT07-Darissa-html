@@ -132,7 +132,7 @@ function draw() {
         // call spawnFruit function every x number of frames
         if (frameCount % 60 == 0) {
             // 60 frames = 1 second
-            //
+            // spawn 
             for (let i = 0; i < difficultyLevel; i++) {
                 spawnFruit();
             }
