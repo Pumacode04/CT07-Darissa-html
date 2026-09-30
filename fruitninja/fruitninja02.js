@@ -18,7 +18,7 @@ let sliceSound;
 let difficultyLevel = 1; // 1 - 1 fruit, 2 - fruits...
 let difficultyIncrease = false; // Makesure difficulty increases once at a time
 let spawnRate = 120;
-let diificultyIncreaseTimer;
+let diificultyIncreaseTimer = 10;
 
 function preload() {
     // Load image
