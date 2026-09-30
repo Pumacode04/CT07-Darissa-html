@@ -133,7 +133,7 @@ function draw() {
         text("Missed: " + missed, 10, 100);
 
         // call spawnFruit function every x number of frames
-        if (frameCount % 60 == 0) {
+        if (frameCount % spawnRate == 0) {
             // 60 frames = 1 second
             // Spawn mutiple fruits depending on difficultyLevel
             for (let i = 0; i < difficultyLevel; i++) {
