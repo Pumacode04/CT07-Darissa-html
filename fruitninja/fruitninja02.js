@@ -167,6 +167,7 @@ function draw() {
         return;
     } else if (gameState === "win") {
         // Win screen text
+        allSpr
         // Game over text / stats
         fill("#b800a9"); // Text colour
         stroke("#000");
