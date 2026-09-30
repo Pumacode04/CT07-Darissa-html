@@ -168,7 +168,6 @@ function draw() {
     } else if (gameState === "win") {
         // Win screen text
         allSprites.removeAll();
-        // Game over text / stats
         fill("#b800a9"); // Text colour
         stroke("#000");
         strokeWeight(20);
