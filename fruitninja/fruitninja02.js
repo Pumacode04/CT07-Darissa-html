@@ -160,6 +160,8 @@ function draw() {
 
         console.log(floor(gameTimer));
 
+        
+
         // When time is up
         if ((gameDuration - gameTimer) <= 0) {
             // Win condition
