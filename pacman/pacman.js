@@ -3,7 +3,8 @@ let walls;
 let dots;
 let powerups;
 
-/
+// Game variables
+
 
 // Tile map layout
 let tilemap = [
