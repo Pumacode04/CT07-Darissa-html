@@ -85,8 +85,8 @@ function setup() {
     inky.bounciness = 0;
 
     blinky = new sprite
-    blinky.x = 30;
-    blinky.y = 30;
+    clyde.x = 30;
+    clyde.y = 30;
     clyde.diameter = 18;
     clyde.colour = "orange";
     clyde.bounciness = 0;
