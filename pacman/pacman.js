@@ -60,5 +60,5 @@ function setup() {
 }
 
 function draw() {
-    
+    // Pacman movement
 }
