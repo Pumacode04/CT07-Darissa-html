@@ -121,3 +121,5 @@ function draw() {
         }
     }
 }
+
+// Function for ghosts 
