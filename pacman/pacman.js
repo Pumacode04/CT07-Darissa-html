@@ -7,7 +7,7 @@ let powerups;
 let tilemap = [
     "wwwwwwwwww",
     "w        w",
-    "w"
+    "w  dddd  w"
 ]
 
 function preload() {
