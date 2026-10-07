@@ -32,7 +32,7 @@ function setup() {
     powerups.collider = "none";
 
     // Create tilemap
-    new Tiles(tilemap, 0, 0, 20, 20);
+    new Tiles(tilemap, 0, 0, 20, 20); // (array, x pos, y pos, )
 }
 
 function draw() {
