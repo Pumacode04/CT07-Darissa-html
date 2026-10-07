@@ -4,7 +4,7 @@ let dots;
 let powerups;
 
 // Game variables
-
+let pacman;
 
 // Tile map layout
 let tilemap = [
