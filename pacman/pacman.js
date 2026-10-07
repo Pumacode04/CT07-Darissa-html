@@ -63,21 +63,21 @@ function setup() {
     pacman.bounciness = 0;
 
     // Ghost
-    blinky =- new sprite
+    blinky = new sprite
     blinky.x = 30;
     blinky.y = 30;
     blinky.diameter = 18;
     blinky.colour = "red";
     blinky.bounciness = 0;
 
-    blinky =- new sprite
+    blinky = new sprite
     blinky.x = 30;
     blinky.y = 30;
     blinky.diameter = 18;
-    blinky.colour = "red";
+    blinky.colour = "pink";
     blinky.bounciness = 0;
 
-    blinky =- new sprite
+    blinky = new sprite
     blinky.x = 30;
     blinky.y = 30;
     blinky.diameter = 18;
