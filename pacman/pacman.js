@@ -81,5 +81,5 @@ function draw() {
     }
 
     // Check dot collision
-
+    dot.remove();
 }
