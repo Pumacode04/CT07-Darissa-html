@@ -80,7 +80,7 @@ function draw() {
         pacman.vel.y = 0;
     }
 
-    // Check dot collision
+    // Loop through each dot in group
     for (let dot of dots) {
         if (pacman.overlaps(dot)){
             dot.remove();
