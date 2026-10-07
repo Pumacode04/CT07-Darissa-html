@@ -63,6 +63,7 @@ function setup() {
     pacman.bounciness = 0;
 
     // Ghost
+    
 }
 
 function draw() {
