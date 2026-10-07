@@ -22,14 +22,16 @@ function setup() {
     dots = new Group();
     dots.diameter = 5;
     dots.tile = "d";
-    dots.color = "pink";
+    dots.color = "white";
     dots.collider = "none";
 
     powerups = new Group();
     powerups.diameter = 10;
     powerups.tile = "p";
-    powerups.color = "blue";
+    powerups.color = "white";
     powerups.collider = "none";
+
+    //
 }
 
 function draw() {
