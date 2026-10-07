@@ -127,7 +127,7 @@ function draw() {
 // Function for ghosts to move in random directions
 function ghostDirection(ghost) {
     // Random number to choose direction
-    let direction = floor(random(1, 4);
+    let direction = floor(random(1, 5));
     console.log(direction);
 
 }
