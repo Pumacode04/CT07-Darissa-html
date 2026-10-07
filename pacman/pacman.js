@@ -29,7 +29,7 @@ function setup() {
     powerups.diameter = 10;
     powerups.tile = "p";
     powerups.color = "blue";
-    powerups.collider = "static";
+    powerups.collider = "none";
 }
 
 function draw() {
