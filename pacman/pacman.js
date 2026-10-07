@@ -13,6 +13,8 @@ let tilemap = [
     "w  dddd  w",
     "w  dddd  w",
     "w  dddd  w",
+    "w        w",
+    
 ]
 
 function preload() {
