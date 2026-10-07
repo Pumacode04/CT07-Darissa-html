@@ -26,7 +26,7 @@ function setup() {
     dots.collider = "none";
 
     powerups = new Group();
-    powerups.w = 20;
+    powerups.diameter = 20;
     powerups.tile = "p";
     powerups.color = "blue";
     powerups.collider = "static";
