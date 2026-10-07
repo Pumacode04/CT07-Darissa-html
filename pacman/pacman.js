@@ -61,7 +61,8 @@ function setup() {
 
 function draw() {
     // Pacman movement
-    if (kb.presses("up") || kb. ) {
-        console.log("Right arrow")
+    if (kb.presses("up") || kb.presses("w")) {
+        console.log("Up")
+        
     };
 }
