@@ -59,6 +59,8 @@ function setup() {
     pacman.diameter = 18;
     pacman.color = "yellow";
     pacman.bounciness = 0;
+
+    // Ghost
 }
 
 function draw() {
