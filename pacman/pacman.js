@@ -85,7 +85,7 @@ function setup() {
     inky.collider = "none";
 
     clyde = new Sprite();
-    clyde.x = 90;
+    clyde.x = 110;
     clyde.y = 30;
     clyde.diameter = 18;
     clyde.colour = "orange";
