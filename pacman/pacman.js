@@ -89,7 +89,7 @@ function setup() {
     blinky.y = 30;
     blinky.diameter = 18;
     blinky.colour = "orange";
-    cy.bounciness = 0;
+    clyde.bounciness = 0;
 }
 
 function draw() {
