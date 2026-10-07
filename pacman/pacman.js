@@ -16,7 +16,8 @@ function setup() {
     walls = new Group();
     walls.w = 20;
     walls.h = 20;
-    walls.tile = 
+    walls.tile = "w";
+    
 }
 
 function draw() {
