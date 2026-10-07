@@ -122,4 +122,7 @@ function draw() {
     }
 }
 
-// Function for ghosts 
+// Function for ghosts to move in random directions
+function ghostDirection(ghost) {
+    
+}
