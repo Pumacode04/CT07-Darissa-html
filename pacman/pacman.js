@@ -63,7 +63,7 @@ function setup() {
     pacman.bounciness = 0;
 
     // Ghost
-    blinky = new sprite
+    blinky = new Sprite();
     blinky.x = 30;
     blinky.y = 30;
     blinky.diameter = 18;
