@@ -1,5 +1,7 @@
 // Sprite groups
-let wall
+let walls;
+let dots;
+
 
 function preload() {
 
