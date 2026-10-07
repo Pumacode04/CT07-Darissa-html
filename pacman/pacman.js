@@ -30,8 +30,8 @@ function setup() {
     powerups.w = 20;
     powerups.h = 20;
     walls.tile = "w";
-    walls.color = "blue";
-    walls.collider = "static";
+    powerups.color = "blue";
+    powerups.collider = "static";
 
     walls = new Group();
     walls.w = 20;
