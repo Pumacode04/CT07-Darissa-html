@@ -65,7 +65,7 @@ function draw() {
         console.log("Up");
     } else if (kb.presses("down") || kb.presses("s")){
         console.log("Down");
-    } else if (kb.presses("left") || kb.presses("s")){
-        console.log("Down");
+    } else if (kb.presses("left") || kb.presses("a")){
+        console.log("Left");
     }
 }
