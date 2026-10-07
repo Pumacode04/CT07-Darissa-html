@@ -64,21 +64,21 @@ function setup() {
 
     // Ghost
     blinky = new Sprite();
-    blinky.x = 30;
+    blinky.x = 50;
     blinky.y = 30;
     blinky.diameter = 18;
     blinky.colour = "red";
     blinky.collider = "none";
 
     pinky = new Sprite();
-    blinky.x = 50;
+    blinky.x = 70;
     pinky.y = 30;
     pinky.diameter = 18;
     pinky.colour = "pink";
     pinky.collider = "none";
 
     inky = new Sprite();
-    inky.x = 70;
+    inky.x = 90;
     inky.y = 30;
     inky.diameter = 18;
     inky.colour = "cyan";
