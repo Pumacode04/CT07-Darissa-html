@@ -66,7 +66,8 @@ function setup() {
     blinky =- new sprite
     blinky.x = 30;
     blinky.y = 30;
-    
+    blinky.diameter = 18;
+    blinky.colour = "red"
 }
 
 function draw() {
