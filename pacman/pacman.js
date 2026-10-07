@@ -71,10 +71,11 @@ function draw() {
     } else if (kb.presses("down") || kb.presses("s")){
         console.log("Down");
         pacman.vel.x = 0;
-        pacman.vel.y = 0
+        pacman.vel.y = 2;
     } else if (kb.presses("left") || kb.presses("a")){
         console.log("Left");
         pacman.vel.y = 0;
+        
     } else if (kb.presses("right") || kb.presses("d")){
         console.log("Right");
         pacman.vel.y = 0;
