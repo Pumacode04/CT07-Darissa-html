@@ -1,4 +1,4 @@
-// Sp
+// Sprite groups
 let tileMap;
 
 function preload() {
