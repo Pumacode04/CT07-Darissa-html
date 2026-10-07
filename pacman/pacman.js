@@ -74,8 +74,8 @@ function draw() {
         pacman.vel.y = 2;
     } else if (kb.presses("left") || kb.presses("a")){
         console.log("Left");
+        pacman.vel.x = ;
         pacman.vel.y = 0;
-        
     } else if (kb.presses("right") || kb.presses("d")){
         console.log("Right");
         pacman.vel.y = 0;
