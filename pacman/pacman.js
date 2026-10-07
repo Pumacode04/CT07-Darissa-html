@@ -1,4 +1,4 @@
-// 
+let tileMap;
 
 function preload() {
 
