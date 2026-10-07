@@ -1,5 +1,5 @@
 // Sprite groups
-let tileMap;
+let wall
 
 function preload() {
 
