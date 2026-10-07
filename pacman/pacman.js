@@ -63,5 +63,7 @@ function draw() {
     // Pacman movement
     if (kb.presses("up") || kb.presses("w")) {
         console.log("Up")
-    } else if (kb.presses("down") || kb.presses("s"))
+    } else if (kb.presses("down") || kb.presses("s")){
+        console.log(down)
+    }
 }
