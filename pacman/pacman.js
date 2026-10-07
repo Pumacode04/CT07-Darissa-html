@@ -75,7 +75,7 @@ function setup() {
     pinky.y = 30;
     pinky.diameter = 18;
     pinky.colour = "pink";
-    blinky.bounciness = 0;
+    pinky.bounciness = 0;
 
     blinky = new sprite
     blinky.x = 30;
