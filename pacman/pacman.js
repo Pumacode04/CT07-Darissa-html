@@ -5,7 +5,9 @@ let powerups;
 
 // Game variables
 let pacman;
-
+let blinky;
+let inky;
+let clyde;
 
 let score = 0;
 
