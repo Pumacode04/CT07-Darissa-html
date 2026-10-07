@@ -22,14 +22,14 @@ function setup() {
 
     dots = new Group();
     dots.diameter = 5;
-    dots.tile = "w";
+    dots.tile = "d";
     dots.color = "pink";
     dots.collider = "none";
 
     powerups = new Group();
     powerups.w = 20;
     powerups.h = 20;
-    walls.tile = "w";
+    powerups.tile = "p";
     powerups.color = "blue";
     powerups.collider = "static";
 
