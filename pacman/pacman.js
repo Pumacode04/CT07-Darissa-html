@@ -128,6 +128,6 @@ function draw() {
 function ghostDirection(ghost) {
     // Random number to choose direction
     let direction = floor(random(1, 5));
-    console.log(direction);
+
 
 }
