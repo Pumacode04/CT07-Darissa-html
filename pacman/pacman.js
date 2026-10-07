@@ -13,7 +13,8 @@ function setup() {
     background(100);
 
     // Create groups for tilemap
-    
+    walls = new Group;
+    dots = new Group();
 }
 
 function draw() {
