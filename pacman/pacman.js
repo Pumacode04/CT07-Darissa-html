@@ -82,6 +82,7 @@ function draw() {
 
     // Loop through each dot in group
     for (let dot of dots) {
+        // Check dot collision
         if (pacman.overlaps(dot)){
             dot.remove();
             score += 10;
