@@ -81,5 +81,7 @@ function draw() {
     }
 
     // Check dot collision
-    dot.remove();
+    for (let dot of dots) {
+        
+    }
 }
