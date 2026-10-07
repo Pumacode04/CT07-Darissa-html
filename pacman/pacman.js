@@ -61,7 +61,7 @@ function setup() {
 
 function draw() {
     // Pacman movement
-    if (kb.presses("")) {
+    if (kb.presses("right")) {
         
     }
 }
