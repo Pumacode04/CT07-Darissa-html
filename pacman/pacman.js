@@ -69,6 +69,7 @@ function draw() {
         pacman.vel.x = 0
     } else if (kb.presses("down") || kb.presses("s")){
         console.log("Down");
+        pacman.vel.x = 0
     } else if (kb.presses("left") || kb.presses("a")){
         console.log("Left");
     } else if (kb.presses("right") || kb.presses("d")){
