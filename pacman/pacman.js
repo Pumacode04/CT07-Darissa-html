@@ -9,6 +9,8 @@ let tilemap = [
     "w        w",
     "w  dddd  w",
     "w  dddd  w",
+    "w  dddd  w",
+    "w  dddd  w",
     
 ]
 
