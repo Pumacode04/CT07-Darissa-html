@@ -60,10 +60,13 @@ function setup() {
 }
 
 function draw() {
+    // Clear canvas
+    background(0);
+
     // Pacman movement
     if (kb.presses("up") || kb.presses("w")) {
         console.log("Up");
-        pacman.vel
+        pacman.vel.x = 0
     } else if (kb.presses("down") || kb.presses("s")){
         console.log("Down");
     } else if (kb.presses("left") || kb.presses("a")){
