@@ -28,7 +28,6 @@ function setup() {
 
     powerups = new Group();
     powerups.w = 20;
-    powerups.h = 20;
     powerups.tile = "p";
     powerups.color = "blue";
     powerups.collider = "static";
