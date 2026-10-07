@@ -21,7 +21,7 @@ function setup() {
     walls.collider = "static";
 
     // Create groups for tilemap
-    walls = new Group();
+    dots = new Group();
     walls.w = 20;
     walls.h = 20;
     walls.tile = "w";
@@ -36,7 +36,13 @@ function setup() {
     walls.color = "blue";
     walls.collider = "static";
 
-    
+    // Create groups for tilemap
+    walls = new Group();
+    walls.w = 20;
+    walls.h = 20;
+    walls.tile = "w";
+    walls.color = "blue";
+    walls.collider = "static";
 }
 
 function draw() {
