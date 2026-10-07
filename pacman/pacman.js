@@ -5,6 +5,7 @@ let powerups;
 
 // Game variables
 let pacman;
+let score;
 
 // Tile map layout
 let tilemap = [
