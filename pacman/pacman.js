@@ -26,9 +26,9 @@ function setup() {
     dots.color = "pink";
     dots.collider = "none";
 
-    walls = new Group();
-    walls.w = 20;
-    walls.h = 20;
+    powerups = new Group();
+    powerups.w = 20;
+    powerups.h = 20;
     walls.tile = "w";
     walls.color = "blue";
     walls.collider = "static";
