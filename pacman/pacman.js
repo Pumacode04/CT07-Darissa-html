@@ -31,7 +31,8 @@ function setup() {
     powerups.color = "white";
     powerups.collider = "none";
 
-    //
+    // Create tilemap
+    
 }
 
 function draw() {
