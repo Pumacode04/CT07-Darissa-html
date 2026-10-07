@@ -83,5 +83,5 @@ function draw() {
         pacman.vel.y = 0;
     }
 
-    
+    // Check dot collision
 }
