@@ -120,7 +120,8 @@ function draw() {
             console.log(score);
         }
     }
-    
+
+    ghostDe
 }
 
 // Function for ghosts to move in random directions
