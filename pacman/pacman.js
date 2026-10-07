@@ -72,9 +72,9 @@ function setup() {
 
     pinky = new sprite
     blinky.x = 30;
-    blinky.y = 30;
-    blinky.diameter = 18;
-    blinky.colour = "pink";
+    pinky.y = 30;
+    pinky.diameter = 18;
+    pinky.colour = "pink";
     blinky.bounciness = 0;
 
     blinky = new sprite
