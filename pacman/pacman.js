@@ -82,14 +82,14 @@ function setup() {
     inky.y = 30;
     inky.diameter = 18;
     inky.colour = "cyan";
-    inky.bounciness = 0;
+    inky.collider = "none";
 
     clyde = new Sprite();
     clyde.x = 90;
     clyde.y = 30;
     clyde.diameter = 18;
     clyde.colour = "orange";
-    clyde.bounciness = 0;
+    clyde.collider = "none";
 }
 
 function draw() {
