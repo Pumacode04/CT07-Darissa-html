@@ -3,7 +3,7 @@ function preload() {
 }
 
 function setup() {
-    new Cans(400, 600);
+    new Canvas(400, 400);
     background(100);
 }
 
