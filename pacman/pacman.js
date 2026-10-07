@@ -53,7 +53,8 @@ function setup() {
 
     // Pac-Man sprite
     pacman = new Sprite();
-    pacman,x
+    pacman.x = 30;
+    
 }
 
 function draw() {
