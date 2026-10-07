@@ -8,7 +8,7 @@ function setup() {
     new Canvas(400, 400);
     background(100);
 
-    // Create
+    // Create groups for tilemap
 }
 
 function draw() {
