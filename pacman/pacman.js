@@ -3,6 +3,8 @@ let walls;
 let dots;
 let powerups;
 
+
+
 function preload() {
 
 }
