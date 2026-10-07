@@ -121,7 +121,7 @@ function draw() {
         }
     }
 
-    ghostDirection(blinky);
+
 }
 
 // Function for ghosts to move in random directions
