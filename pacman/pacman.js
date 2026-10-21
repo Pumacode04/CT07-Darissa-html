@@ -77,14 +77,14 @@ function setup() {
     pinky.y = 30;
     pinky.diameter = 18;
     pinky.colour = "pink";
-    pinky.collider = "none";
+    pinky.collider = "dynamic";
 
     inky = new Sprite();
     inky.x = 90;
     inky.y = 30;
     inky.diameter = 18;
     inky.colour = "cyan";
-    inky.collider = "none";
+    inky.collider = "dynamic";
 
     clyde = new Sprite();
     clyde.x = 110;
