@@ -64,6 +64,7 @@ function setup() {
     pacman.diameter = 18;
     pacman.color = "yellow";
     pacman.bounciness = 0;
+    pacman.friction = 0;
 
     // Ghost
     blinky = new Sprite();
