@@ -70,7 +70,7 @@ function setup() {
     blinky.y = 30;
     blinky.diameter = 18;
     blinky.colour = "red";
-    blinky.collider = "dynamic";
+    blinky.collider = "kinematic";
 
     pinky = new Sprite();
     pinky.x = 70;
@@ -91,7 +91,7 @@ function setup() {
     clyde.y = 30;
     clyde.diameter = 18;
     clyde.colour = "orange";
-    clyde.collider = "none";
+    clyde.collider = "kinematic";
 }
 
 function draw() {
