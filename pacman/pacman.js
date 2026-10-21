@@ -159,7 +159,7 @@ function draw() {
         }
 
         character.vel.x = character.savedVX;
-        
+        character.vel.y = character.savedXY;
     }
 }
 
