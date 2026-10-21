@@ -72,7 +72,7 @@ function setup() {
     blinky.collider = "none";
 
     pinky = new Sprite();
-    blinky.x = 70;
+    pinky.x = 70;
     pinky.y = 30;
     pinky.diameter = 18;
     pinky.colour = "pink";
