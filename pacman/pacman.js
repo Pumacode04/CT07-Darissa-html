@@ -97,7 +97,7 @@ function setup() {
     }
 
     for (let i = 0; i < ghost.length; i++){
-        
+        ghost[i]
     }
 }
 
