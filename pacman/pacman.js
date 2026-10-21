@@ -84,7 +84,7 @@ function setup() {
     inky.y = 30;
     inky.diameter = 18;
     inky.colour = "cyan";
-    inky.collider = "dynamic";
+    inky.collider = "kinematic";
 
     clyde = new Sprite();
     clyde.x = 110;
