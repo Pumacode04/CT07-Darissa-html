@@ -142,7 +142,7 @@ function ghostDirection(ghost) {
         ghost.vel.x = -2;
         ghost.vel.y = 0;
     } else if (kb.presses("right") || kb.presses("d")){
-        pacman.vel.x = 2;
-        pacman.vel.y = 0;
+        ghost.vel.x = 2;
+        ghost.vel.y = 0;
     }
 }
