@@ -113,10 +113,11 @@ function draw() {
 
     // Pacman movement
     if (kb.presses("up") || kb.presses("w")) {
-        setMovement(pacman)
+        setMovement(pacman);
         pacman.vel.x = 0;
         pacman.vel.y = -2;
     } else if (kb.presses("down") || kb.presses("s")){
+        setMovement(pacman)
         pacman.vel.x = 0;
         pacman.vel.y = 2;
     } else if (kb.presses("left") || kb.presses("a")){
