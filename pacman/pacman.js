@@ -77,6 +77,7 @@ function setup() {
     pinky.diameter = 18;
     pinky.colour = "pink";
     pinky.collider = "none";
+    pinky.bounciness = 0;
 
     inky = new Sprite();
     inky.x = 90;
