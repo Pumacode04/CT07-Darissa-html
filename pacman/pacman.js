@@ -39,7 +39,7 @@ function setup() {
     walls.color = "blue";
     walls.collider = "static";
     walls.bounciness = 0;
-    walls.strokeWeight = 0;
+    walls.strokeWeight = 0; // Remove outline
 
     dots = new Group();
     dots.diameter = 5;
