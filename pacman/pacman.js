@@ -134,10 +134,10 @@ function ghostDirection(ghost) {
     // Ghost movement
     if (kb.presses("up") || kb.presses("w")) {
         ghost.vel.x = 0;
-        pacman.vel.y = -2;
+        ghost.vel.y = -2;
     } else if (kb.presses("down") || kb.presses("s")){
-        pacman.vel.x = 0;
-        pacman.vel.y = 2;
+        ghost.vel.x = 0;
+        ghost.vel.y = 2;
     } else if (kb.presses("left") || kb.presses("a")){
         pacman.vel.x = -2;
         pacman.vel.y = 0;
