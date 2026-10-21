@@ -125,6 +125,7 @@ function draw() {
         pacman.vel.x = -2;
         pacman.vel.y = 0;
     } else if (kb.presses("right") || kb.presses("d")){
+        setMovement(pacman);
         pacman.vel.x = 2;
         pacman.vel.y = 0;
     }
