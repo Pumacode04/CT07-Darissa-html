@@ -146,6 +146,8 @@ function draw() {
             ghostDirection(ghost);
         }
     }
+
+    //F
 }
 
 // Function for ghosts to move in random directions
