@@ -149,8 +149,12 @@ function draw() {
 
     //Fix sprite movement
     for (let character of [pacman, ...ghosts]) {
-        if (character.savedVX === undefined) continue ;
         
+        if (character.savedVX === undefined) continue;
+
+        if (characted.savedVX  !== 0) {
+
+        }
     }
 }
 
