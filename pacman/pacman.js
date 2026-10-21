@@ -89,7 +89,8 @@ function setup() {
     ghosts = [blinky, pinky, inky, clyde];
 
     for (let ghost of ghosts) {
-        
+        ghost.diameter = 18;
+        ghostcol
     }
 }
 
