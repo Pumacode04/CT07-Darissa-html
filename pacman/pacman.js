@@ -131,7 +131,7 @@ function ghostDirection(ghost) {
     // Random number to choose direction
     let direction = floor(random(1, 5));
 
-    //  movement
+    // Ghost movement
     if (kb.presses("up") || kb.presses("w")) {
         pacman.vel.x = 0;
         pacman.vel.y = -2;
