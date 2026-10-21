@@ -142,6 +142,7 @@ function draw() {
 
     // Call ghost movement
     for (let ghost of ghosts) {
+        //
         if (frameCount % 60 === 0) {
             ghostDirection(ghost);
         }
