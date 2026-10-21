@@ -90,7 +90,8 @@ function setup() {
 
     for (let ghost of ghosts) {
         ghost.diameter = 18;
-        ghost.collider = 
+        ghost.collider = "dynamic";
+        
     }
 }
 
