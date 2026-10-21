@@ -38,6 +38,7 @@ function setup() {
     walls.tile = "w";
     walls.color = "blue";
     walls.collider = "static";
+    walls.bounciness = 0;
 
     dots = new Group();
     dots.diameter = 5;
