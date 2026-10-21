@@ -84,7 +84,6 @@ function setup() {
     inky.diameter = 18;
     inky.colour = "cyan";
     inky.collider = "none";
-    inky.bounciness = 0;
 
     clyde = new Sprite();
     clyde.x = 110;
@@ -92,8 +91,7 @@ function setup() {
     clyde.diameter = 18;
     clyde.colour = "orange";
     clyde.collider = "none";
-    clyde.bounciess = 0;
-}
+    clyde.bounciess = 0;}
 
 function draw() {
     // Clear canvas
