@@ -101,7 +101,8 @@ function setup() {
         ghost[i].overlap(pacman);
 
         for (let j = i + 1; j < ghosts.length; j++) {
-            ghost[i].overlaps
+            
+            ghost[i].overlaps(ghost[j]);
         }
     }
 }
