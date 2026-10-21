@@ -152,7 +152,7 @@ function draw() {
         //Skip sprites that are not moving
         if (character.savedVX === undefined) continue;
 
-        if (characted.savedVX  !== 0) {
+        if (character.savedVX  !== 0) {
             character.y = character.lane;
         } else {
             character.x = character.lane;
