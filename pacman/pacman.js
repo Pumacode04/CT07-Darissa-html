@@ -123,7 +123,8 @@ function draw() {
         }
     }
 
-    // ca
+    // Call ghost movement
+    
 }
 
 // Function for ghosts to move in random directions
