@@ -164,3 +164,7 @@ function ghostDirection(ghost) {
         ghost.vel.y = 0;
     }
 }
+
+function setMovement() {
+    
+}
