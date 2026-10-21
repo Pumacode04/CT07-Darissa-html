@@ -125,9 +125,9 @@ function draw() {
         pacman.vel.y = 0;
         setMovement(pacman);
     } else if (kb.presses("right") || kb.presses("d")){
-        setMovement(pacman);
         pacman.vel.x = 2;
         pacman.vel.y = 0;
+        setMovement(pacman);
     }
 
     // Loop through each dot in group
