@@ -90,7 +90,7 @@ function setup() {
 
     for (let ghost of ghosts) {
         ghost.diameter = 18;
-        ghostcol
+        ghost.collider = 
     }
 }
 
