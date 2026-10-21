@@ -92,7 +92,7 @@ function setup() {
         ghost.diameter = 18;
         ghost.collider = "dynamic";
         ghost.bounciness = 0;
-        
+        ghost.friction = 0;
     }
 }
 
