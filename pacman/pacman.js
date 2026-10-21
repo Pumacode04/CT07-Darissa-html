@@ -83,14 +83,13 @@ function setup() {
     inky = new Sprite();
     inky.x = 90;
     inky.y = 30;
-    inky.diameter = 18;
     inky.colour = "cyan";
-    inky.collider = "kinematic";
 
     clyde = new Sprite();
     clyde.x = 110;
     clyde.y = 30;
     clyde.colour = "orange";
+
     ghosts = [blinky, pinky, inky, clyde];
 }
 
