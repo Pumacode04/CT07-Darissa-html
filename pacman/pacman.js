@@ -124,6 +124,7 @@ function draw() {
     }
 
     // Call ghost movement
+    if (frameCount )
     ghostDirection(blinky);
 }
 
