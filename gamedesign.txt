@@ -13,12 +13,10 @@ Reply with an improved and detailed prompt for Github Copilot, which will produc
 
 Below is the prompt:
 
-Role
-
+Role :
 You are an expert JavaScript developer and game designer.
 
-Task
-
+Task :
 Create a complete web-based game using p5play. Ensure you use your best model.
 
 Create two new files:
