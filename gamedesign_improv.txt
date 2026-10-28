@@ -40,6 +40,7 @@ Use mouse presses on controls labeled exactly Guess letter and Guess word to cho
 Make the input and submit action obvious and usable with both mouse and keyboard.
 Keep the interface readable, with the theme, hidden word, wrong guesses, hangman drawing, and game status easy to distinguish.
 Support common desktop and mobile screen sizes without overlapping or clipping content.
+
 Technical Requirements
 Check the documentation or source for the specific p5.js and p5play versions you select before using their APIs.
 Load compatible, pinned library versions in the HTML file. Use the project’s existing conventions where practical.
