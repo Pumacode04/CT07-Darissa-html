@@ -41,7 +41,7 @@ Objectives: Guess the word
 
 Controls: Mouse press on the prompt (just name the two prompts "Guess letter" and "Guess word" and let them choose between one prompt and type)  
 
-Game inspiration:_____  
+Game inspiration: Hangman  
 
 Additional requirements:
 
