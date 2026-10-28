@@ -48,3 +48,12 @@ Avoid p5play-reserved property names, including physics and shape properties, fo
 Keep game state and round logic organized so each guess updates the display and win/loss checks correctly.
 Make the game playable from start to finish without requiring a build step or external services.
 
+Verification
+Before finishing, check that:
+
+The HTML page loads without console errors.
+Both guess modes work, including invalid and repeated guesses.
+Correct and incorrect guesses update the word and hangman as specified.
+Win, loss, and restart all work.
+The homepage link opens the game.
+The selected p5.js and p5play APIs match the loaded library versions.
