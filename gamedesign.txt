@@ -35,7 +35,7 @@ Genre: Puzzle
 
 Theme: (i have no idea)
 
-Mechanics: _____  
+Mechanics: The character needs to be prompted to fill in a letter  
 
 Objectives: _____  
 
