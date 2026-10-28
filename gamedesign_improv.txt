@@ -1,0 +1,15 @@
+Game Design: Hangman-Inspired Word Puzzle
+Role
+You are an expert JavaScript developer and game designer. Create a complete, beginner-friendly browser game using p5.js and p5play. Produce working, readable code and follow the requirements below.
+
+Game Details
+Genre: Puzzle
+Theme: (__________)
+Objective: Guess the hidden word before the hangman drawing is complete.
+Inspiration: Hangman
+Files
+Create two new files:
+
+__________.js — contains the complete game logic.
+__________.html — loads the required libraries and runs the game.
+Update the existing homepage index.html to include a clearly labeled link to the new game. Match the project’s existing style and use the correct relative path.
