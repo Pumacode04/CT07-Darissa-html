@@ -15,7 +15,6 @@ __________.html — loads the required libraries and runs the game.
 Update the existing homepage index.html to include a clearly labeled link to the new game. Match the project’s existing style and use the correct relative path.
 
 Gameplay
-
 Choose a word at random from a small, beginner-friendly list that matches the selected theme. Keep the word list easy to edit.
 Display the theme in bold at the top of the game.
 Show the hidden word as one underscore per letter. Reveal correctly guessed letters in their matching positions.
@@ -26,7 +25,6 @@ Show incorrect letter guesses in a dedicated area, with each letter in bold and 
 Give clear feedback for invalid input, repeated guesses, correct guesses, and incorrect guesses.
 
 Win, Loss, and Restart
-
 The player wins when every letter in the word has been revealed.
 The player loses when the hangman drawing is complete.
 Clearly display the outcome and prevent further guesses after the game ends.
