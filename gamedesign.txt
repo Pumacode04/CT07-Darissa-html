@@ -39,7 +39,7 @@ Mechanics: The character needs to be prompted to fill in a letter or a whole wor
 
 Objectives: Guess the word  
 
-Controls: Mouse press on the prompt (just name the two prompts )  
+Controls: Mouse press on the prompt (just name the two prompts "Guess letter" and ")  
 
 Game inspiration:_____  
 
