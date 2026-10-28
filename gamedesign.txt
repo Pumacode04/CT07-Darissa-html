@@ -37,7 +37,7 @@ Theme: (i have no idea)
 
 Mechanics: The user needs to be prompted to fill in a letter or a whole word. (give them both options)  
 More Mechanics : Every time the player guesses a letter or the full word wrongly, draw one stroke of a hangman figure.
-More Mechanics : Choose a random word from a common theme. 
+More Mechanics : Choose a random word from a common theme. put the theme in bold on the top of the screen. put the word
 
 Objectives: Guess the word  
 
