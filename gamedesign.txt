@@ -35,8 +35,8 @@ Genre: Puzzle
 
 Theme: (i have no idea)
 
-Mechanics: The character needs to be prompted to fill in a letter or a whole word. (give them both options)  
-More Mechanics : 
+Mechanics: The user needs to be prompted to fill in a letter or a whole word. (give them both options)  
+More Mechanics : Every time the 
 
 Objectives: Guess the word  
 
