@@ -58,4 +58,3 @@ Additional requirements:
 - Keep the code simple, organised, and beginner-friendly
 
 224 words
-
