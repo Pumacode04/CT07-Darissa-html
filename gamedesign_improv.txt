@@ -24,3 +24,14 @@ A wrong letter guess or incorrect whole-word guess adds exactly one stroke to th
 Show incorrect letter guesses in a dedicated area, with each letter in bold and a red cross beside it.
 Give clear feedback for invalid input, repeated guesses, correct guesses, and incorrect guesses.
 
+Win, Loss, and Restart
+The player wins when every letter in the word has been revealed.
+The player loses when the hangman drawing is complete.
+Clearly display the outcome and prevent further guesses after the game ends.
+Provide a way to start a new round, selecting a new random word and resetting all round state.
+Controls and Presentation
+Use mouse presses on controls labeled exactly Guess letter and Guess word to choose a guess type.
+Make the input and submit action obvious and usable with both mouse and keyboard.
+Keep the interface readable, with the theme, hidden word, wrong guesses, hangman drawing, and game status easy to distinguish.
+Support common desktop and mobile screen sizes without overlapping or clipping content.
+
