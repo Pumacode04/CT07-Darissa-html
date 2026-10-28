@@ -33,7 +33,7 @@ Build the game based on these details:
 
 Genre: Puzzle  
 
-Theme: _____  
+Theme: (i have no idea)
 
 Mechanics: _____  
 
