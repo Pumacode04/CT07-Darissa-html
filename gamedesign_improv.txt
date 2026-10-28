@@ -1,5 +1,5 @@
 Game Design: Hangman-Inspired Word Puzzle
-Role :
+Role:
 You are an expert JavaScript developer and game designer. Create a complete, beginner-friendly browser game using p5.js and p5play. Produce working, readable code and follow the requirements below.
 
 Game Details
