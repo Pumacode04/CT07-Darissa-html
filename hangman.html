@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classic Hangman</title>
+  <link rel="stylesheet" href="style.css">
+  <script>window._p5play_gtagged = false;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.26.5/planck.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.26.5/p5play.js"></script>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    .hangman-game {
+      width: min(100%, 760px);
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hangman-game h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    .game-intro {
+      margin: 0 0 1.5rem;
+      color: #d3eaf0;
+    }
+
+    .game-panel {
+      width: 100%;
+      padding: clamp(1rem, 4vw, 2rem);
+      border: 1px solid #31515c;
+      border-radius: 14px;
+      background: #18252b;
+      text-align: left;
+    }
+
+    .theme-label {
+      margin: 0;
+      text-align: center;
+      font-size: 1.15rem;
+    }
+
+    #drawing-area {
+      width: 100%;
+      margin: 1rem auto;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f8fafc;
+    }
+
+    #drawing-area canvas {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .word-display {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      min-height: 2.7rem;
+      margin: 1.25rem 0;
+    }
+
+    .word-slot {
+      min-width: 1.5rem;
+      border-bottom: 2px solid #00ccff;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .mode-controls {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 1.25rem 0;
+    }
+
+    .mode-button,
+    .submit-button,
+    .restart-button {
+      min-height: 44px;
+      padding: 0.65rem 1rem;
+      border: 2px solid #00ccff;
+      border-radius: 8px;
+      background: transparent;
+      color: #fff;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .mode-button[aria-pressed="true"],
+    .submit-button,
+    .restart-button {
+      background: #00ccff;
+      color: #111;
+    }
+
+    .mode-button:hover,
+    .submit-button:hover,
+    .restart-button:hover {
+      background: #72e2ff;
+      color: #111;
+    }
+
+    .mode-button:focus-visible,
+    .submit-button:focus-visible,
+    .restart-button:focus-visible,
+    #guess-input:focus-visible {
+      outline: 3px solid #fff;
+      outline-offset: 3px;
+    }
+
+    .guess-form label {
+      display: block;
+      margin-bottom: 0.4rem;
+      font-weight: 700;
+    }
+
+    .guess-entry {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    #guess-input {
+      min-width: 0;
+      flex: 1;
+      min-height: 44px;
+      padding: 0.65rem 0.75rem;
+      border: 2px solid #78909c;
+      border-radius: 8px;
+      background: #fff;
+      color: #111;
+      font: inherit;
+      font-size: 1rem;
+    }
+
+    .guess-lists {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .guess-lists h2 {
+      margin: 0 0 0.5rem;
+      color: #00ccff;
+      font-size: 1.05rem;
+    }
+
+    .guess-list {
+      min-height: 1.5rem;
+      margin: 0;
+      padding-left: 1.4rem;
+      overflow-wrap: anywhere;
+    }
+
+    .wrong-letter-mark {
+      color: #ff6666;
+      font-weight: 700;
+    }
+
+    #game-status {
+      min-height: 1.5rem;
+      margin: 1.25rem 0 0;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .restart-row {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    .home-link {
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 520px) {
+      .guess-entry {
+        flex-direction: column;
+      }
+
+      .guess-lists {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="hangman-game">
+    <h1>Classic Hangman</h1>
+    <p class="game-intro">Guess the hidden word before the drawing is complete.</p>
+
+    <section class="game-panel" aria-label="Hangman game">
+      <p class="theme-label">Theme: <strong>Classic</strong></p>
+      <div id="drawing-area"></div>
+      <div id="word-display" class="word-display" aria-label="Hidden word"></div>
+
+      <div class="mode-controls" role="group" aria-label="Choose a guess mode">
+        <button id="letter-mode" class="mode-button" type="button" aria-pressed="true">Guess letter</button>
+        <button id="word-mode" class="mode-button" type="button" aria-pressed="false">Guess word</button>
+      </div>
+
+      <form id="guess-form" class="guess-form">
+        <label id="guess-label" for="guess-input">Enter a letter</label>
+        <div class="guess-entry">
+          <input id="guess-input" name="guess" type="text" maxlength="24" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="game-status">
+          <button id="submit-guess" class="submit-button" type="submit">Submit guess</button>
+        </div>
+      </form>
+
+      <div class="guess-lists">
+        <section aria-labelledby="wrong-letters-heading">
+          <h2 id="wrong-letters-heading">Incorrect letters</h2>
+          <ul id="wrong-letters" class="guess-list"></ul>
+        </section>
+        <section aria-labelledby="wrong-words-heading">
+          <h2 id="wrong-words-heading">Incorrect word guesses</h2>
+          <ul id="wrong-words" class="guess-list"></ul>
+        </section>
+      </div>
+
+      <p id="game-status" role="status" aria-live="polite"></p>
+      <div class="restart-row">
+        <button id="new-round" class="restart-button" type="button">Start a new round</button>
+      </div>
+    </section>
+
+    <div class="game-links home-link">
+      <a href="index.html">Back to Game Hub</a>
+    </div>
+  </main>
+  <script src="hangman.js"></script>
+</body>
+</html>
