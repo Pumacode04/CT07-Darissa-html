@@ -35,3 +35,16 @@ Make the input and submit action obvious and usable with both mouse and keyboard
 Keep the interface readable, with the theme, hidden word, wrong guesses, hangman drawing, and game status easy to distinguish.
 Support common desktop and mobile screen sizes without overlapping or clipping content.
 
+Controls and Presentation
+Use mouse presses on controls labeled exactly Guess letter and Guess word to choose a guess type.
+Make the input and submit action obvious and usable with both mouse and keyboard.
+Keep the interface readable, with the theme, hidden word, wrong guesses, hangman drawing, and game status easy to distinguish.
+Support common desktop and mobile screen sizes without overlapping or clipping content.
+Technical Requirements
+Check the documentation or source for the specific p5.js and p5play versions you select before using their APIs.
+Load compatible, pinned library versions in the HTML file. Use the project’s existing conventions where practical.
+Use p5play only where it is useful; do not add unnecessary physics or sprites to a word-guessing game.
+Avoid p5play-reserved property names, including physics and shape properties, for custom game data. Use distinct names for custom state.
+Keep game state and round logic organized so each guess updates the display and win/loss checks correctly.
+Make the game playable from start to finish without requiring a build step or external services.
+
