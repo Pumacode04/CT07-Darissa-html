@@ -23,3 +23,4 @@ Accept guesses using the mouse and keyboard. Validate and normalize input, such 
 A wrong letter guess or incorrect whole-word guess adds exactly one stroke to the hangman drawing. A repeated letter guess must not add another stroke.
 Show incorrect letter guesses in a dedicated area, with each letter in bold and a red cross beside it.
 Give clear feedback for invalid input, repeated guesses, correct guesses, and incorrect guesses.
+
