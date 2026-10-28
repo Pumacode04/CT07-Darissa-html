@@ -13,3 +13,13 @@ Create two new files:
 __________.js — contains the complete game logic.
 __________.html — loads the required libraries and runs the game.
 Update the existing homepage index.html to include a clearly labeled link to the new game. Match the project’s existing style and use the correct relative path.
+
+Gameplay
+Choose a word at random from a small, beginner-friendly list that matches the selected theme. Keep the word list easy to edit.
+Display the theme in bold at the top of the game.
+Show the hidden word as one underscore per letter. Reveal correctly guessed letters in their matching positions.
+Let the player choose either Guess letter or Guess word. Each option should let the player enter their guess.
+Accept guesses using the mouse and keyboard. Validate and normalize input, such as trimming spaces and ignoring letter case.
+A wrong letter guess or incorrect whole-word guess adds exactly one stroke to the hangman drawing. A repeated letter guess must not add another stroke.
+Show incorrect letter guesses in a dedicated area, with each letter in bold and a red cross beside it.
+Give clear feedback for invalid input, repeated guesses, correct guesses, and incorrect guesses.
